@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 
 from requests import get
 from bs4 import BeautifulSoup
@@ -11,6 +6,7 @@ from bs4 import BeautifulSoup
 
 def split_on_first(string, char):
     """
+    Split on first occurence.
     """
     if char not in string:
         raise ValueError('character not in string')
@@ -38,7 +34,6 @@ def get_facts(url):
         # RETRIEVE FACTS
         title = lis[0]
         splitted = [split_on_first(li,':') for li in lis[1:]]
-        #splitted = [li.split(':') for li in lis[1:]]
         
         # SAVE INFORMATION IN DICTIONARY
         data = {key.strip():value.strip() for key, value in splitted}
@@ -57,17 +52,16 @@ def get_facts(url):
 
 def main():
     
-    working_url = r'http://p3.no/filmpolitiet/category/tv-serieanmeldelser/terningkast-TERNINGSKAST-tv-serieanmeldelser/page/SIDENUMMER/'
+    working_url = r'http://p3.no/filmpolitiet/category/tv-serieanmeldelser/terningkast-{}-tv-serieanmeldelser/page/{}/'
     
     collection = []
     
     # COMPLETE 1 OF 2 FILL-INS IN THE WORKING URL
     for die in range(1,7):
-        die_url = working_url.replace('TERNINGSKAST', str(die))
         
         # COMPLETE 2 0F 2 FILL-INS IN THE WORKING URL
         for page in range(1,99):
-            url = die_url.replace('SIDENUMMER',str(page))
+            url = working_url.format(die, page)
             
             soup = BeautifulSoup(get(url).text, 'lxml')
             
