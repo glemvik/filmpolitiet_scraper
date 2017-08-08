@@ -52,7 +52,8 @@ def get_facts(url):
 
 def main():
     
-    working_url = r'http://p3.no/filmpolitiet/category/tv-serieanmeldelser/terningkast-{}-tv-serieanmeldelser/page/{}/'
+    base_url = r'http://p3.no/filmpolitiet/category/\
+    tv-serieanmeldelser/terningkast-{}-tv-serieanmeldelser/page/{}/'
     
     collection = []
     
@@ -60,8 +61,8 @@ def main():
     for die in range(1,7):
         
         # COMPLETE 2 0F 2 FILL-INS IN THE WORKING URL
-        for page in range(1,99):
-            url = working_url.format(die, page)
+        for page in range(1, 99):
+            url = base_url.format(die, page)
             
             soup = BeautifulSoup(get(url).text, 'lxml')
             
