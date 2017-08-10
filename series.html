@@ -1,0 +1,4366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- choose a theme file -->
+<link rel="stylesheet" href="http://tablesorter.com/themes/blue/style.css">
+<!-- load jQuery and tablesorter scripts -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.15/js/jquery.tablesorter.js"></script>
+
+  </head>
+  <body>
+    <table border="1" class="tablesorter" id = "myTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sesong</th>
+      <th>sjanger</th>
+      <th>anmeldt_del</th>
+      <th>originaltittel</th>
+      <th>url</th>
+      <th>tittel</th>
+      <th>anmeldelse</th>
+      <th>terningkast</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Sesong 1</td>
+      <td>Action, Krim</td>
+      <td>CSI: Cyber S01 E01-02</td>
+      <td>None</td>
+      <td>None</td>
+      <td>CSI: Cyber</td>
+      <td>Kybernetisk kalkun uten sidestykke.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Komedie, Spesialinteresser</td>
+      <td>The Neighbors S01 E01-04</td>
+      <td>None</td>
+      <td>None</td>
+      <td>The Neighbors</td>
+      <td>Det beste med denne serien er dørhåndtakene, s...</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Action, Drama, Komedie</td>
+      <td>Castle S02</td>
+      <td>Castle</td>
+      <td>None</td>
+      <td>Castle S02</td>
+      <td>Kroneksemplet på et unødvendig kulturprodukt</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Greek S01</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Greek</td>
+      <td>Kjipare enn ein gresk tragedie.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Friends From College S01</td>
+      <td>Friends From College</td>
+      <td>None</td>
+      <td>Friends From College</td>
+      <td>Ikke min vennegjeng.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>Action, TV-Serie</td>
+      <td>Prison Break S05 E01 – E02</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Prison Break</td>
+      <td>Konspirasjonsporno på lavt nivå.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1</td>
+      <td>Action, Eventyr</td>
+      <td>Iron Fist S01 E01 – 06</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Iron Fist</td>
+      <td>Iron Fist er en skuffelse.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1</td>
+      <td>Action, Eventyr, TV-Serie</td>
+      <td>MacGyver S01 E01 – E03</td>
+      <td>None</td>
+      <td>None</td>
+      <td>MacGyver</td>
+      <td>Et makkverk.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Saknad S01</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Saknad</td>
+      <td>Uengasjerende krim fra det svenske bibelbeltet.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Sesong 1</td>
+      <td>Action, Krim</td>
+      <td>CSI: Cyber S01 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/csi-cyber-s0...</td>
+      <td>CSI: Cyber</td>
+      <td>Kybernetisk kalkun uten sidestykke.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1</td>
+      <td>Komedie, Spesialinteresser</td>
+      <td>The Neighbors S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/the-neighbor...</td>
+      <td>The Neighbors</td>
+      <td>Det beste med denne serien er dørhåndtakene, s...</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2</td>
+      <td>Action, Drama, Komedie</td>
+      <td>Castle S02</td>
+      <td>Castle</td>
+      <td>http://p3.no/filmpolitiet/2011/05/castle-s02/</td>
+      <td>Castle S02</td>
+      <td>Kroneksemplet på et unødvendig kulturprodukt</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Greek S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/greek/</td>
+      <td>Greek</td>
+      <td>Kjipare enn ein gresk tragedie.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Friends From College S01</td>
+      <td>Friends From College</td>
+      <td>http://p3.no/filmpolitiet/2017/07/friends-from...</td>
+      <td>Friends From College</td>
+      <td>Ikke min vennegjeng.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>5</td>
+      <td>Action, TV-Serie</td>
+      <td>Prison Break S05 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/prison-break...</td>
+      <td>Prison Break</td>
+      <td>Konspirasjonsporno på lavt nivå.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1</td>
+      <td>Action, Eventyr</td>
+      <td>Iron Fist S01 E01 – 06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/03/iron-fist-s0...</td>
+      <td>Iron Fist</td>
+      <td>Iron Fist er en skuffelse.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>1</td>
+      <td>Action, Eventyr, TV-Serie</td>
+      <td>MacGyver S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/macgyver-s01...</td>
+      <td>MacGyver</td>
+      <td>Et makkverk.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Saknad S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/saknad-s01/</td>
+      <td>Saknad</td>
+      <td>Uengasjerende krim fra det svenske bibelbeltet.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>S02 E01-03</td>
+      <td>Action, Drama</td>
+      <td>Powers S02 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/powers-s02-e...</td>
+      <td>Powers</td>
+      <td>Playstations tv-satsing sparar seg til fant.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Fuller House S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/fuller-house...</td>
+      <td>Fuller House</td>
+      <td>Fullstendig utdatert.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>1</td>
+      <td>Eventyr</td>
+      <td>The Shannara Chronicles S01 E01 – 04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/01/the-shannara...</td>
+      <td>The Shannara Chronicles</td>
+      <td>En forslitt fantasyhistorie som ikke bringer n...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Episode 1-6</td>
+      <td>Action, Drama, Historisk</td>
+      <td>The Bastard Executioner S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/the-bastard-...</td>
+      <td>The Bastard Executioner</td>
+      <td>The Bastard Executioner er både bloddryppende ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>1</td>
+      <td>Drama, Sci-fi, TV-Serie</td>
+      <td>Between S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/07/between-s01/</td>
+      <td>Between</td>
+      <td>Et lovende utgangspunkt ender som klisjefylt k...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Secrets and Lies S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/secrets-and-...</td>
+      <td>Secrets and Lies</td>
+      <td>Overspilt forstadsmareritt.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>1</td>
+      <td>Thriller, TV-Serie</td>
+      <td>Banshee S01</td>
+      <td>Banshee</td>
+      <td>http://p3.no/filmpolitiet/2013/01/banshee-s01/</td>
+      <td>Banshee</td>
+      <td>Hr. Hovedrolle, du må gjerne dø for min del</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>1</td>
+      <td>Animert, Skrekk, TV-Serie</td>
+      <td>Supernatural: The Anime Series S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/09/supernatural...</td>
+      <td>Supernatural: The Anime Series</td>
+      <td>Skaper forvirring i stedet for fengende overna...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>1</td>
+      <td>Action, Drama, Sci-fi, Thriller, TV-Serie</td>
+      <td>The Event S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/08/the-event-s01/</td>
+      <td>The Event</td>
+      <td>Fortelles så rotete at eventet forsvinner.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>4</td>
+      <td>Action, Drama, Sci-fi</td>
+      <td>Heroes s04</td>
+      <td>Heroes</td>
+      <td>http://p3.no/filmpolitiet/2011/03/heroes-s04/</td>
+      <td>Heroes s04</td>
+      <td>Folka bak Heroes mangler åpenbart evnen til å ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>None</td>
+      <td>Action, Drama, Historisk, Krig</td>
+      <td>1066: The Battle for Middle Earth</td>
+      <td>1066</td>
+      <td>http://p3.no/filmpolitiet/2011/01/1066/</td>
+      <td>1066</td>
+      <td>Langdryg historietime.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>1</td>
+      <td>Drama, Komedie, Romantikk</td>
+      <td>Cougar Town S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/cougar-town-...</td>
+      <td>Cougar Town</td>
+      <td>Ikke la deg lure: Cougar Town er IKKE morsomt.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Legend of the Seeker S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/legend-of-th...</td>
+      <td>Legend of The Seeker</td>
+      <td>Et tamt eventyr som ikke engasjerer.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>1</td>
+      <td>Action, Thriller, TV-Serie</td>
+      <td>Taken S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/06/taken-s01-e0...</td>
+      <td>Taken</td>
+      <td>Tar ikke vare på originalfilmens styrker.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>5</td>
+      <td>Drama, TV-Serie</td>
+      <td>House of Cards S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/05/house-of-car...</td>
+      <td>House of Cards</td>
+      <td>Til tider søvndyssende kjedelig.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Girlboss S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/girlboss-s01/</td>
+      <td>Girlboss</td>
+      <td>Pop forkledd som punk.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Elven S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/03/elven-s01-e0...</td>
+      <td>Elven</td>
+      <td>Såpete krim som skjemmes av dårlig dialog.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>1</td>
+      <td>Action, Krim</td>
+      <td>24: Legacy S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/24-legacy-s0...</td>
+      <td>24: Legacy</td>
+      <td>Utdatert, men greit underholdende  spin-off.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>1</td>
+      <td>Drama, Eventyr, TV-Serie</td>
+      <td>The OA S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/12/the-oa-s01/</td>
+      <td>The OA</td>
+      <td>Et spenningsmysterie som ikke er særlig spenne...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>1</td>
+      <td>Action, Eventyr, Komedie, Sci-fi, TV-Serie</td>
+      <td>Dirk Gently’s Holistic Detective Agency S01 E0...</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/12/dirk-gentlys...</td>
+      <td>Dirk Gently's Holistic Detective Agency</td>
+      <td>Fantasirik, men mest irriterende.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>1</td>
+      <td>Action, Drama, Familie, Krim, TV-Serie</td>
+      <td>Animal Kingdom S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/11/animal-kingd...</td>
+      <td>Animal Kingdom</td>
+      <td>Fartsfylt og forutsigbart om 17-åring i krimfa...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>2</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Frikjent S02 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/10/frikjent-s02/</td>
+      <td>Frikjent</td>
+      <td>Til tider ufrivillig morsomt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>1</td>
+      <td>Action, Komedie, Krim, TV-Serie</td>
+      <td>Swedish Dicks S01 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/08/swedish-dick...</td>
+      <td>Swedish Dicks</td>
+      <td>Slappe greier.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>3</td>
+      <td>Dokumentar, TV-Serie</td>
+      <td>Chef’s Table: France</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/08/chefs-table-...</td>
+      <td>Chef's Table</td>
+      <td>Netflix’ populære kokkedokumentarserie behandl...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Roadies S01 E01 – 03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/08/roadies-s01-...</td>
+      <td>Roadies</td>
+      <td>Sjarmerende og rar, men svakhetene trekker ser...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>1</td>
+      <td>Drama, Skrekk, Thriller, TV-Serie</td>
+      <td>Outcast S01 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/outcast-s01-...</td>
+      <td>Outcast</td>
+      <td>Ikke uhyggelig nok på demonjakt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>1</td>
+      <td>Action, Drama, Thriller, TV-Serie</td>
+      <td>Marseille  S01 E01 – E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/05/marseille-s0...</td>
+      <td>Marseille</td>
+      <td>Valgkamp med såpesmak.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Younger S01 E01 – E08</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/05/younger-s01-...</td>
+      <td>Younger</td>
+      <td>40-årskrisa på sitt mest Hollywoodske.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>2</td>
+      <td>Drama, Eventyr</td>
+      <td>Fear the Walking Dead S02 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/04/fear-the-wal...</td>
+      <td>Fear the Walking Dead</td>
+      <td>Dårlige rollefigurer ødelegger engasjementet.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Lucifer S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/lucifer-s01-...</td>
+      <td>Lucifer</td>
+      <td>Teit, men artig konsept som kan bli en skikkel...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Maniac S01 E01 – E02, E05 og E08</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/maniac-s01-e...</td>
+      <td>Maniac</td>
+      <td>En lun serie som bommer litt på balansen mello...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>1</td>
+      <td>Dans, Drama</td>
+      <td>Flesh and Bone</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/flesh-and-bone/</td>
+      <td>Flesh and Bone</td>
+      <td>En vakker, men ufokusert miniserie om ballette...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>None</td>
+      <td>Skrekk</td>
+      <td>American Horror Story: Hotel – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/american-hor...</td>
+      <td>American Horror Story: Hotel</td>
+      <td>Håper dette er en dårlig start på noe bedre.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>Code Black S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/code-black-s...</td>
+      <td>Code Black</td>
+      <td>Sykehusdrama med mangelsykdommer.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Hæsjtægg S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/09/haesjtaegg-s...</td>
+      <td>Hæsjtægg</td>
+      <td>Pute-TV som blir litt kjedelig i lengden.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>1</td>
+      <td>Action, Komedie, Krig, TV-Serie</td>
+      <td>The Brink S01 E01-E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/the-brink/</td>
+      <td>The Brink</td>
+      <td>Tannløs satire om en verden på randen av atomk...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>None</td>
+      <td>Eventyr, Sci-fi, Thriller</td>
+      <td>Sense8 S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/sense8/</td>
+      <td>Sense8</td>
+      <td>Et ambisiøst sci-fi-eventyr som drukner i for ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>1</td>
+      <td>Drama, Krim, Skrekk, Thriller</td>
+      <td>Wayward Pines S01 E01-05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/wayward-pine...</td>
+      <td>Wayward Pines</td>
+      <td>Starter med et smell, men det gode utgangspunk...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>HAPPYish S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/happyish-s01...</td>
+      <td>HAPPYish</td>
+      <td>Midtlivskrisekomedie uten brodd.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>1</td>
+      <td>Drama, Eventyr, Komedie, Krim</td>
+      <td>iZombie S01 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/izombie-s01-...</td>
+      <td>iZombie</td>
+      <td>Hjernedød underholdning, som fungerer sånn passe.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>3</td>
+      <td>Action, Eventyr, Historisk, TV-Serie</td>
+      <td>Vikings S03 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/vikings-s03-...</td>
+      <td>Vikings</td>
+      <td>Skandinaviske krigere uten mål og mening.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr, Historisk, Romantikk, ...</td>
+      <td>Black Sails S02 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/01/black-sails-...</td>
+      <td>Black Sails S02</td>
+      <td>Popkornpirater uten sjøbein.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>1</td>
+      <td>Drama, Thriller</td>
+      <td>State of Affairs</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/12/state-of-aff...</td>
+      <td>State of Affairs</td>
+      <td>Lite troverdig spionthriller.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>1</td>
+      <td>Action, Sci-fi</td>
+      <td>Halo: Nightfall – episode 3</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/11/halo-nightfa...</td>
+      <td>Halo: Nightfall</td>
+      <td>Strandet på fremmed jord.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>None</td>
+      <td>Action, Eventyr</td>
+      <td>Gotham S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/09/gotham-s01-e01/</td>
+      <td>Gotham</td>
+      <td>En skuffende start på serien om Batmans opphav.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>None</td>
+      <td>Drama, Musikk</td>
+      <td>Beatles</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/08/beatles/</td>
+      <td>Beatles</td>
+      <td>Pen, pyntelig og tam.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>7</td>
+      <td>Drama, Erotikk, Eventyr</td>
+      <td>True Blood S07 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/06/true-blood-s...</td>
+      <td>True Blood</td>
+      <td>En blodfattig start på seriens finale.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>None</td>
+      <td>None</td>
+      <td>Eastbound &amp; Down S04 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/10/eastbound-do...</td>
+      <td>Eastbound &amp; Down S04 E01-02</td>
+      <td>Kenny er blitt tøffel … Neida, POWERS IS BACK!</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Hello Ladies S01 E01-02</td>
+      <td>Hello Ladies</td>
+      <td>http://p3.no/filmpolitiet/2013/09/hello-ladies...</td>
+      <td>Hello Ladies</td>
+      <td>Eg kjem ikkje til å gi Stephen Merchant ein tr...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>S02</td>
+      <td>Drama, Thriller</td>
+      <td>The Newsroom S02 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/07/the-newsroom...</td>
+      <td>The Newsroom</td>
+      <td>Serien som ville gitt PFU mareritt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>S01</td>
+      <td>Drama, Skrekk</td>
+      <td>Hemlock Grove S01</td>
+      <td>Hemlock Grove</td>
+      <td>http://p3.no/filmpolitiet/2013/04/hemlock-grov...</td>
+      <td>Hemlock Grove</td>
+      <td>Ufokusert småbyskrekk med nokre få gode augneb...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>1</td>
+      <td>Drama, Eventyr, TV-Serie</td>
+      <td>Once Upon a Time</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/01/once-upon-a-...</td>
+      <td>Once Upon a Time</td>
+      <td>For den ikke så visuelt kresne eventyrfansen</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>1</td>
+      <td>Drama, Historisk, TV-Serie</td>
+      <td>Mildred Pierce</td>
+      <td>Mildred Pierce</td>
+      <td>http://p3.no/filmpolitiet/2011/12/mildred-pier...</td>
+      <td>Mildred Pierce</td>
+      <td>Prisvinnende serier kan være kjipe, de óg.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>6</td>
+      <td>Drama, Komedie, Krim</td>
+      <td>Bones S06</td>
+      <td>Bones</td>
+      <td>http://p3.no/filmpolitiet/2011/10/bones-s06/</td>
+      <td>Bones s06</td>
+      <td>Fjærlett underholdning som støtter seg på kara...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>6</td>
+      <td>Drama, TV-Serie</td>
+      <td>House S06</td>
+      <td>House M.D</td>
+      <td>http://p3.no/filmpolitiet/2011/10/house-s06/</td>
+      <td>House</td>
+      <td>Er det ikke nok feildiagnostiseringer snart?</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>1</td>
+      <td>Drama, Sci-fi, Thriller, TV-Serie</td>
+      <td>The Prisoner</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/09/the-prisoner/</td>
+      <td>The Prisoner</td>
+      <td>Hvordan det må være å miste forstanden</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>1</td>
+      <td>Action, Krig, Thriller, TV-Serie</td>
+      <td>Farlig Oppdrag</td>
+      <td>Chris Ryan's Strike Back</td>
+      <td>http://p3.no/filmpolitiet/2011/08/farlig-oppdrag/</td>
+      <td>Farlig Oppdrag</td>
+      <td>Lekker britisk militæraction med billig historie</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Identity S01</td>
+      <td>Identity</td>
+      <td>http://p3.no/filmpolitiet/2011/07/identity-s01/</td>
+      <td>Identity</td>
+      <td>Vakkert politidrama på tomgang.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>1</td>
+      <td>Action, Eventyr, TV-Serie</td>
+      <td>Fantomet</td>
+      <td>The Phantom</td>
+      <td>http://p3.no/filmpolitiet/2011/05/fantomet/</td>
+      <td>Fantomet</td>
+      <td>Noe rart og noe riktig – miniserie som spriker.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>1</td>
+      <td>Familie, Komedie</td>
+      <td>The Middle</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/04/the-middle/</td>
+      <td>The Middle</td>
+      <td>Ikke morsomt nok.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr, Sci-fi, Thriller, TV-S...</td>
+      <td>Stargate Universe S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/stargate-uni...</td>
+      <td>Stargate Universe</td>
+      <td>Herlig action – langdryg historie</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>9</td>
+      <td>Animert, Komedie, TV-Serie</td>
+      <td>Family Guy S09</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/family-guy-s09/</td>
+      <td>Family Guy</td>
+      <td>Sneier innom de fleste tabuene vi har.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>5</td>
+      <td>Drama, Komedie, Krim</td>
+      <td>Bones S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/01/bones-s05/</td>
+      <td>Bones</td>
+      <td>Krimkomikk som fungerer best som drama.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>2</td>
+      <td>Drama, Krim, Sci-fi</td>
+      <td>Ashes to Ashes S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/01/ashes-to-ash...</td>
+      <td>Ashes to Ashes</td>
+      <td>Godt spilt – dårlig skrevet.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>1</td>
+      <td>Drama, Romantikk, Skrekk, TV-Serie</td>
+      <td>Vampire Diaries S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/12/vampire-diar...</td>
+      <td>Vampire Diaries</td>
+      <td>Uoriginal vampyr-smørje for fjortisene</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>8</td>
+      <td>Action, Thriller</td>
+      <td>24, S08</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/24-s08/</td>
+      <td>24</td>
+      <td>Jack Bauer, det er nok nå.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>1</td>
+      <td>Action, Sci-fi, Skrekk, Thriller, TV-Serie</td>
+      <td>Fear Itself S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/fear-itself/</td>
+      <td>Fear Itself</td>
+      <td>Serieskrekk som iblant glimter til!</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>1</td>
+      <td>Action, Krim, Skrekk, Thriller, TV-Serie</td>
+      <td>Harper’s Island S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/harpers-isla...</td>
+      <td>Harper's Island</td>
+      <td>Skrekkthriller uten engasjement.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>1</td>
+      <td>Action, Drama, Familie, Krim, TV-Serie</td>
+      <td>Ozark S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/07/ozark-s01/</td>
+      <td>Ozark</td>
+      <td>Netflix lar Jason Bateman ta en Breaking Bad.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>1</td>
+      <td>Action, Drama, Historisk, Krim, TV-Serie</td>
+      <td>Snowfall S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/07/snowfall-s01...</td>
+      <td>Snowfall</td>
+      <td>Lovende, men ujevnt om da crack kom til Los An...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>1</td>
+      <td>Biografi, Drama, Eventyr, Historisk, TV-Serie</td>
+      <td>Tutankhamun S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/06/tutankhamun-...</td>
+      <td>Tutankhamun</td>
+      <td>Erkebritisk og overfladisk historietime.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>1</td>
+      <td>Dokumentar, Drama, Historisk, Krim, TV-Serie</td>
+      <td>The Keepers S01 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/05/the-keepers-...</td>
+      <td>The Keepers</td>
+      <td>Uhyggelig god «true crime» om bekmørke forbryt...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>13 Reasons Why S01 E01–E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/03/13-reasons-why/</td>
+      <td>13 Reasons Why</td>
+      <td>Viktigere enn den er god.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>None</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Crashing S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/crashing-e01...</td>
+      <td>Crashing</td>
+      <td>En morsom serie om dårlig standup.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>1</td>
+      <td>Komedie, Splatter, TV-Serie</td>
+      <td>Santa Clarita Diet S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/santa-clarit...</td>
+      <td>Santa Clarita Diet</td>
+      <td>Spiser seg gjennom den amerikanske forstaden.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>6</td>
+      <td>Action, Drama, Krim, TV-Serie</td>
+      <td>Homeland S06 – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/homeland-s06...</td>
+      <td>Homeland</td>
+      <td>Spenner opp New Yorks terrorhistorie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>4</td>
+      <td>Drama, Thriller</td>
+      <td>Sherlock S04 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/sherlock-s04...</td>
+      <td>Sherlock</td>
+      <td>Det er godt å ha Sherlock tilbake, men sesongå...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Eyewitness S01</td>
+      <td>Øyevitne</td>
+      <td>http://p3.no/filmpolitiet/2016/12/eyewitness-s01/</td>
+      <td>Eyewitness</td>
+      <td>Ligner veldig på den norske originalen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Gilmore Girls: A Year in the Life E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/11/gilmore-girl...</td>
+      <td>Gilmore Girls: A Year In The Life</td>
+      <td>Et hyggelig gjensyn med en smårusten gjeng.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>1</td>
+      <td>Komedie, Romantikk, TV-Serie</td>
+      <td>No Tomorrow S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/11/no-tomorrow-...</td>
+      <td>No Tomorrow</td>
+      <td>Harmløs apokalypsekomedie reddes av god kjemi.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Supergirl S02 – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/10/supergirl-s0...</td>
+      <td>Supergirl</td>
+      <td>Supergirl er supersjarmerende.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Divorce S01 E01 – 06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/10/divorce-s01-...</td>
+      <td>Divorce</td>
+      <td>Tidvis god og tidvis slitsom serie om når ekte...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Aber Bergen S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/09/aber-bergen-...</td>
+      <td>Aber Bergen</td>
+      <td>Noe så sjeldent som en munnrapp norsk advokatk...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>1</td>
+      <td>Drama, Indie, Komedie, TV-Serie</td>
+      <td>High Maintenance S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/09/high-mainten...</td>
+      <td>High Maintenance</td>
+      <td>HBO eksperimenterer med potnoveller.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>1</td>
+      <td>Action, Dans, Drama, Historisk, Musikal, Musik...</td>
+      <td>The Get Down S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/08/the-get-down...</td>
+      <td>The Get Down</td>
+      <td>Kult rollegalleri på ujevn beat.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>None</td>
+      <td>Drama, Indie, Komedie, Romantikk, TV-Serie</td>
+      <td>Looking: The Movie</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/07/looking-the-...</td>
+      <td>Looking: The Movie</td>
+      <td>Tilfredsstillende avslutning, men Looking er b...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>1</td>
+      <td>Action, Sci-fi</td>
+      <td>Killjoys S01 E01 – E10</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/07/killjoys-s01...</td>
+      <td>Killjoys</td>
+      <td>Enkel underholdning for sci-fi-elskere.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>None</td>
+      <td>Drama, Eventyr, TV-Serie</td>
+      <td>The Magicians S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/the-magician...</td>
+      <td>The Magicians</td>
+      <td>Forhasta start, men mykje magisk potensial.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>S01 E01-03</td>
+      <td>Drama, Krim, Thriller</td>
+      <td>Thirteen S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/thirteen-s01...</td>
+      <td>Thirteen</td>
+      <td>Godt, men «lånt» thrillerdrama.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>None</td>
+      <td>Komedie</td>
+      <td>Lady Dynamite S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/05/lady-dynamit...</td>
+      <td>Lady Dynamite</td>
+      <td>Hovudet under armen, og armen i bind.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>2</td>
+      <td>Drama, Krim, Thriller, TV-Serie</td>
+      <td>Bloodline S02 E01 – E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/05/bloodline-s0...</td>
+      <td>Bloodline</td>
+      <td>Familiehemmelighetene blir mørkere.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>1</td>
+      <td>Komedie, Musikal, TV-Serie</td>
+      <td>Galavant S01 E01 – 04</td>
+      <td>Galavant</td>
+      <td>http://p3.no/filmpolitiet/2016/05/galavant-s01...</td>
+      <td>Galavant</td>
+      <td>Fin fantasy-musikal frå Disney-veteranar.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>6</td>
+      <td>Drama, Eventyr</td>
+      <td>Game of Thrones S06 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/04/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Spenningen bygges opp før det braker løs.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>2</td>
+      <td>Komedie</td>
+      <td>Unbreakable Kimmy Schmidt S02 E01 – 06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/04/unbreakable-...</td>
+      <td>Unbreakable Kimmy Schmidt</td>
+      <td>Fortsatt morsom, søt og sjarmerende.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>None</td>
+      <td>Drama, TV-Serie</td>
+      <td>The Path S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/the-path-s01...</td>
+      <td>The Path</td>
+      <td>Fengslende godt om frihetsberøvende sekt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>4</td>
+      <td>Drama, TV-Serie</td>
+      <td>House of Cards S04 E01 – E07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/house-of-car...</td>
+      <td>House of Cards</td>
+      <td>Robin Wright er i sitt ess.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>4</td>
+      <td>Action, Drama, Eventyr, Historisk, TV-Serie</td>
+      <td>Vikings S04 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/vikings-s04-...</td>
+      <td>Vikings</td>
+      <td>Blod, ære og samfunnslære.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>1</td>
+      <td>Komedie, Romantikk</td>
+      <td>Love S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/love-s01/</td>
+      <td>Love</td>
+      <td>Koselig, kleint og klønete om kjærligheten.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>None</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Beck – Steinar</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/beck-steinar/</td>
+      <td></td>
+      <td>Kristofer Hivju stjeler showet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>1</td>
+      <td>Action, Komedie, Krim, TV-Serie</td>
+      <td>Black Widows S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/black-widows...</td>
+      <td>Black Widows</td>
+      <td>Forfriskende langt unna nordisk noir.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>1</td>
+      <td>Dokumentar</td>
+      <td>Chelsea Does</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/01/chelsea-does/</td>
+      <td>Chelsea Does</td>
+      <td>Morsom, men navlebeskuende dokumentarserie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>4</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Luther S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/01/luther-s04/</td>
+      <td>Luther</td>
+      <td>Idris Elba er strålende som selvregulerende sj...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Modus S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/12/modus-s01/</td>
+      <td>Modus</td>
+      <td>Treffer med stemning, bommer med skurk.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>The Muppets S01 E01 – 03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/12/the-muppets-...</td>
+      <td>The Muppets</td>
+      <td>Treg historie, men morsomme vitser.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>The Flash S02 E01 – 05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/the-flash-s0...</td>
+      <td>The Flash</td>
+      <td>Trivelig superheltserie med en treig sesongstart.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>2</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>How to Get Away with Murder S02 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/how-to-get-a...</td>
+      <td>How to Get Away with Murder</td>
+      <td>Viola Davis er strålende som manipulerende mat...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>Seriefinale</td>
+      <td>Krim, TV-Serie</td>
+      <td>CSI Serieavslutning</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/csi-serieavs...</td>
+      <td>CSI - Serieavslutning</td>
+      <td>Det er veldig hyggelig å se Gil Grissom tilbak...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>5</td>
+      <td>Drama, Thriller</td>
+      <td>Homeland S05: Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/homeland-s05...</td>
+      <td>Homeland</td>
+      <td>Nå bygger spenningen seg opp.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>1</td>
+      <td>Action, Drama, Krig, Thriller</td>
+      <td>Okkupert S01 E01 – E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/okkupert-s01...</td>
+      <td>Okkupert</td>
+      <td>Ny nabofrykt bygd på gamle stereotypier.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Blunt Talk S01 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/blunt-talk-s...</td>
+      <td>Blunt Talk</td>
+      <td>Dop, sex og Patrick Stewart.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>None</td>
+      <td>Drama, Eventyr, Skrekk</td>
+      <td>Fear the Walking Dead S01 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/fear-the-wal...</td>
+      <td>Fear the Walking Dead</td>
+      <td>En spennende start på zombieapokalypsen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>1</td>
+      <td>Drama, Historisk, Krim, TV-Serie</td>
+      <td>Aquarius S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/aquarius-s01...</td>
+      <td>Aquarius</td>
+      <td>En lovende jaktstart på den onde hippien Charl...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Wet Hot American Summer: First Day of Camp E01-06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/07/wet-hot-amer...</td>
+      <td>Wet Hot American Summer: First Day of Camp</td>
+      <td>40-åringer som spiller 16-åringer? Det er veld...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>1</td>
+      <td>Drama, Thriller, TV-Serie</td>
+      <td>Blå ögon S01 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/07/bla-ogon-s01...</td>
+      <td>Blå ögon</td>
+      <td>Ujevnt, men fengende om skitten svensk storpol...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Fresh off the Boat S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/fresh-of-the...</td>
+      <td>Fresh off the Boat</td>
+      <td>Energisk kulturkrasjkomedie med snert i replik...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Ballers S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/ballers-s01-...</td>
+      <td>Ballers</td>
+      <td>Lett og enkel underholdning fra HBO.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>2</td>
+      <td>Drama, Krim</td>
+      <td>True Detective S02 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/true-detecti...</td>
+      <td>True Detective</td>
+      <td>Atmosfæren er fortsatt til å ta og føle på, me...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>None</td>
+      <td>Eventyr, Sci-fi, Thriller</td>
+      <td>Sense8 S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/sense8-s01/</td>
+      <td>Sense8</td>
+      <td>Den røde tråden drukner i for mange rollefigurer.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>S01 del 2</td>
+      <td>Action, Drama, Erotikk, Eventyr, Historisk, Kr...</td>
+      <td>Outlander S01 E09-E10</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/outlander-s0...</td>
+      <td>Outlander</td>
+      <td>Friskt og tidvis glimrende fortalt tidsreisedr...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>1</td>
+      <td>Action, Krim, TV-Serie</td>
+      <td>Powers S01E01</td>
+      <td>Powers</td>
+      <td>http://p3.no/filmpolitiet/2015/03/powers-s01e01/</td>
+      <td></td>
+      <td>Starter som et helt vanlig politidrama, men ha...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>1</td>
+      <td>Komedie, Krim, TV-Serie</td>
+      <td>Battle Creek S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/battle-creek...</td>
+      <td>Battle Creek</td>
+      <td>Ujevn, men lovende krimdramedie fra skaperen a...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>1</td>
+      <td>Drama, Krim, Thriller</td>
+      <td>Frikjent S01 E01-05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/frikjent-s01...</td>
+      <td>Frikjent</td>
+      <td>Godt, men forutsigbart krimdrama.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>3</td>
+      <td>Drama, TV-Serie</td>
+      <td>House of Cards S03 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/house-of-car...</td>
+      <td>House of Cards</td>
+      <td>USAs mest brutale politikerserie har mistet et...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>1</td>
+      <td>Action, Eventyr</td>
+      <td>The Flash S01 E01-09</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/01/the-flash-s01/</td>
+      <td>The Flash</td>
+      <td>Enkel, men god superheltunderholdning.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>1</td>
+      <td>Drama</td>
+      <td>Marco Polo S01 E1-6</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/11/marco-polo-s...</td>
+      <td>Marco Polo</td>
+      <td>Storslagent historisk eventyr fra Netflix.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>None</td>
+      <td>Action, Sci-fi</td>
+      <td>Halo: Nightfall – episode 2</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/11/halo-nightfa...</td>
+      <td>Halo: Nightfall</td>
+      <td>Økt innsats og større fare på vei mot ringen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>1</td>
+      <td>Action, Sci-fi</td>
+      <td>Halo: Nightfall – episode 1</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/11/halo-nightfall/</td>
+      <td>Halo: Nightfall</td>
+      <td>En ny start i tv-ruta for den berømte spillser...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>4</td>
+      <td>Drama, Skrekk</td>
+      <td>American Horror Story: Freak Show E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/11/american-hor...</td>
+      <td>American Horror Story: Freak Show</td>
+      <td>Velkommen til Fräulein Elsa’s Cabinet of Curio...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>1</td>
+      <td>Drama, Thriller</td>
+      <td>Tyrant S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/08/tyrant-s01-e01/</td>
+      <td>Tyrant</td>
+      <td>Spennende om fiktivt land i Midtøsten.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>7</td>
+      <td>Drama, Erotikk, Eventyr</td>
+      <td>True Blood S07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/08/true-blood-s07/</td>
+      <td>True Blood</td>
+      <td>En relativt verdig avslutning på en altfor lan...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>Sesong 4</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>The Killing S04 E01-04</td>
+      <td>The Killing</td>
+      <td>http://p3.no/filmpolitiet/2014/08/the-killing-...</td>
+      <td>The Killing</td>
+      <td>Kvalitet noir på overtid.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>S01 E01-03</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Neste Sommer S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/03/neste-sommer...</td>
+      <td>Neste sommer</td>
+      <td>Går varsamt i strupen på mellommenneskeleg pin...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>None</td>
+      <td>Drama, Krim</td>
+      <td>Det tredje øyet S01 E01-02 + 05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/02/det-tredje-o...</td>
+      <td>Det tredje øyet</td>
+      <td>Prøver å være mystisk, men blir for åpenbar.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>1</td>
+      <td>Drama, Eventyr, Thriller</td>
+      <td>Sleepy Hollow S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/01/sleepy-hollo...</td>
+      <td>Sleepy Hollow</td>
+      <td>Underholdende vri på gammel skrekklassiker.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>3</td>
+      <td>Drama, Eventyr, Skrekk</td>
+      <td>American Horror Story: Coven E01-05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/11/american-hor...</td>
+      <td>American Horror Story: Coven</td>
+      <td>Double, double toil and trouble – denne hekseh...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>None</td>
+      <td>Action, Drama, Krim</td>
+      <td>The Blacklist S01 E01</td>
+      <td>The Blacklist</td>
+      <td>http://p3.no/filmpolitiet/2013/10/the-blacklis...</td>
+      <td>The Blacklist</td>
+      <td>Utan James Spader hadde dette kanskje ikkje vo...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>3</td>
+      <td>Action, Drama, Thriller</td>
+      <td>Homeland S03 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/09/homeland-s03...</td>
+      <td>Homeland</td>
+      <td>Ingen overraskelser og lite spenning i første ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>3</td>
+      <td>Action, TV-Serie</td>
+      <td>Strike back S03 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/08/strike-back-...</td>
+      <td>Strike Back: Shadow Warfare</td>
+      <td>Velregissert, uhøgtideleg action frå HBOs vesl...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>1</td>
+      <td>Drama, Krim</td>
+      <td>The Bridge S01 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/07/the-bridge-s...</td>
+      <td>The Bridge</td>
+      <td>Den amerikanske versjonen av Broen har potensi...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>S01</td>
+      <td>Action, Drama, Sci-fi</td>
+      <td>Revolution S01 E01-02</td>
+      <td>Revolution</td>
+      <td>http://p3.no/filmpolitiet/2013/07/revolution-s...</td>
+      <td>Revolution</td>
+      <td>Gripande teknologikritikk på sitt beste – klis...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>None</td>
+      <td>Drama, Krim</td>
+      <td>Dexter S08 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/07/dexter-s08-e...</td>
+      <td>Dexter</td>
+      <td>Det merkes at Dexter er inne i sin åttende ses...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>6</td>
+      <td>Drama, Erotikk, Eventyr</td>
+      <td>True Blood S06 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/06/true-blood-s...</td>
+      <td>True Blood</td>
+      <td>Noen er blitt litt tannløse, andre tror de er ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>4</td>
+      <td>Komedie</td>
+      <td>Arrested Development S04</td>
+      <td>Arrested Development</td>
+      <td>http://p3.no/filmpolitiet/2013/05/arrested-dev...</td>
+      <td>Arrested Development</td>
+      <td>Er det Jesu’ atterkomst? Nei, det er berre «Ar...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr, Historisk</td>
+      <td>Da Vinci’s Demons S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/04/da-vincis-de...</td>
+      <td>Da Vinci's Demons</td>
+      <td>Underholdende om et ungt universalgeni.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>1</td>
+      <td>Skrekk, Thriller, TV-Serie</td>
+      <td>Bates Motel S01</td>
+      <td>Bates Motel</td>
+      <td>http://p3.no/filmpolitiet/2013/04/bates-motel-...</td>
+      <td>Bates Motel</td>
+      <td>Meir ein hyllest til «Twin Peaks» enn «Psycho».</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>None</td>
+      <td>None</td>
+      <td>The Following S1</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/03/the-followin...</td>
+      <td>The Following S1</td>
+      <td>Kevin Bacon tek styringa i kampen mot ein armé...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Go On</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/03/go-on/</td>
+      <td>Go On</td>
+      <td>En søt TV-serie, med akkurat passe mengde hjer...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Wedding Band S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/01/wedding-band...</td>
+      <td>Wedding Band</td>
+      <td>En trivelig serie, som prøver litt for hardt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Shameless S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/10/shameless-s01/</td>
+      <td>Shameless</td>
+      <td>Kjærleik i finanskrisetid.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>4</td>
+      <td>Action, Sci-fi</td>
+      <td>Fringe SE04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/10/fringe-se04/</td>
+      <td>Fringe</td>
+      <td>En treg sesong med en heftig avslutning.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>The Newsroom S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/09/the-newsroom...</td>
+      <td>Newsroom S01</td>
+      <td>Sjå kva som skjer!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Anger Management</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/08/anger-manage...</td>
+      <td>Anger Management</td>
+      <td>Charlie Sheen klar med ny komiserie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>None</td>
+      <td>Drama, Erotikk, Eventyr, Romantikk</td>
+      <td>True Blood S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/06/true-blood-s04/</td>
+      <td>True Blood</td>
+      <td>Mer drama enn noen gang i vampyrserien fra HBO.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>4</td>
+      <td>Action, Komedie</td>
+      <td>Chuck S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/02/chuck-s04/</td>
+      <td>Chuck S04</td>
+      <td>Det startar så sjukt godt i den nest siste ses...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>1</td>
+      <td>Drama, Historisk, Krim, TV-Serie</td>
+      <td>The Hour</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/01/the-hour-nor...</td>
+      <td>The Hour</td>
+      <td>Britisk mediedrama for den historie- og epokei...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>4</td>
+      <td>Drama, Komedie</td>
+      <td>Californication s04</td>
+      <td>Californication</td>
+      <td>http://p3.no/filmpolitiet/2011/11/californicat...</td>
+      <td>Californication</td>
+      <td>Hollywoods største mannehore er ikke lengre st...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>2</td>
+      <td>Drama, Komedie, Musikal, Musikk, TV-Serie</td>
+      <td>Glee S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/10/glee-s02/</td>
+      <td>Glee</td>
+      <td>Gleedeleg gjensyn med guilty pleasure!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>2</td>
+      <td>Drama, Komedie</td>
+      <td>En velutstyrt mann S02</td>
+      <td>Hung S02</td>
+      <td>http://p3.no/filmpolitiet/2011/09/en-velutstyr...</td>
+      <td>En velutstyrt mann</td>
+      <td>Småmorsomt og underholdende om en svær kuk og ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>4</td>
+      <td>Drama</td>
+      <td>Gossip Girl S04</td>
+      <td>Gossip Girl</td>
+      <td>http://p3.no/filmpolitiet/2011/09/gossip-girl-...</td>
+      <td>Gossip Girl S04</td>
+      <td>Har det blitt for mye drama blant Manhattans e...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Episodes S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/09/episodes-s01/</td>
+      <td>Episodes</td>
+      <td>Komedie? Nja. Bra selskap? Ja!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>2</td>
+      <td>Action, Drama, Skrekk, TV-Serie</td>
+      <td>Vampire Diaries s02</td>
+      <td>Vampire Diaries</td>
+      <td>http://p3.no/filmpolitiet/2011/08/vampire-diar...</td>
+      <td>Vampire Diaries s02</td>
+      <td>Mer kjøtt og action rundt tenåringenes favorit...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>1</td>
+      <td>Komedie</td>
+      <td>Solsidan s01</td>
+      <td>Solsidan</td>
+      <td>http://p3.no/filmpolitiet/2011/07/solsidan-s01/</td>
+      <td>Solsidan</td>
+      <td>Svensk storsuksess som genererer lite gapskrat...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>4</td>
+      <td>Drama, TV-Serie</td>
+      <td>Skins S04</td>
+      <td>Skins</td>
+      <td>http://p3.no/filmpolitiet/2011/06/skins-s04/</td>
+      <td>Skins</td>
+      <td>Herlig feel bad-underholdning som ramler på op...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>3</td>
+      <td>Drama, Krim, Thriller</td>
+      <td>Spooks S03</td>
+      <td>Spooks</td>
+      <td>http://p3.no/filmpolitiet/2011/06/spooks-s03/</td>
+      <td>Spooks</td>
+      <td>Mindre spionasje, mer filosofi – men minst lik...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>None</td>
+      <td>Drama, TV-Serie</td>
+      <td>Boardwalk Empire S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/06/boardwalk-em...</td>
+      <td>Boardwalk Empire S01</td>
+      <td>Korrupsjon og politikk går hånd i hånd på plan...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>3</td>
+      <td>Drama, TV-Serie</td>
+      <td>Skins S03</td>
+      <td>Skins season 3</td>
+      <td>http://p3.no/filmpolitiet/2011/06/skins-s03/</td>
+      <td>Skins S03</td>
+      <td>Nye ungdommer + gammel oppskrift = et godt vor...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>3</td>
+      <td>Drama, TV-Serie</td>
+      <td>Big Love S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/05/big-love-s03/</td>
+      <td>Big Love</td>
+      <td>Mindre moro med mormonere.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>3</td>
+      <td>Action, Eventyr, Familie, TV-Serie</td>
+      <td>Merlin S03</td>
+      <td>Merlin</td>
+      <td>http://p3.no/filmpolitiet/2011/05/merlin-s03/</td>
+      <td>Merlin - sesong 3</td>
+      <td>Et gøyalt, men forutsigbart eventyr.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>1</td>
+      <td>Action, Drama, Krim, TV-Serie</td>
+      <td>White Collar S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/05/white-collar...</td>
+      <td>White Collar</td>
+      <td>Strømlinjeformet og stilig svindelserie</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>5</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>How I Met Your Mother S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/05/how-i-met-yo...</td>
+      <td>How I Met Your Mother</td>
+      <td>Har gått fra sitkom til dramakomedie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>2</td>
+      <td>Action, Drama, Thriller, TV-Serie</td>
+      <td>Spooks S02</td>
+      <td>Spooks</td>
+      <td>http://p3.no/filmpolitiet/2011/05/spooks-s02/</td>
+      <td>Spooks</td>
+      <td>Stort sett sobert, smart og spennende om spion...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>3</td>
+      <td>Action, Thriller, TV-Serie</td>
+      <td>Burn Notice S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/05/burn-notice-...</td>
+      <td>Burn Notice</td>
+      <td>Nøster opp litt, men jeg ønsker meg mer</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>1</td>
+      <td>Krim, Sci-fi</td>
+      <td>Ta den ring</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/04/ta-den-ring/</td>
+      <td>Ta den ring</td>
+      <td>Inneholder alt en sci-fi-thriller trenger</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>None</td>
+      <td>Action, Drama, Krim, Thriller, TV-Serie</td>
+      <td>Sherlock S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/03/sherlock/</td>
+      <td>Sherlock</td>
+      <td>Rare engelskmenn løser krimgåter</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>3</td>
+      <td>Action, Drama, Romantikk, Skrekk, Thriller, TV...</td>
+      <td>True Blood S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/03/true-blood-s03/</td>
+      <td>True Blood</td>
+      <td>Sump-operaen sparer på kruttet</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Blue Mountain State S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/blue-mountai...</td>
+      <td>Blue Mountain State</td>
+      <td>Collegeserie med ekstrem seksuell driv.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>3</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Secret Diary of a Call Girl S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/secret-diary...</td>
+      <td>Secret Diary of a Call Girl</td>
+      <td>Underholdende om horing, vennskap og kjærlighet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>None</td>
+      <td>Action, Drama, Krig, Thriller, TV-Serie</td>
+      <td>Millenniumtrilogien</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/12/millenniumtr...</td>
+      <td>The Complete Stieg Larsson Millennium Trilogy</td>
+      <td>Den komplette tv-versjonen yter bøkene mer ret...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>5</td>
+      <td>Drama, Komedie, Spesialinteresser</td>
+      <td>Weeds S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/weeds-s05/</td>
+      <td>Weeds</td>
+      <td>Morosam, spennande og dørgande kjedeleg.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>4</td>
+      <td>Action, Drama, TV-Serie</td>
+      <td>The Unit S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/the-unit-s04/</td>
+      <td>The Unit</td>
+      <td>Knall action – halvgjort drama.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>1</td>
+      <td>Action, Drama, Sci-fi, Thriller, TV-Serie</td>
+      <td>FlashForward S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/flashforward...</td>
+      <td>FlashForward</td>
+      <td>Glimrende spilt, men kunne gitt mer gass.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>3</td>
+      <td>Action, Drama, Krig, Thriller, TV-Serie</td>
+      <td>The Unit S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/the-unit-se03/</td>
+      <td>The Unit</td>
+      <td>Actionserie om spesialsoldater og familiefedre!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>13</td>
+      <td>Animert, Komedie, TV-Serie</td>
+      <td>The Simpsons S13</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/09/the-simpsons...</td>
+      <td>The Simpsons</td>
+      <td>Som å komme hjem.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>1</td>
+      <td>Dans, Drama, Familie, Musikal, Musikk, TV-Serie</td>
+      <td>Glee S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/09/glee-se01/</td>
+      <td>Glee</td>
+      <td>Øyeblikk av pur glede!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr, Familie, Komedie, Krim...</td>
+      <td>Pushing Daisies SE02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/09/pushing-dais...</td>
+      <td>Pushing Daisies</td>
+      <td>Hektisk eventyrkrim!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>2</td>
+      <td>Action, Drama, Thriller, TV-Serie</td>
+      <td>Sons of Anarchy SE02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/09/sons-of-anar...</td>
+      <td>Sons of Anarchy</td>
+      <td>Reimer, gubber og intriger.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>1</td>
+      <td>Action</td>
+      <td>Knight Rider SE01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/knight-rider...</td>
+      <td>Knight Rider</td>
+      <td>Skreddersydd for unge, bilgale menn.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>2</td>
+      <td>Action, Drama, Romantikk, Skrekk, Thriller, TV...</td>
+      <td>Being Human SE02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/being-human-...</td>
+      <td>Being Human</td>
+      <td>Skrekk, komikk og romantikk.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>2</td>
+      <td>Komedie, Romantikk, TV-Serie</td>
+      <td>How I Met Your Mother SE02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/how-i-met-yo...</td>
+      <td>How I Met Your Mother</td>
+      <td>Neste generasjons sitkom</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>1</td>
+      <td>Drama, Erotikk, Komedie, Romantikk, TV-Serie</td>
+      <td>En velutstyrt mann</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/05/en-velutstyr...</td>
+      <td>En velutstyrt mann</td>
+      <td>Ukas yrker: mannehore og damehallik.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>7</td>
+      <td>Drama, Eventyr</td>
+      <td>Game of Thrones S07 – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/07/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Les anmeldelsen av første episode av sesong 7!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>2</td>
+      <td>Action, Drama, Komedie, TV-Serie</td>
+      <td>Preacher S02 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/06/preacher-s02...</td>
+      <td>Preacher</td>
+      <td>Ultravold med glimt i øyet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>GLOW</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/06/glow/</td>
+      <td>GLOW</td>
+      <td>Morsom og forfriskende underdog-historie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>5</td>
+      <td>Drama, Komedie, Krim, TV-Serie</td>
+      <td>Orange Is the New Black S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/05/orange-is-th...</td>
+      <td>Orange Is the New Black</td>
+      <td>Blir bare bedre og bedre.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>3</td>
+      <td>Drama, Krim, Thriller, TV-Serie</td>
+      <td>Twin Peaks: The Return E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/05/twin-peaks-t...</td>
+      <td>Twin Peaks</td>
+      <td>Smaker veldig av David Lynch.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>2</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Master of None S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/05/master-of-no...</td>
+      <td>Master of None</td>
+      <td>Aziz Ansari mestrer det tålmodige skråblikket.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr, Krim, Splatter, TV-Serie</td>
+      <td>American Gods S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/american-god...</td>
+      <td>American Gods</td>
+      <td>Voldsom fantasirikdom.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>3</td>
+      <td>Action, Drama, Krim, TV-Serie</td>
+      <td>Fargo S03 – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/fargo-s03-se...</td>
+      <td>Fargo</td>
+      <td>Hver scene er en nytelse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>6</td>
+      <td>Komedie</td>
+      <td>Veep S06 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/veep-s06-e01...</td>
+      <td>Veep</td>
+      <td>Serien har virkelig funnet seg selv.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>3</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Better Call Saul S03 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/better-call-...</td>
+      <td>Better Call Saul</td>
+      <td>Nærmer seg for alvor Breaking Bad i både handl...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>1</td>
+      <td>Biografi, Drama</td>
+      <td>Feud: Bette and Joan E01–E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/03/feud-bette-a...</td>
+      <td>Feud: Bette and Joan</td>
+      <td>Kvinner som hater kvinner.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>Big Little Lies</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/big-little-l...</td>
+      <td>Big Little Lies</td>
+      <td>Herlig intrigedrama.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>1</td>
+      <td>Drama, Familie, TV-Serie</td>
+      <td>This Is Us S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/this-is-us/</td>
+      <td>This Is Us</td>
+      <td>Et velspilt og vanedannende familiedrama.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>1</td>
+      <td>Drama, Krim, Romantikk, TV-Serie</td>
+      <td>Riverdale S01 – Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/riverdale-s0...</td>
+      <td>Riverdale</td>
+      <td>Herlig High School-spenning.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr, Historisk, TV-Serie</td>
+      <td>Taboo S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/01/taboo-s01-e0...</td>
+      <td>Taboo</td>
+      <td>Lar Tom Hardy være Tom Hardy.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>1</td>
+      <td>Eventyr</td>
+      <td>Den onde greven S01 E01 – E04</td>
+      <td>A Series of Unfortunate Events</td>
+      <td>http://p3.no/filmpolitiet/2017/01/a-series-of-...</td>
+      <td>Den onde greven</td>
+      <td>Et merkelig og underholdende eventyr for deg s...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>1</td>
+      <td>Action, Drama, Sci-fi, TV-Serie, Western</td>
+      <td>Westworld S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/12/westworld-s01/</td>
+      <td>Westworld</td>
+      <td>Hatten av for HBO.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>1</td>
+      <td>Biografi, Drama, Familie, TV-Serie</td>
+      <td>The Crown S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/11/the-crown-s01/</td>
+      <td>The Crown</td>
+      <td>Elegant i alle ledd.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>7</td>
+      <td>Drama, Eventyr, Skrekk</td>
+      <td>The Walking Dead S07: Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/10/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>En av de beste episodene i seriens historie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>None</td>
+      <td>Drama, Komedie</td>
+      <td>Kalde føtter S06 – sesongpremiere!</td>
+      <td>Cold Feet s06ep01</td>
+      <td>http://p3.no/filmpolitiet/2016/10/kalde-fotter...</td>
+      <td>Kalde føtter s06ep01</td>
+      <td>Hjertelig gjensyn med britisk samlivsserie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>1</td>
+      <td>Action, Drama, TV-Serie</td>
+      <td>Luke Cage S01 E01 – 07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/09/luke-cage-s0...</td>
+      <td>Luke Cage</td>
+      <td>Mer gangster- enn superheltserie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>1</td>
+      <td>Action, Drama, Sci-fi, TV-Serie, Western</td>
+      <td>Westworld S01 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/09/westworld-s0...</td>
+      <td>Westworld</td>
+      <td>Grublegod science fiction fra HBO.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Better Things S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/09/better-thing...</td>
+      <td>Better Things</td>
+      <td>Treffer meg rett i trivselssentralen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Vice Principals S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/07/vice-princip...</td>
+      <td>Vice Principals</td>
+      <td>Drøyt, kleint og velspilt fra skoleadministras...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>1</td>
+      <td>Action, Eventyr, Komedie, Sci-fi, Skrekk, Thri...</td>
+      <td>Stranger Things S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/07/stranger-thi...</td>
+      <td>Stranger Things</td>
+      <td>Sår og kul retrofest.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>S02 E01-02</td>
+      <td>Thriller, TV-Serie</td>
+      <td>Mr. Robot S02 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/07/mr-robot-s02...</td>
+      <td>Mr. Robot</td>
+      <td>Djuptgåande psyke i post-apokalypsens første d...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>1</td>
+      <td>Drama, Krim, Thriller, TV-Serie</td>
+      <td>The Night Of  S01 E01 – E07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/the-night-of...</td>
+      <td>The Night Of</td>
+      <td>HBO går tilbake til røttene med oppslukende kr...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>4</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Orange Is the New Black S04 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/orange-is-th...</td>
+      <td>Orange Is the New Black</td>
+      <td>Netflix sin beste serie for bingewatching.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>1</td>
+      <td>Drama, Historisk, Krim, TV-Serie</td>
+      <td>The People v. O. J. Simpson S01 E01 – E07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/06/the-people-v...</td>
+      <td>The People v. O. J. Simpson: American Crime Story</td>
+      <td>Underholdende om 90-tallets store rettsdrama.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>1</td>
+      <td>Action, Drama, Historisk, TV-Serie</td>
+      <td>Roots S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/05/roots-s01-e0...</td>
+      <td>Roots</td>
+      <td>En gripende generasjonskildring i ny drakt.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr, TV-Serie</td>
+      <td>Preacher S01 E01-04</td>
+      <td>Preacher</td>
+      <td>http://p3.no/filmpolitiet/2016/05/preacher-s01...</td>
+      <td>Preacher</td>
+      <td>Anmeldelse av den ufilmbare teikneserieadapsjo...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>3</td>
+      <td>Komedie, Spesialinteresser, TV-Serie</td>
+      <td>Silicon Valley S03 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/04/silicon-vall...</td>
+      <td>Silicon Valley</td>
+      <td>Fremdeles en av de beste situasjonskomediene d...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>2</td>
+      <td>Eventyr, Historisk, Romantikk</td>
+      <td>Outlander S02 E01 – 02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/04/outlander-s0...</td>
+      <td>Outlander</td>
+      <td>Fortsatt et eventyr du blir glad i.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>1</td>
+      <td>Action, Drama, Krim, TV-Serie</td>
+      <td>The Night Manager S01 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/the-night-ma...</td>
+      <td>The Night Manager</td>
+      <td>Elegant britisk spionkrim med en smak av Bond.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Daredevil S02 E01 – 07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/daredevil-s0...</td>
+      <td>Daredevil</td>
+      <td>Djevelen fra Hell’s Kitchen har fortsatt den b...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>2</td>
+      <td>Krim</td>
+      <td>Bosch S02 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/03/bosch-s02-e0...</td>
+      <td>Bosch</td>
+      <td>En hardkokt tjuvstart på krimpåsken.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>2</td>
+      <td>Drama, TV-Serie</td>
+      <td>Better Call Saul S02 – Sesongåpning</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/better-call-...</td>
+      <td>Better Call Saul</td>
+      <td>Fargerikt om hverdagens ulidelige gråhet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>1</td>
+      <td>Drama, Historisk, Musikk, TV-Serie</td>
+      <td>Vinyl S01 E01 – E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/vinyl-s01-e0...</td>
+      <td>Vinyl</td>
+      <td>En gave til diskusjonsglade musikknerder.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Horace and Pete – første episode</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/02/horace-and-p...</td>
+      <td>Horace and Pete</td>
+      <td>Elendig stemning på lokal bar.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>10</td>
+      <td>Action, Drama, Eventyr, Krim, Sci-fi, Thriller...</td>
+      <td>The X-Files E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/01/the-x-files-...</td>
+      <td>The X-files</td>
+      <td>På sitt beste en fantasirik og morsom nostalgi...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>None</td>
+      <td>Drama</td>
+      <td>Billions S01 E01 – 02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/01/billions-s01...</td>
+      <td>Billions</td>
+      <td>En energisk serie om makt og penger i New York.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>1</td>
+      <td>Action, Drama, Historisk, Krig, Thriller, TV-S...</td>
+      <td>Deutschland 83 S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/deutschland-...</td>
+      <td>Deutschland 83 (Tyskland 83)</td>
+      <td>Spennende, underholdende og lekker spionserie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>1</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Jessica Jones S01 E01 – 07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/jessica-jone...</td>
+      <td>Jessica Jones</td>
+      <td>En beinhard dame som ikke vil bli reddet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>1</td>
+      <td>Indie, Komedie, TV-Serie</td>
+      <td>Master of None S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/11/master-of-no...</td>
+      <td>Master of None</td>
+      <td>Mesterlig av Aziz Ansari.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>None</td>
+      <td>Action, Skrekk</td>
+      <td>Ash vs Evil Dead: Sesongpremiere</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/ash-vs-evil-...</td>
+      <td>Ash vs Evil Dead</td>
+      <td>Den tøffeste seriestarten på årevis!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>2</td>
+      <td>Drama, Eventyr, Skrekk</td>
+      <td>Gjengangerne S02 E01 – 02</td>
+      <td>Les revenants</td>
+      <td>http://p3.no/filmpolitiet/2015/10/gjengangerne...</td>
+      <td>Gjengangerne</td>
+      <td>Et fascinerende drama med en nifs atmosfære.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>1</td>
+      <td>Action, Historisk, TV-Serie</td>
+      <td>Det siste kongeriket S01 E01 – E02</td>
+      <td>The Last Kingdom</td>
+      <td>http://p3.no/filmpolitiet/2015/10/det-siste-ko...</td>
+      <td>Det siste kongeriket</td>
+      <td>Tøft vikingdrama.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>2</td>
+      <td>Drama, Eventyr</td>
+      <td>The Leftovers S02 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/the-leftover...</td>
+      <td>The Leftovers</td>
+      <td>Frustrerende, men fengslende mystikk i starten...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>2</td>
+      <td>Drama, Musikal, Romantikk, TV-Serie</td>
+      <td>Empire S02 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/09/empire-s02-e...</td>
+      <td>Empire</td>
+      <td>Rett inn i såpeserienes elitedivisjon.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>4</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Dag S04 E01-E07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/09/dag-s04-e01-...</td>
+      <td>Dag</td>
+      <td>En av Norges beste og viktigste komiserier.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>1</td>
+      <td>Drama, Thriller</td>
+      <td>Mr. Robot S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/09/mr-robot-s01/</td>
+      <td>Mr. Robot</td>
+      <td>En av årets beste serier.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>1</td>
+      <td>Drama, Komedie, Romantikk, TV-Serie</td>
+      <td>UnREAL S01 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/09/unreal-s01-e...</td>
+      <td>UnREAL</td>
+      <td>Smart, mørkt og morsomt.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>1</td>
+      <td>Action, Biografi, Drama, Krig, Krim, TV-Serie</td>
+      <td>Narcos S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/narcos-s01/</td>
+      <td>Narcos</td>
+      <td>Kruttsterkt krimdrama om den colombianske koka...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>None</td>
+      <td>Komedie, Musikk</td>
+      <td>The Spoils Before Dying</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/the-spoils-b...</td>
+      <td>The Spoils Before Dying</td>
+      <td>Absurd og gøyal jazznoir!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>1</td>
+      <td>Drama</td>
+      <td>Show Me a Hero S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/08/show-me-a-he...</td>
+      <td>Show Me a Hero</td>
+      <td>Et engasjerende politisk drama om rasisme og k...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>3</td>
+      <td>Krim, Thriller</td>
+      <td>Hannibal S03 E01 – E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/hannibal-s03...</td>
+      <td>Hannibal</td>
+      <td>Vakkert, velspilt og vemmelig.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>5</td>
+      <td>Action, Eventyr</td>
+      <td>Game of Thrones S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Femte sesong har noen av seriens beste scener,...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>1</td>
+      <td>Drama, Musikk, TV-Serie</td>
+      <td>Empire S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/empire-s01-e01/</td>
+      <td>Empire</td>
+      <td>Avhengighetsskapende RnB-såpe.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>3</td>
+      <td>Drama, TV-Serie</td>
+      <td>Orange Is the New Black S03 E01-E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/06/orange-is-th...</td>
+      <td>Orange is the New Black</td>
+      <td>Færre farer, mer drama og fremdeles fengslende...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>2</td>
+      <td>Drama, Historisk, TV-Serie</td>
+      <td>Halt and Catch Fire S02 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/halt-and-cat...</td>
+      <td>Halt and Catch Fire</td>
+      <td>Drivende god epokeserie fra databransjens vill...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>1</td>
+      <td>Action, Drama, Sci-fi</td>
+      <td>Between S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/between/</td>
+      <td>Between</td>
+      <td>Lovende tenåringsdrama med nådeløs 21-årsgrense.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>1</td>
+      <td>Action, Drama, Skrekk, Thriller</td>
+      <td>The Strain S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/the-strain-s01/</td>
+      <td>The Strain</td>
+      <td>Vær så snill! La Guillermo del Toro få lage fl...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>2</td>
+      <td>Eventyr, Skrekk</td>
+      <td>Penny Dreadful S02 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/05/penny-dreadf...</td>
+      <td>Penny Dreadful</td>
+      <td>En god fortsettelse på den gotisk skrekkhistor...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>2</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Silicon Valley S02 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/silicon-vall...</td>
+      <td>Silicon Valley</td>
+      <td>Sitatvennlige nerder som punkterer IT-bransjen...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>1</td>
+      <td>Drama, Krim</td>
+      <td>Rectify S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/rectify-s01/</td>
+      <td>Rectify</td>
+      <td>Et hypnotisk krimdrama som ikke haster mot sva...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>7 del 2</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men S07 E08</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/mad-men-s07-...</td>
+      <td>Mad Men</td>
+      <td>Velkledd, velspilt og veldig bra.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>1</td>
+      <td>Drama, Familie, Thriller</td>
+      <td>Bloodline S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/bloodline-s0...</td>
+      <td>Bloodline</td>
+      <td>Ubehagelig bra om familiehemmeligheter.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>American Crime S01 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/american-cri...</td>
+      <td>American Crime</td>
+      <td>Mørkt og modig om hudfarge og fordommer.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>276</th>
+      <td>1</td>
+      <td>Drama, Komedie, Krim</td>
+      <td>Babylon S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/babylon-s01-...</td>
+      <td>Babylon</td>
+      <td>Sprikende, underholdende og svært lovende poli...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>1</td>
+      <td>Komedie, Musikal, Romantikk, TV-Serie</td>
+      <td>Unbreakable Kimmy Schmidt S01 E01 – E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/03/unbreakable-...</td>
+      <td>Unbreakable Kimmy Schmidt</td>
+      <td>Mørk og morsom situasjonskomedie om traumer og...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>7</td>
+      <td>Komedie</td>
+      <td>Parks and Recreation S07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/parks-and-re...</td>
+      <td>Parks and Recreation</td>
+      <td>Takk for alt Leslie Knope.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>1</td>
+      <td>Action, Krim, TV-Serie</td>
+      <td>Bosch S01 E01-E07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/bosch-s01-e0...</td>
+      <td>Bosch</td>
+      <td>En hardkokt politietterforsker det er lett å b...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>1</td>
+      <td>Biografi, Dokumentar, Drama, Krim, TV-Serie</td>
+      <td>The Jinx: The Life and Deaths of Robert Durst ...</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/the-jinx-the...</td>
+      <td>The Jinx: The Life and Deaths of Robert Durst</td>
+      <td>Drivende spennende krim fra virkeligheten.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>5</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>The Walking Dead S05 E09</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>Zombiedramaet er mørkere enn noensinne.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>1</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Better Call Saul S01 E01-E02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/better-call-...</td>
+      <td>Better Call Saul</td>
+      <td>Munnrapp, velbygd og vellykket spin-off fra Br...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>6</td>
+      <td>Komedie</td>
+      <td>Modern Family S06 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/modern-famil...</td>
+      <td>Modern Family</td>
+      <td>Fortsatt like morsom etter seks sesonger.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>1</td>
+      <td>Krim, Thriller</td>
+      <td>Fortitude S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/02/fortitude-s0...</td>
+      <td>Fortitude</td>
+      <td>Nordisk krim på britisk, satt i verdens nordli...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>None</td>
+      <td>Drama, Komedie</td>
+      <td>Togetherness S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/01/togetherness...</td>
+      <td>Togetherness</td>
+      <td>En ærlig dramakomedie om hverdagens problemer.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>2</td>
+      <td>Drama, Romantikk, TV-Serie</td>
+      <td>Looking S02 E01-E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/01/looking-s02-...</td>
+      <td>Looking S02</td>
+      <td>Lun mannekos i hverdagsvakker dramedie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>2</td>
+      <td>Thriller, TV-Serie</td>
+      <td>The Americans S02E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/10/the-american...</td>
+      <td>The Americans</td>
+      <td>Glimrende spiondrama som fortsetter der det sl...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>5</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>The Walking Dead S05 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/10/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>En mørk og urovekkende sesongstart.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>4</td>
+      <td>Drama, Thriller</td>
+      <td>Homeland S04 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/10/homeland-s04...</td>
+      <td>Homeland</td>
+      <td>Forfriskende bra spiondrama!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>1</td>
+      <td>Drama, Eventyr, Thriller</td>
+      <td>The Leftovers S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/09/the-leftover...</td>
+      <td>The Leftovers</td>
+      <td>En fengslende serie med mange spørsmål og få s...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>1</td>
+      <td>Drama, Eventyr</td>
+      <td>The Leftovers S01 E01-03 + 05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/07/the-leftover...</td>
+      <td>The Leftovers</td>
+      <td>Kan bli en av årets beste serieopplevelser.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>4</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Game of Thrones S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/06/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Oppgjørets time er kommet!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>2</td>
+      <td>Drama</td>
+      <td>Orange Is the New Black S02 E01-E06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/05/orange-is-th...</td>
+      <td>Orange is The New Black sesong 2</td>
+      <td>Mørkere og morsom fengselsblues.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>7</td>
+      <td>Drama, Historisk</td>
+      <td>Mad Men S07E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/04/mad-men-s07e01/</td>
+      <td>Mad Men</td>
+      <td>Fremdeles et stilsikkert drama av høy kvalitet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>4</td>
+      <td>Action, Drama, Eventyr</td>
+      <td>Game of Thrones S04 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/03/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>En strålende oppladning før helvete bryter løs.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>S02 E01-04</td>
+      <td>Drama, TV-Serie</td>
+      <td>House of Cards S02 E01-04</td>
+      <td>House of Cards</td>
+      <td>http://p3.no/filmpolitiet/2014/02/house-of-car...</td>
+      <td>House of Cards</td>
+      <td>Held på stemninga frå førre sesong.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>3</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Girls S03 E01-06</td>
+      <td>Girls</td>
+      <td>http://p3.no/filmpolitiet/2014/01/girls-s03-e0...</td>
+      <td>Girls</td>
+      <td>I-landsproblemets yppersteprestinner.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>S03</td>
+      <td>Drama, Krig, TV-Serie</td>
+      <td>Sherlock S03 E01</td>
+      <td>Sherlock</td>
+      <td>http://p3.no/filmpolitiet/2014/01/sherlock-s03...</td>
+      <td>Sherlock</td>
+      <td>Privatdetektiven er like skarp som før, om enn...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>None</td>
+      <td>Thriller, TV-Serie</td>
+      <td>The Americans S01E01</td>
+      <td>The Americans</td>
+      <td>http://p3.no/filmpolitiet/2013/11/the-american...</td>
+      <td>The Americans</td>
+      <td>Spennande TV-serie om den – på overflata – per...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>1</td>
+      <td>Drama, Krig</td>
+      <td>Krigens unge hjarte</td>
+      <td>Unsere Mütter, Unsere Väter</td>
+      <td>http://p3.no/filmpolitiet/2013/11/krigens-unge...</td>
+      <td>Krigens unge hjarte</td>
+      <td>Ei truverdig historie om fem skjebnar under de...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>1</td>
+      <td>Action</td>
+      <td>Marvel’s Agents of S.H.I.E.L.D S01 E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/10/marvels-agen...</td>
+      <td>Marvel's Agents of S.H.I.E.L.D</td>
+      <td>En herlig start på en etterlengtet superserie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>4</td>
+      <td>Action, Drama</td>
+      <td>The Walking Dead S04 E1 – E2</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/10/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>En lovende start på sesong fire av AMCs zombie...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>None</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Derek S01 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/09/derek/</td>
+      <td>Derek</td>
+      <td>Dette er gull for Gervais-fans!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>4</td>
+      <td>Drama, Historisk, Krim, TV-Serie</td>
+      <td>Boardwalk Empire S04 E01-05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/09/boardwalk-em...</td>
+      <td>Boardwalk Empire</td>
+      <td>Givende tålmodighetsprøve.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>S01</td>
+      <td>Drama, Komedie</td>
+      <td>Orange is the new black S01 E01-E06</td>
+      <td>Orange is the new black</td>
+      <td>http://p3.no/filmpolitiet/2013/07/orange-is-th...</td>
+      <td>Orange is the new black</td>
+      <td>God svart dramedie frå skaparen av «Weeds».</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>1</td>
+      <td>Drama, Krim</td>
+      <td>Hannibal S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/04/hannibal-s01/</td>
+      <td>Hannibal</td>
+      <td>Et vakkert og skremmende etterforskningsdrama ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>2</td>
+      <td>Drama, Komedie</td>
+      <td>Girls S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/01/girls-s02/</td>
+      <td>Girls</td>
+      <td>Velskrevet, morsom og flau – andre sesong av G...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>2</td>
+      <td>Skrekk, TV-Serie</td>
+      <td>American Horror Story: Asylum</td>
+      <td>American Horror Story</td>
+      <td>http://p3.no/filmpolitiet/2012/12/american-hor...</td>
+      <td>American Horror Story: Asylum</td>
+      <td>Andre sesong av American Horror Story byr på b...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>1</td>
+      <td>Drama, Musikk, TV-Serie</td>
+      <td>Nashville S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/12/nashville-s01/</td>
+      <td>Nashville</td>
+      <td>En velskrevet dramaserie som det er verdt å fø...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>3</td>
+      <td>Action, Drama, TV-Serie</td>
+      <td>Justified S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/11/justified-s03/</td>
+      <td>Justified</td>
+      <td>U. S. Marshall Givens har mista grepet, men Ju...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>3</td>
+      <td>Drama, Eventyr</td>
+      <td>The Walking Dead S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/10/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>Første episode av sesong tre er et deilig styk...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>3</td>
+      <td>Drama, Krim</td>
+      <td>Forbrytelsen SE03</td>
+      <td>Forbrydelsen</td>
+      <td>http://p3.no/filmpolitiet/2012/10/forbrytelsen...</td>
+      <td>Forbrytelsen</td>
+      <td>Intens krim etter velkjent oppskrift.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>5</td>
+      <td>Action, Drama, Eventyr, TV-Serie</td>
+      <td>True Blood S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/09/true-blood-s05/</td>
+      <td>True Blood</td>
+      <td>Det kan ikke bli mer blodig en dette.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>2</td>
+      <td>Drama, TV-Serie</td>
+      <td>Boardwalk Empire S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/09/boardwalk-em...</td>
+      <td>Boardwalk Empire S02</td>
+      <td>Denne gongen er det personleg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>None</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men S05E01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/03/mad-men-s05e01/</td>
+      <td>Mad Men s05e01</td>
+      <td>Fremdeles det smarteste du kan se på TV!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>5&amp;6</td>
+      <td>Animert, Komedie, Sci-fi, TV-Serie</td>
+      <td>Futurama S05 &amp; 6</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/01/futurama-s05...</td>
+      <td>Futurama S05&amp;6</td>
+      <td>Verdens beste spedisjonsbyrå vender tilbake og...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>1</td>
+      <td>Action, TV-Serie, Western</td>
+      <td>Hell on Wheels</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/01/hell-on-wheels/</td>
+      <td>Hell on Wheels</td>
+      <td>Verdt å se – grunnet én mann: ‘The Swede’.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>1</td>
+      <td>Action, Thriller, TV-Serie, Western</td>
+      <td>Justified S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/12/justified-s01/</td>
+      <td></td>
+      <td>Moderne western med nåtidsproblematikk og tidl...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Nissene over skog og hei</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/11/nissene-over...</td>
+      <td>Nissene over skog og vei</td>
+      <td>Høydepunktene kommer med 45 sekunders mellomrom.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>3</td>
+      <td>Drama</td>
+      <td>In Treatment S03</td>
+      <td>In treatment</td>
+      <td>http://p3.no/filmpolitiet/2011/10/in-treatment...</td>
+      <td>In Treatment</td>
+      <td>Hvem hadde trodd at tjue minutter med prating ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>2</td>
+      <td>Sci-fi, TV-Serie</td>
+      <td>Fringe S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/10/fringe-s02/</td>
+      <td>Fringe</td>
+      <td>Sesong 2 av Fringe tar opp cliffhanger-arven f...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>How to Make It in America S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/10/how-to-make-...</td>
+      <td>How to Make It in America</td>
+      <td>En vanedannende serie som føles som den er lag...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>2</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Bored to Death S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/09/bored-to-dea...</td>
+      <td>Bored to Death</td>
+      <td>En moderne krim noir med hipsterhjerte.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>4</td>
+      <td>Action, Krim, Thriller</td>
+      <td>Spooks S04</td>
+      <td>Spooks</td>
+      <td>http://p3.no/filmpolitiet/2011/08/spooks-s04/</td>
+      <td>Spooks</td>
+      <td>Krevende og knallbra om spionasje og ekstremisme.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>2</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Eastbound &amp; Down S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/08/eastbound-do...</td>
+      <td>Eastbound &amp; Down S02</td>
+      <td>Lag på lag med skjellsord, nesten som å være t...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>3</td>
+      <td>Action, Krim, TV-Serie</td>
+      <td>Murphy’s Law s03</td>
+      <td>Murphy's Law</td>
+      <td>http://p3.no/filmpolitiet/2011/06/murphys-law-...</td>
+      <td>Murphy's Law</td>
+      <td>Murphy finner storformen på tredje forsøk</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>1</td>
+      <td>Action, Drama, Skrekk, Thriller, TV-Serie</td>
+      <td>The Walking Dead</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/06/the-walking-...</td>
+      <td>The Walking Dead</td>
+      <td>Mennesker og zombier i en ny verdensorden</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>2</td>
+      <td>Drama, TV-Serie</td>
+      <td>Skins S02</td>
+      <td>Skins</td>
+      <td>http://p3.no/filmpolitiet/2011/05/skins-s02/</td>
+      <td></td>
+      <td>Velspilt, trist, morsomt og meget severdig om ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>2</td>
+      <td>Drama, Krim, TV-Serie</td>
+      <td>Løgner S02</td>
+      <td>Lie to me</td>
+      <td>http://p3.no/filmpolitiet/2011/05/loegner-s02/</td>
+      <td>Løgner</td>
+      <td>Heretter kan du se når noen lyver til deg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>None</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/03/mad-men-s04/</td>
+      <td>Mad Men S04</td>
+      <td>Don Draper forfaller med stil!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>13</td>
+      <td>Animert, Komedie, TV-Serie</td>
+      <td>South Park S13</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/03/south-park-s13/</td>
+      <td>South Park S13</td>
+      <td>Anbefales for for deg som ikke er en nærtagend...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>1</td>
+      <td>Drama, Familie, Romantikk, Thriller, TV-Serie</td>
+      <td>Brutte Løfter S01</td>
+      <td>The Good Wife</td>
+      <td>http://p3.no/filmpolitiet/2011/02/brutte-loeft...</td>
+      <td>Brutte Løfter</td>
+      <td>Klassisk og særegen advokatserie produsert av ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>3</td>
+      <td>Action, Komedie</td>
+      <td>Chuck S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/chuck-s03/</td>
+      <td>Chuck S03</td>
+      <td>Serien som eigentleg ikkje skulle overleve kla...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>1</td>
+      <td>Familie, Komedie, TV-Serie</td>
+      <td>En moderne familie S01</td>
+      <td>Modern Family</td>
+      <td>http://p3.no/filmpolitiet/2011/02/en-moderne-f...</td>
+      <td>En moderne familie</td>
+      <td>En sympatisk situasjonskomedie fra skaperne av...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>1 og 2</td>
+      <td>Action, Drama, Krim, Thriller, TV-Serie</td>
+      <td>Wallander</td>
+      <td>Wallander</td>
+      <td>http://p3.no/filmpolitiet/2011/01/wallander-bbc/</td>
+      <td>Wallander</td>
+      <td>Vakker krimserie fra BBC med tredagersskjegg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>1</td>
+      <td>Action, Eventyr, Thriller, TV-Serie</td>
+      <td>Human Target S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/12/human-target...</td>
+      <td>Human Target</td>
+      <td>Action, eventyr og den rette dosen humor.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>5</td>
+      <td>Action, Drama, Eventyr, Thriller</td>
+      <td>Supernatural S05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/12/supernatural...</td>
+      <td>Supernatural</td>
+      <td>Skremmende godt om Lucifer og dommedag.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>2</td>
+      <td>Action, Sci-fi</td>
+      <td>Star Wars: The Clone Wars S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/12/star-wars-th...</td>
+      <td>Star Wars: The Clone Wars S02</td>
+      <td>Episk lasersverdsvingende action!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Community S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/community-s01/</td>
+      <td>Community</td>
+      <td>Topp collegehumor ved sjarmerende Greendale Co...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>1</td>
+      <td>Komedie, Romantikk, TV-Serie</td>
+      <td>Dag S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/dag-s01/</td>
+      <td>Dag</td>
+      <td>Skakkjørte folk på godt norsk forknytt vis.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>341</th>
+      <td>2</td>
+      <td>Action, Drama, Eventyr, Komedie, Romantikk</td>
+      <td>Merlin S2</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/the-adventur...</td>
+      <td>The Adventures of Merlin</td>
+      <td>Et spennende eventyr det er verdt å se!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>1</td>
+      <td>Drama, Komedie</td>
+      <td>Bored to Death S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/bored-to-dea...</td>
+      <td>Bored to Death</td>
+      <td>Kjedsommelighetens uutholdelige letthet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>343</th>
+      <td>6</td>
+      <td>Eventyr, Sci-fi, Thriller, TV-Serie</td>
+      <td>Lost S06</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/lost-s06/</td>
+      <td>Lost S06</td>
+      <td>Fansen fekk sitt endelege punktum.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>1</td>
+      <td>Action, Drama, Historisk, Krig, TV-Serie</td>
+      <td>The Pacific</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/11/the-pacific/</td>
+      <td>The Pacific</td>
+      <td>Dystert og uheroisk krigsdrama</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>345</th>
+      <td>4</td>
+      <td>Action, Sci-fi</td>
+      <td>Battlestar Galactica S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/battlestar-g...</td>
+      <td>Battlestar Galactica SE04</td>
+      <td>En verdig og vakker avslutning på sci-fi-event...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>20</td>
+      <td>Animert, Familie, Komedie, TV-Serie</td>
+      <td>The Simpsons S20</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/the-simpsons...</td>
+      <td>The Simpsons</td>
+      <td>En animert tjueåring med æren i behold!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>347</th>
+      <td>3</td>
+      <td>Erotikk, Komedie, Romantikk, TV-Serie</td>
+      <td>Californication S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/californicat...</td>
+      <td>Californication</td>
+      <td>Klinings, pulings og marijuana!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>4</td>
+      <td>Komedie, TV-Serie</td>
+      <td>How I Met Your Mother S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/how-i-met-yo...</td>
+      <td>How I Met Your Mother</td>
+      <td>Litt sårere, litt voksnere og fortsatt herlig ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>3</td>
+      <td>Komedie, TV-Serie</td>
+      <td>How I Met Your Mother S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/how-i-met-yo...</td>
+      <td>How I Met Your Mother</td>
+      <td>Sitkomens revansj blir bare bedre og bedre!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>350</th>
+      <td>1 og 2</td>
+      <td>Komedie, TV-Serie</td>
+      <td>The Thick Of It</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/the-thick-of...</td>
+      <td>The Thick Of It</td>
+      <td>Herlig humor av høy klasse!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>351</th>
+      <td>1</td>
+      <td>Action, Drama, Thriller, TV-Serie</td>
+      <td>The Kill Point SE01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/the-kill-poi...</td>
+      <td>The Kill Point</td>
+      <td>Heftig gisseldrama i åtte deler.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>1</td>
+      <td>Komedie, TV-Serie</td>
+      <td>Eastbound &amp; Down S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/08/eastbound-an...</td>
+      <td>Eastbound and Down</td>
+      <td>Pupper, banning og knusing av ruter.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>353</th>
+      <td>3</td>
+      <td>Drama, Krim, Thriller</td>
+      <td>Dexter SE03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/06/dexter-seson...</td>
+      <td>Dexter</td>
+      <td>Sjarmerende og sjokkerende på DVD!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>354</th>
+      <td>Sesong 2</td>
+      <td>Drama, Spesialinteresser, TV-Serie</td>
+      <td>In Treatment S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/06/in-treatment/</td>
+      <td>In Treatment</td>
+      <td>Opplev psykoterapi uten å forlate sofaen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>355</th>
+      <td>1</td>
+      <td>Drama, Komedie, Romantikk</td>
+      <td>Nurse Jackie S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/05/nurse-jackie/</td>
+      <td>Nurse Jackie</td>
+      <td>– Vanvittig god serie, mener Torfinn!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>2</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men (sesong 2)</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2009/07/mad-men-seso...</td>
+      <td></td>
+      <td>TV-underholdning av høyeste kvalitet!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>357</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men (sesong 1)</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2008/12/mad-men-seso...</td>
+      <td>Mad Men</td>
+      <td>Stilig, underholdende og sofistikert!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>358</th>
+      <td>1</td>
+      <td>Drama</td>
+      <td>The Handmaid’s Tale S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/the-handmaid...</td>
+      <td>The Handmaid's Tale</td>
+      <td>En dyster nytelse.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>3</td>
+      <td>Drama, Eventyr</td>
+      <td>The Leftovers S03 E01 – 07</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/04/the-leftover...</td>
+      <td>The Leftovers</td>
+      <td>Mesterlig fortalt om sorg, savn og tap.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>360</th>
+      <td>1</td>
+      <td>Action, Drama, TV-Serie</td>
+      <td>Legion S01 E01 – E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2017/02/legion-s01-e...</td>
+      <td>Legion</td>
+      <td>Tar superheltserien til nye høyder.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>1</td>
+      <td>Drama, Komedie, TV-Serie</td>
+      <td>Atlanta S01 E01 – E08</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2016/10/atlanta-s01-...</td>
+      <td>Atlanta</td>
+      <td>Smart, smårar og stemningsfull hip hop-komedie.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>1</td>
+      <td>Biografi, Dokumentar, Krim, TV-Serie</td>
+      <td>OJ Simpson – Made in America</td>
+      <td>O.J.: - Made in America</td>
+      <td>http://p3.no/filmpolitiet/2016/08/oj-simpson-m...</td>
+      <td>OJ Simpson - Made in America</td>
+      <td>En bauta innen «true crime»-sjangeren.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>2</td>
+      <td>Drama, Familie, Komedie, TV-Serie</td>
+      <td>Transparent S02 E01-E03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/12/transparent-...</td>
+      <td>Transparent</td>
+      <td>Et stilstudie i velkomponerte små sammenbrudd.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>2</td>
+      <td>Drama, Historisk, Krim, TV-Serie</td>
+      <td>Fargo S02 E01 – E04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/10/fargo-s02-e0...</td>
+      <td>Fargo</td>
+      <td>Et lunt og blodig mesterverk.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>5</td>
+      <td>Drama, Eventyr</td>
+      <td>Game of Thrones S05 E01-04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Spenningen tilspisser seg i Westeros.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>1</td>
+      <td>Action, Krim, TV-Serie</td>
+      <td>Marvel’s Daredevil S01 E01-E05</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2015/04/marvels-dare...</td>
+      <td>Marvel's Daredevil</td>
+      <td>Suveren superheltserie.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>None</td>
+      <td>Drama, Eventyr</td>
+      <td>Gjengangerne S01 E01-02</td>
+      <td>Les Revenants (The Returned)</td>
+      <td>http://p3.no/filmpolitiet/2014/03/gjengangerne...</td>
+      <td>Gjengangerne</td>
+      <td>Når vi døde vil ha kveldsmat.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>1</td>
+      <td>Drama, Krim</td>
+      <td>True Detective S01 E01-03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2014/01/true-detecti...</td>
+      <td>True Detective</td>
+      <td>HBOs nye krimserie er et strålende og stemning...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>None</td>
+      <td>Drama, Krim, Thriller, TV-Serie</td>
+      <td>Top of the Lake</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/12/top-of-the-l...</td>
+      <td>Top of the Lake</td>
+      <td>En rystende krimserie.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>None</td>
+      <td>Action, Drama</td>
+      <td>Breaking Bad S05</td>
+      <td>Breaking Bad</td>
+      <td>http://p3.no/filmpolitiet/2013/10/breaking-bad...</td>
+      <td>Breaking Bad</td>
+      <td>Blood, toil, tears… and meth.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>3</td>
+      <td></td>
+      <td>Game of Thrones S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/06/game-of-thro...</td>
+      <td>Game of Thrones S03</td>
+      <td>Det blir ikke bedre enn dette.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>3</td>
+      <td>Drama, Eventyr</td>
+      <td>Game of Thrones S03 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/03/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Kvalitet – og Kristofer Hivju, er stikkordene ...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>373</th>
+      <td>to episoder av S01</td>
+      <td>Drama, TV-Serie</td>
+      <td>House of Cards S01 E01-02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2013/01/house-of-car...</td>
+      <td></td>
+      <td>The West Wing sin vonde tvillingbror.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>2</td>
+      <td>Drama, Komedie, Krim, TV-Serie</td>
+      <td>Sherlock S2</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/06/sherlock-s02/</td>
+      <td>Sherlock</td>
+      <td>Den moderne Sherlock held fram i same stil. Yp...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>2</td>
+      <td>Drama</td>
+      <td>Treme s02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/05/treme-s02/</td>
+      <td>Treme</td>
+      <td>Katastrofehåndtering av ypperste slag.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>2</td>
+      <td>Drama, Eventyr</td>
+      <td>Game of Thrones S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/05/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Det episke dramaet forsetter i andre sesong av...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>377</th>
+      <td>1</td>
+      <td>Action, Eventyr, TV-Serie</td>
+      <td>Game of Thrones S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2012/01/game-of-thro...</td>
+      <td>Game of Thrones</td>
+      <td>Det beste som har skjedd fantasysjangeren på t...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>378</th>
+      <td>1</td>
+      <td>Krim, Thriller, TV-Serie</td>
+      <td>Broen</td>
+      <td>Bron</td>
+      <td>http://p3.no/filmpolitiet/2012/01/broen-norges...</td>
+      <td>Broen</td>
+      <td>Alt du kan ønske deg fra en dansk-svensk spenn...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>None</td>
+      <td>Drama, Western</td>
+      <td>Deadwood – The Ultimate Collection</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/10/deadwood-the...</td>
+      <td>Deadwood - The Ultimate Collection</td>
+      <td>En skinnende westernperle fra nybrottstiden!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>2</td>
+      <td>Drama, Thriller, TV-Serie</td>
+      <td>Breaking Bad S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/10/breaking-bad...</td>
+      <td>Breaking Bad</td>
+      <td>The Sopranos har definitivt fått sin arvtager!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>2</td>
+      <td>Dokumentar, Komedie, TV-Serie</td>
+      <td>En moderne familie S02</td>
+      <td>Modern Family</td>
+      <td>http://p3.no/filmpolitiet/2011/09/en-moderne-f...</td>
+      <td>En moderne familie</td>
+      <td>En perfekt mocku-komedie – full klaff for seso...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>Treme S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/02/treme-s01/</td>
+      <td></td>
+      <td>Optimisme og kamp i en rimelig rasert by</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>1</td>
+      <td>Action, Drama, Familie, Thriller, TV-Serie</td>
+      <td>The Sopranos S01</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/01/the-sopranos...</td>
+      <td>The Sopranos</td>
+      <td>Ser vanvittig bra ut på Blu-ray og ruver forts...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>1</td>
+      <td>Drama, TV-Serie</td>
+      <td>Koselig med peis</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2011/01/koselig-med-...</td>
+      <td>Koselig med peis</td>
+      <td>En serie jeg er glad jeg har sett!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>4</td>
+      <td>Action, Krim, Thriller, TV-Serie</td>
+      <td>Dexter S04</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/10/dexter-s04/</td>
+      <td>Dexter</td>
+      <td>Intens sesong der alt står på spill!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>3</td>
+      <td>Drama, TV-Serie</td>
+      <td>Mad Men S03</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/06/mad-men-seso...</td>
+      <td>Mad Men</td>
+      <td>Fremdeles fantastisk seriegull!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>387</th>
+      <td>1-4</td>
+      <td>Animert, Eventyr, Komedie, Sci-fi, TV-Serie</td>
+      <td>Futurama</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/06/futurama/</td>
+      <td>Futurama</td>
+      <td>Intergalaktisk genialitet!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>1</td>
+      <td>Action, Drama, Historisk, Krig, TV-Serie</td>
+      <td>Tidenes beste krigsserie</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/06/fikk-du-ikke...</td>
+      <td>Generation Kill</td>
+      <td>Gjensyn med Generation Kill på NRK3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td>1 og 2</td>
+      <td>Action, Drama, Komedie, Krim, Skrekk, Thriller...</td>
+      <td>Riket</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2010/05/riket/</td>
+      <td>Riket</td>
+      <td>Skandinavias største kultserie. På NRK.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>1-4</td>
+      <td>Drama</td>
+      <td>The Wire (sesong 1-4)</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2008/02/the-wire-ses...</td>
+      <td>The Wire</td>
+      <td>The Wire vil gjøre deg avhengig, men på en god...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>1-2</td>
+      <td>Drama, Eventyr, Krim</td>
+      <td>Twin Peaks – definitive gold box edition</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2007/11/twin-peaks-d...</td>
+      <td>Twin Peaks - definitive gold box edition</td>
+      <td>Gull for Twin Peaks-fans!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>None</td>
+      <td>Drama, Historisk, TV-Serie</td>
+      <td>Rome S02</td>
+      <td>None</td>
+      <td>http://p3.no/filmpolitiet/2007/09/rome-02/</td>
+      <td>Rome S02</td>
+      <td>Toppen innen tv-drama akkurat nå!</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+  </body>
+  
+  <script type="text/javascript">
+  $(document).ready(function() 
+    { 
+        $("#myTable").tablesorter(); 
+    } 
+); 
+    
+    </script>
+</html>

@@ -1,0 +1,5144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- choose a theme file -->
+<link rel="stylesheet" href="http://tablesorter.com/themes/blue/style.css">
+<!-- load jQuery and tablesorter scripts -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.15/js/jquery.tablesorter.js"></script>
+
+  </head>
+  <body>
+    <table border="1" class="tablesorter" id = "myTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>utgiver</th>
+      <th>slippdato</th>
+      <th>plattformer</th>
+      <th>tittel</th>
+      <th>anmeldelse</th>
+      <th>terningkast</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Square Enix</td>
+      <td>17.01.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Final Fantasy: All The Bravest</td>
+      <td>Styr unna!</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Comcept/Inti Creates</td>
+      <td>24.06.2016</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox One</td>
+      <td>Mighty No. 9</td>
+      <td>Lever på ingen måte opp til sin tunge spelhist...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>None</td>
+      <td>05.02.2015</td>
+      <td>PC</td>
+      <td>Cities XXL</td>
+      <td>Skamløs kopi av samme spill fra 2012.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Edge of Reality</td>
+      <td>27.06.2014</td>
+      <td>Nintendo 3DS, Nintendo Wii U, PC, Playstation ...</td>
+      <td>Transformers: Rise of the Dark Spark</td>
+      <td>Et elendig spill med få lyspunkter.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Beenox / Activision</td>
+      <td>02.05.2014</td>
+      <td>iPad, Mobil, Nintendo 3DS, Nintendo Wii U, PC,...</td>
+      <td>The Amazing Spider-Man 2</td>
+      <td>Superheltspill med laber kvalitet.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Coffee Stain Studios</td>
+      <td>01.04.2014</td>
+      <td>PC</td>
+      <td>Goat Simulator</td>
+      <td>Reinspikka – og uferdig – spillgalskap.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>EA / Mythic Entertainment</td>
+      <td>19.12.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Dungeon Keeper</td>
+      <td>Et skrekkens eksempel på hvor galt det kan gå.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Compulsion Games</td>
+      <td>29.11.2013</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360</td>
+      <td>Contrast</td>
+      <td>Gode ideer blir ikke automatisk til et godt sp...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Torus Games</td>
+      <td>30.11.2012</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>Rise of the Guardians</td>
+      <td>Kjedelig trykkeviltspill.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Disney Interactive Studios</td>
+      <td>23.11.2012</td>
+      <td>Nintendo Wii, Nintendo Wii U, PC, Playstation ...</td>
+      <td>Epic Mickey 2: The Power of Two</td>
+      <td>En hån mot Disney-arven.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Cyanide Studios</td>
+      <td>28. juni 2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Tour de France 2012</td>
+      <td>«Are you ready for a grand tour?» Nei.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Ravn Studio</td>
+      <td>19.05.2012</td>
+      <td>Nintendo DS</td>
+      <td>Pippi Langstrømpe</td>
+      <td>Einsformig barneeventyr.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Lionhead Studios</td>
+      <td>02.05.2012</td>
+      <td>Xbox 360</td>
+      <td>Fables Heroes</td>
+      <td>Eventyrspillet uten sjel.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>VectorCell</td>
+      <td>11.01.2012</td>
+      <td>Playstation 3</td>
+      <td>Amy</td>
+      <td>Litt skummelt, mest irriterende.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>THQ</td>
+      <td>15.11.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Saint's Row: The Third</td>
+      <td>Utrolig nok et kjedelig spill.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Ubisoft</td>
+      <td>20.10.2011</td>
+      <td>Nintendo 3DS, Nintendo Wii, PC, Playstation 3,...</td>
+      <td>The Adventures of Tintin: The Game</td>
+      <td>Et billig hasteprosjekt ødelegger et spennende...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Voices Music &amp; Entertainment AS</td>
+      <td>14.9.2011</td>
+      <td>None</td>
+      <td>Alien vs Zombies: The Dark Lurking</td>
+      <td>Under middels debutfilm som lover bra for den ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>None</td>
+      <td>08.08.2011</td>
+      <td>PC</td>
+      <td></td>
+      <td>Kunstjåleri utkledd som spill.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Ubisoft</td>
+      <td>21.07.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Call of Juarez: The Cartel</td>
+      <td>En forhastet fadese.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>EA Games</td>
+      <td>12.07.2011</td>
+      <td>Nintendo DS, Nintendo Wii, PC, Playstation 3, ...</td>
+      <td>Harry Potter and the Deathly Hallows: Part 2 -...</td>
+      <td>– Fikk meg til å sovne på jobben.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Nintendo</td>
+      <td>24.06.2011</td>
+      <td>Nintendo Wii</td>
+      <td>Wii Play: Motion</td>
+      <td>Kjedelig spill – fin kontroller.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2K Games</td>
+      <td>10.06.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Duke Nukem Forever</td>
+      <td>Burde aldri vært gitt ut.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Atari</td>
+      <td>11.02.11</td>
+      <td>PC, Playstation Portable, Xbox 360</td>
+      <td>Test Drive Unlimited 2</td>
+      <td>Skal dette være et bilspill?</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Sketch Games Ltd.</td>
+      <td>8.1.2011</td>
+      <td>iPad</td>
+      <td>ArkanoArena</td>
+      <td>Nyversjonen av Arkanoid fenger ikke</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Obsidian Entertainment</td>
+      <td>28.05.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Alpha Protocol</td>
+      <td>Huff, styr unna!</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Columbia Pictures</td>
+      <td>29.01.2010</td>
+      <td>None</td>
+      <td>Did You Hear About the Morgans?</td>
+      <td>En søt og velmenende, men også forutsigbar og ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Lakeshore Entertainment</td>
+      <td>04.09.2009</td>
+      <td>None</td>
+      <td>The Ugly Truth</td>
+      <td>Er det virkelig plass til denne OG ”The Propos...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Overture Films</td>
+      <td>26.06.2009</td>
+      <td>None</td>
+      <td>Last chance Harvey</td>
+      <td>Voksne mennesker som får en ny sjanse i livet ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Warner Bros. Interactive Entertainment, utvikl...</td>
+      <td>10.03.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Lego Worlds</td>
+      <td>Klossete kontroll i herleg brikkelagt univers.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>ION LANDS</td>
+      <td>07.02.2017</td>
+      <td>PC</td>
+      <td>Phoning Home</td>
+      <td>En altfor uslepen diamant.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Nintendo / Platinum Games</td>
+      <td>22.04.2016</td>
+      <td>Nintendo Wii U</td>
+      <td>Star Fox Zero</td>
+      <td>Wii U-konsollens svanesang.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>EA DICE</td>
+      <td>19.11.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Star Wars: Battlefront</td>
+      <td>Storslått i sine beste øyeblikk, men dem er de...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Activision</td>
+      <td>06.11.2015</td>
+      <td>Playstation 4</td>
+      <td>Call of Duty: Black Ops III</td>
+      <td>Konsollskytespillenes moderskip hviler trygt p...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Limbic Entertainment / Ubisoft</td>
+      <td>29.09.2015</td>
+      <td>PC</td>
+      <td>Might &amp; Magic Heroes VII</td>
+      <td>Ikonisk spillserie på tomgang.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Bethesda Softworks</td>
+      <td>15.06.2015</td>
+      <td>iPad, Mobil</td>
+      <td>Fallout Shelter</td>
+      <td>Mangler den gode historien og dybden spillseri...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Frontier</td>
+      <td>06.03.2015</td>
+      <td>Xbox 360, Xbox One</td>
+      <td>Screamride</td>
+      <td>Enkeltelementene bedre enn helheten.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Ready at Dawn / Sony</td>
+      <td>20.02.2015</td>
+      <td>Playstation 4</td>
+      <td>The Order: 1886</td>
+      <td>Utrolig vakkert, men tomt og kjedelig.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Ubisoft / Ivory Tower</td>
+      <td>02.12.2014</td>
+      <td>PC, Playstation 4, Xbox 360, Xbox One</td>
+      <td>The Crew</td>
+      <td>Når ikke opp til konkurrentene.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Square Enix / Namco Bandai Games</td>
+      <td>09.12.2014</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Lara Croft and the Temple of Osiris</td>
+      <td>Gammelmodig pusleplattformspill som blir bedre...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Ubisoft</td>
+      <td>11.11.2014</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Assassin's Creed Rogue</td>
+      <td>Resirkulert moro i nye farvann.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Activision / Nickelodeon</td>
+      <td>21.10.2014</td>
+      <td>PC, Playstation 3, Playstation 4</td>
+      <td>The Legend of Korra</td>
+      <td>En gavepakke til tilhengerne.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Nintendo / Koei Tecmo</td>
+      <td>19.09.2014</td>
+      <td>Nintendo Wii U</td>
+      <td>Hyrule Warriors</td>
+      <td>Nintendo skusler bort arvesølvet.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>EA Canada</td>
+      <td>12.09.2014</td>
+      <td>Playstation 3, Playstation 4, Xbox 360, Xbox One</td>
+      <td>NHL 15</td>
+      <td>De store manglene kommer til syne utenfor isho...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Mircrosoft Studios / Capcom</td>
+      <td>05.09.2014</td>
+      <td>PC, Xbox One</td>
+      <td>Dead Rising 3</td>
+      <td>Blodig våpenfest i zombieapokalypsen.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Crytek Frankfurt / Microsoft</td>
+      <td>Xbox One: 05.09.2014 PC: 10.10.2014</td>
+      <td>PC, Xbox One</td>
+      <td>Ryse: Son of Rome</td>
+      <td>Ikke bra nok som lanseringsspill for Xbox One.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Nintendo</td>
+      <td>06.06.2014</td>
+      <td>Nintendo 3DS</td>
+      <td>Tomodachi Life</td>
+      <td>Trivelig, men kjedelig spill fra livet på en N...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Trials Fusion</td>
+      <td>Amputert motorsykkelgalskap.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Kojima Productions / Konami</td>
+      <td>20.03.2014</td>
+      <td>Playstation 3, Playstation 4, Xbox 360, Xbox One</td>
+      <td>Metal Gear Solid V: Ground Zeroes</td>
+      <td>Gjør den legendariske spillserien en bjørnetje...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Eidos / Square Enix</td>
+      <td>28.02.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Thief</td>
+      <td>Skuffende gjensyn med en spillhistoriens mest ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Sony Computer Entertainment Europe / SCE Japan...</td>
+      <td>29.11.2013</td>
+      <td>Playstation 4</td>
+      <td>Knack</td>
+      <td>Med en fot i gårsdagen.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Nimblebit</td>
+      <td>07.11.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Star Wars: Tiny Death Star</td>
+      <td>En tro kopi av «Tiny Tower».</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Nintendo</td>
+      <td>25.10.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>Wii Party U</td>
+      <td>Festen tar aldri helt av.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Sony Japan Studios</td>
+      <td>02.10.2013, via Playstation Network</td>
+      <td>Playstation 3</td>
+      <td>Rain</td>
+      <td>Ei sterkt begrensa reise gjennom ein forlatt by.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Nintedo</td>
+      <td>23.08.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>The Wonderful 101</td>
+      <td>Repeterende, kortvarig, intenst og repeterende.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Rodeo Games / Games Workshop</td>
+      <td>30.05.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Warhammer Quest</td>
+      <td>Godt spill for fansen, men for tregt for alle ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Star Command</td>
+      <td>Ekstremt utfordrende.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Bossa Studios</td>
+      <td>19.04.2013</td>
+      <td>PC</td>
+      <td>Surgeon Simulator 2013</td>
+      <td>Advarsel: Denne anmeldelsen inneholder video o...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Greenheart Games</td>
+      <td>29-04.2013</td>
+      <td>Mac, PC</td>
+      <td>Game Dev Tycoon</td>
+      <td>Har du lyst til å bli spillskaper? Spill dette...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Deep Silver</td>
+      <td>26.04.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dead Island: Riptide</td>
+      <td>To år etter er oppfølgjaren framleis ferdigsti...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>EA / Maxis</td>
+      <td>08.03.2013</td>
+      <td>Mac, PC</td>
+      <td>SimCity</td>
+      <td>Lever ikke opp til seriens høye standard.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Nintendo</td>
+      <td>30.11.2012</td>
+      <td>Nintendo Wii U</td>
+      <td>Wii U</td>
+      <td>Tre måneder er gått – Wii U fremstår som et li...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>SEGA</td>
+      <td>12.02.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Aliens: Colonial Marines</td>
+      <td>Mange mangler og svakheter.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Double Fine</td>
+      <td>23.01.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>The Cave</td>
+      <td>Haltende comeback for spillegende.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>Insomniac Games</td>
+      <td>30. november 2012</td>
+      <td>Playstation 3, PSVita</td>
+      <td>Ratchet &amp; Clank: Q-Force</td>
+      <td>Eit litt vaklevorent forsvarsverk.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>Nintendo</td>
+      <td>30.11.2012</td>
+      <td>Nintendo Wii U</td>
+      <td>Nintendo Land</td>
+      <td>For dårlig til å selge Wii U-konsoller.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>SCE Entertainment</td>
+      <td>21. november 2012</td>
+      <td>Playstation 3, PSVita</td>
+      <td>Playstation All-Stars Battle Royale</td>
+      <td>Godt kampsystem – utan ei heilskapleg ramme.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>EA / Danger Close</td>
+      <td>25.10.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Medal of Honor: Warfighter</td>
+      <td>Stiller ikke de vanskelige spørsmålene.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>Lionhead Studios</td>
+      <td>12.10.2012</td>
+      <td>Xbox 360</td>
+      <td>Fable: The Journey</td>
+      <td>Det kunne vært magi, men nok en gang ødelegger...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Capcom</td>
+      <td>2. oktober 2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Resident Evil 6</td>
+      <td>Som en Michael Bay-film med mentometerknapp.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>Ubisoft</td>
+      <td>27.09.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Rocksmith</td>
+      <td>For lite, for seint.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Sony Computer Entertainment Europe</td>
+      <td>12.09.2012</td>
+      <td>PSVita</td>
+      <td>Ecolibrium</td>
+      <td>Denne spillopplevelsen er dyrere enn du tror.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>SCE Japan Studio</td>
+      <td>26. september 2012</td>
+      <td>Playstation 3</td>
+      <td>Tokyo Jungle</td>
+      <td>Menneska har forsvunne, kjæledyra har blitt vi...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Saber Interactive</td>
+      <td>12. juli 2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Inversion</td>
+      <td>Gravitasjonsbasert moro utan særleg tyngde.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Nintendo og Camelot</td>
+      <td>25.05.2012</td>
+      <td>Nintendo 3DS</td>
+      <td>Mario Tennis Open</td>
+      <td>Mario-spel utan Mario-særpreg.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>The Workshop, SCE Santa Monica Studio</td>
+      <td>22. mai, 2012</td>
+      <td>Playstation 3</td>
+      <td>Sorcery</td>
+      <td>Underhaldande, men for mykje tapt potensiale.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>Konami</td>
+      <td>29.03.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Silent Hill HD Collection</td>
+      <td>Teknisk utdatert, men like skummelt som før.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>Paradox Interactivce / Turbo Tape Games</td>
+      <td>10.04.2012</td>
+      <td>PC</td>
+      <td>Naval War: Arctic Circle</td>
+      <td>Omfattende og vanskelig strategispill fra nors...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>LucasArts</td>
+      <td>06.04.2012</td>
+      <td>Xbox 360</td>
+      <td>Kinect Star Wars</td>
+      <td>En Star Wars-opplevelse helt midt på treet.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Nintendo</td>
+      <td>23.03.2012</td>
+      <td>Nintendo 3DS</td>
+      <td>Kid Icarus: Uprising</td>
+      <td>Skuffende gjensyn med gammel spillhelt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>Sega</td>
+      <td>16.03.2012</td>
+      <td>Playstation 3</td>
+      <td></td>
+      <td>Zombiene er statister i sitt eget spill.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Bigbig Studios / SCEE</td>
+      <td>22.02.2012</td>
+      <td>PSVita</td>
+      <td>Little Deviants</td>
+      <td>Intenst, men ikke morsomt i lengden.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>OMGPOP</td>
+      <td>6.2.2012</td>
+      <td>iPad, Mobil</td>
+      <td>Draw Something</td>
+      <td>På sitt beste: kreativt og avslørende. På sitt...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Sega Sports Japan</td>
+      <td>18.11.2011</td>
+      <td>Nintendo 3DS, Nintendo Wii</td>
+      <td>Mario &amp; Sonic at the London 2012 Olympic Games</td>
+      <td>Beste OL-gren? Synkronsvømming!</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Level 5</td>
+      <td>25.11.2011</td>
+      <td>Nintendo DS</td>
+      <td>Professor Layton and the Spectre's Call</td>
+      <td>Klassisk fiklespill, som mister sjarmen.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Z-Axis</td>
+      <td>16.11.2011</td>
+      <td>Playstation 3</td>
+      <td>Medieval Moves</td>
+      <td>Skjeletteventyr på skinner.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Magic Pixel Games</td>
+      <td>09.11.2011</td>
+      <td>Playstation 3</td>
+      <td>Carnival Island</td>
+      <td>Lite variasjon på koselig tivoli.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Ubisoft</td>
+      <td>27.07.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>From Dust</td>
+      <td>Et lite spill, som gjerne vil være noe stort.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>Spike Games</td>
+      <td>06.07.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Deadliest Warrior: Legends</td>
+      <td>Den historiske lemlestelsesfesten fortsetter.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Sucker Punch Productions</td>
+      <td>10.06.2011</td>
+      <td>Playstation 3</td>
+      <td>inFamous 2</td>
+      <td>Slett håndverk.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>None</td>
+      <td>08.06.2011</td>
+      <td>Playstation 3</td>
+      <td></td>
+      <td>Final Fantasy møter World of Warcraft</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>Ubisoft</td>
+      <td>25.03.2011</td>
+      <td>Nintendo 3DS</td>
+      <td>Rayman 3D</td>
+      <td>Nostalgi er ikke nok til å gjøre Rayman bra på...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Nintendo / Square Enix</td>
+      <td>04.02.2011</td>
+      <td>Nintendo Wii</td>
+      <td>Mario Sports Mix</td>
+      <td>Halvkokt pasta fra den lubne italieneren.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Electronic Arts Inc.</td>
+      <td>14.12.2010</td>
+      <td>iPad</td>
+      <td>RISK HD</td>
+      <td>Knus dine fiender på en lavmælt måte.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>Activision</td>
+      <td>05.11.2010</td>
+      <td>Nintendo DS, PC, Playstation 3, Xbox 360</td>
+      <td>Blood Stone 007</td>
+      <td>James Bond på lavt budsjett.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>Activision</td>
+      <td>05.11.2010</td>
+      <td>Nintendo DS, Nintendo Wii</td>
+      <td>GoldenEye 007</td>
+      <td>Kun for nostalgikere.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Microsoft Game Studios</td>
+      <td>29.10.2010</td>
+      <td>Xbox 360</td>
+      <td>Fable 3</td>
+      <td>Resirkulert eventyr.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>EA</td>
+      <td>14.10.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Medal of Honor</td>
+      <td>Krigsspill uten brodd.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>2K Games</td>
+      <td>27.08.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Mafia II</td>
+      <td>Jeg føler meg lurt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Ruffian Studios</td>
+      <td>09.07.2010</td>
+      <td></td>
+      <td>Crackdown 2</td>
+      <td>Hva? Er det dette jeg har ventet på?</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Fox 2000 Pictures</td>
+      <td>12.02.2010</td>
+      <td>None</td>
+      <td>Percy Jackson &amp; Lyntyven</td>
+      <td>Den er ikke uten kvaliteter, men oppleves som ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>Universal Pictures</td>
+      <td>26.12.2009</td>
+      <td>None</td>
+      <td>It's Complicated</td>
+      <td>Voksen kjærlighet med bauta Meryl Streep.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>Warp Film</td>
+      <td>6.11.2009</td>
+      <td>None</td>
+      <td>Law Abiding Citizen</td>
+      <td>Gerard Butler slipper hevnlysten fri!</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>Alphaville Productions</td>
+      <td>9.10.2009</td>
+      <td>None</td>
+      <td>Svik</td>
+      <td>Lene Nystrøms skuespillerdebut er en klassisk ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Touchstone Pictures</td>
+      <td>2.10.2009</td>
+      <td>None</td>
+      <td>Surrogates</td>
+      <td>”Surrogates” er en fantasifull science fiction...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>Lakeshore Entertainment</td>
+      <td>4.09.2009</td>
+      <td>None</td>
+      <td></td>
+      <td>Jeg elsket duoen Neveldine/Taylors regidebut, ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Paramount Pictures</td>
+      <td>24.06.2009</td>
+      <td>None</td>
+      <td>Transformers: De beseirede slår tilbake</td>
+      <td>Her er det for mye av alt.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Activision</td>
+      <td>30.06.2017</td>
+      <td>Playstation 4</td>
+      <td>Crash Bandicoot N. Sane Triology</td>
+      <td>Snadder for nostalgikeren.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>Focus Home Interactive</td>
+      <td>16.05.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>The Surge</td>
+      <td>Solid science fiction som mangler litt personl...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Red Barrels Studio</td>
+      <td>25.04.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Outlast 2</td>
+      <td>Brutal tematikk i en virkelighetstro verden.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Ubisoft</td>
+      <td>07.03.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Tom Clancy's Ghost Recon: Wildlands</td>
+      <td>God underholdning uten sjel.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>Microsoft Studios</td>
+      <td>28.02.2017</td>
+      <td>PC, Xbox One</td>
+      <td>Halo Wars 2</td>
+      <td>You win some, you lose some.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Ubisoft</td>
+      <td>14.02.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>For Honor</td>
+      <td>Den sterkastes rett.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>Rebellion Developments</td>
+      <td>14.02.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Sniper Elite 4</td>
+      <td>Lettsaltet krigspopkorn.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>Nintendo</td>
+      <td>15.12.2016</td>
+      <td>iOS</td>
+      <td>Super Mario Run</td>
+      <td>Super Mario er sjarmerende, også på mobil.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>Infinity Ward, Activision</td>
+      <td>04.11.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Call of Duty: Infinite Warfare</td>
+      <td>Kuler og kulisser.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>Niantic Labs</td>
+      <td>06.07.2016</td>
+      <td>iPad, Mobil</td>
+      <td>Pokémon Go</td>
+      <td>Mekanisk grunn, men sosialt fascinerande, mons...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>EA, DICE</td>
+      <td>09.06.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Mirror's Edge Catalyst</td>
+      <td>Som vaksenversjonen av Leos Lekeland.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>Bethesda</td>
+      <td>13.05.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>DOOM</td>
+      <td>Helvetes nært på.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>Remedy Entertainment</td>
+      <td>05.04.2016</td>
+      <td>PC, Xbox One</td>
+      <td>Quantum Break</td>
+      <td>Interessant historiefortelling i et underholde...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>IO Interactive</td>
+      <td>11.03.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Hitman</td>
+      <td>En smakebit på det som kan bli en bli en strål...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>Ubisoft Montreal</td>
+      <td>23.02.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Far Cry Primal</td>
+      <td>Historien engasjerer ikke, men her er det fler...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>Campo Santo</td>
+      <td>09.02.2016</td>
+      <td>PC, Playstation 4</td>
+      <td>Firewatch</td>
+      <td>Firewatch er et interessant spill som utforske...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>Sony Computer Entertainment</td>
+      <td>29.01.2016</td>
+      <td>Playstation 4</td>
+      <td>Gravity Rush Remastered</td>
+      <td>Gravity Rush Remastered er en morsom lek med t...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>Ubisoft Montreal</td>
+      <td>01.12.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Tom Clancy's Rainbow Six Siege</td>
+      <td>Skaper spenning med urovekkende aktuell terror...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>Activision</td>
+      <td>06.11.2015</td>
+      <td>Playstation 4</td>
+      <td></td>
+      <td>Mer mobilitet, mer fart, mer personlig. Vi har...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>Crystal Dynamics, Square Enix</td>
+      <td>13.11.2015</td>
+      <td>Xbox 360, Xbox One</td>
+      <td>Rise of the Tomb Raider</td>
+      <td>Lara Croft er tilbake – tøffere enn noensinne.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>Ubisoft</td>
+      <td>03.11.2015</td>
+      <td>PC</td>
+      <td>Anno 2205</td>
+      <td>En forenklet framtid uten brodd</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>Funcom</td>
+      <td>27.10.2015</td>
+      <td>PC</td>
+      <td>The Park</td>
+      <td>Et nifst, men litt uforløst skrekkspill.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>Ubisoft</td>
+      <td>23.10.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Assassin's Creed: Syndicate</td>
+      <td>Et gjennomført spill, men bringer lite nytt på...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Sony Computer Entertainment</td>
+      <td>08.09.2015</td>
+      <td>Playstation 4</td>
+      <td>Tearaway Unfolded</td>
+      <td>Tearaway Unfolded er en syltynn sjarmoffensiv ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>Sony Computer Entertainment</td>
+      <td>26.08.2015</td>
+      <td>Playstation 4</td>
+      <td>Until Dawn</td>
+      <td>Et solid spill-møter-film med ekte skuespiller...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>Tiger &amp; Squid, Team17 Digital Ltd</td>
+      <td>Xbox One: 04.08.2015 PC: 11.08.2015</td>
+      <td>PC, Xbox One</td>
+      <td>Beyond Eyes</td>
+      <td>En fascinerende opplevelse.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>Double Fine</td>
+      <td>01.06.2015</td>
+      <td>None</td>
+      <td>Massive Chalice</td>
+      <td>Målet er ikke viktig – det er derimot reisen d...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>NetherRealm Studios</td>
+      <td>14.04.2015</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Mortal Kombat X</td>
+      <td>Mer blodig enn noensinne.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>Visceral Games / EA</td>
+      <td>19.03.2015</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Battlefield: Hardline</td>
+      <td>Politi og røvere som ikke er i Kardemomme by.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>Square Enix</td>
+      <td>20.03.2015</td>
+      <td>Playstation 4, Xbox One</td>
+      <td>Final Fantasy Type-0 HD</td>
+      <td>Et overveldende gjensyn.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>Moon Studios / Microsoft Studios</td>
+      <td>11.03.2015</td>
+      <td>PC, Xbox 360, Xbox One</td>
+      <td>Ori &amp; the Blind Forest</td>
+      <td>Et vakkert spillmaleri med kjente rammer.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>Rock Pocket Games</td>
+      <td>04.03.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Shiftlings</td>
+      <td>Kreativt plattformspill fra Tønsberg.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>2k Games / Turtle Rock Studios</td>
+      <td>10.02.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Evolve</td>
+      <td>Er fire mot en urettferdig? Nei, ikke i dette ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>Dontnod Entertainment</td>
+      <td>29.02.2015</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Life is Strange</td>
+      <td>Kun et oppspark til det som kan bli en strålen...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>Double Fine / Lucasarts</td>
+      <td>Original: 30.10.1998 Remastered: 27.01.2015</td>
+      <td>Linux, Mac, PC, Playstation 4, PSVita</td>
+      <td>Grim Fandango Remastered</td>
+      <td>Halvhjertet oppgradering av spillklassiker.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>Sony Computer Entertainment Europe / Sumo Digi...</td>
+      <td>26.11.2014</td>
+      <td>Playstation 3, Playstation 4</td>
+      <td>LittleBigPlanet 3</td>
+      <td>Nytt spillstudio tar spillserien i en ny retning.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>Firaxis Games</td>
+      <td>24.10.2014</td>
+      <td></td>
+      <td>Sid Meier's Civilization: Beyond Earth</td>
+      <td>Enveisbillett til en ny fremtid for menneskehe...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>Red Thread Games</td>
+      <td>21.10.2014</td>
+      <td>Linux, Mac, PC</td>
+      <td>Drømmefall kapitler</td>
+      <td>Historien sprenger seg ut av episodeformatet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>The Creative Assembly / SEGA</td>
+      <td>07.10.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Alien: Isolation</td>
+      <td>En nådeløs kamp for å overleve.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>20th Century Fox</td>
+      <td>19.09.2014</td>
+      <td>None</td>
+      <td>The Maze Runner</td>
+      <td>En spennende ungdomsfilm med litt svak slutt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>Maxis / Electronic Arts</td>
+      <td>04.09.2014</td>
+      <td>Mac, PC</td>
+      <td>The Sims 4</td>
+      <td>Ett steg frem, to tilbake.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>MachineGames / Bethesda Softworks</td>
+      <td>20.05.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Wolfenstein: The New Order</td>
+      <td>En nazist, to nazister, og vips, tre hundrevis...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>Traveller's Tales / Warner Bros</td>
+      <td>11.04.2014</td>
+      <td>Nintendo 3DS, Nintendo Wii U, PC, Playstation ...</td>
+      <td>Lego The Hobbit</td>
+      <td>Trygt og morsomt spill for store og små.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>Sucker Punch Productions</td>
+      <td>21.03.2014</td>
+      <td>Playstation 4</td>
+      <td>Infamous: Second Son</td>
+      <td>Et ekte nestegenerasjons konsollspill!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>Ubisoft</td>
+      <td>06.03.2014</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>South Park: The Stick of Truth</td>
+      <td>Skikkelig drøyt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>Megapop</td>
+      <td>26.02.2014</td>
+      <td>iPad, Mobil</td>
+      <td>Trolls vs. Vikings</td>
+      <td>Et godt – og noe uoriginalt – «tower defence»-...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>None</td>
+      <td></td>
+      <td>Nintendo Wii U</td>
+      <td>Donkey Kong Country: Tropical Freeze</td>
+      <td>Onde vikingpingviner inntar sydhavet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Anmeldelse: Playstation 4</td>
+      <td>Starten på et nytt spilleventyr.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>None</td>
+      <td></td>
+      <td>Playstation 4</td>
+      <td>Killzone: Shadow Fall</td>
+      <td>Playstation 4 viser muskler.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>Activision / Infinity Ward</td>
+      <td>05.11.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Playstation...</td>
+      <td>Call of Duty: Ghosts</td>
+      <td>Lite nytt fra frontlinjene.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>Warner Bros. Games Montréal</td>
+      <td>25.10.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Batman: Arkham Origins</td>
+      <td>Lever ikke opp til kvaliteten vi har lært å fo...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>Ubisoft</td>
+      <td>29.10.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Playstation...</td>
+      <td>Assassin's Creed IV: Black Flag</td>
+      <td>Ut på bøljan blå!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>Sega</td>
+      <td>18.10.2013</td>
+      <td>Nintendo 3DS, Nintendo Wii U</td>
+      <td>Sonic Lost World</td>
+      <td>En fargeeksplosjon.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>Nintendo</td>
+      <td>12.10.2013</td>
+      <td>Nintendo 3DS</td>
+      <td>Pokémon X og Y</td>
+      <td>Et vanvittig tidssluk.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>Quantic Dream</td>
+      <td>11.10.2013</td>
+      <td>Playstation 3</td>
+      <td>Beyond: Two Souls</td>
+      <td>Er dette fremtiden for Hollywood-skuespillere?</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Disney Infinity</td>
+      <td>God underholdning for de små, lommeboktortur f...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>Starbreeze Studios</td>
+      <td>07.08.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Brothers: A Tale of Two Sons</td>
+      <td>En er ikke nok, men to kan redde verdenen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>Deep Silver</td>
+      <td>23.08.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Saints Row IV</td>
+      <td>Grovt i kantene, men underholdende og tullete.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>Nintendo</td>
+      <td>12.07.2013</td>
+      <td>Nintendo 3DS</td>
+      <td>Mario &amp; Luigi: Dream Team</td>
+      <td>Mario og Luigi reiser på charterferie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>Abbey Games</td>
+      <td>16.05.2013</td>
+      <td>PC</td>
+      <td>Reus</td>
+      <td>Et økospill for naturfagstimene.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>4A Games / Deep Silver</td>
+      <td>17.05.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Metro: Last Light</td>
+      <td>Mørkt og atmosfærisk om postapokalypsen i Mosk...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>SCEE</td>
+      <td>28.03.2013</td>
+      <td>Playstation 3, PSVita</td>
+      <td>Sly Cooper: Thieves in Time</td>
+      <td>Et trivelig gjensyn.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>Pixel Licker</td>
+      <td>04.04.2013</td>
+      <td>iPad, Mobil, PC</td>
+      <td>Slayin'</td>
+      <td>Indie-retro-action-RPG – med referansane på re...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>TT Games</td>
+      <td>28.03.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>LEGO City Undercover</td>
+      <td>Fargerikt LEGO-spill for store og små.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>None</td>
+      <td>22.03.2013</td>
+      <td>Xbox 360</td>
+      <td>Gears of War: Jugdment</td>
+      <td>Frisk vri på kjent spillserie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>Sony Computer Entertainment</td>
+      <td>13.03.2013</td>
+      <td>Playstation 3</td>
+      <td>God of War: Ascension</td>
+      <td>God gammel oppskrift.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>Konami / Platinum Games</td>
+      <td>22.02.2013</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Metal Gear Rising: Revengance</td>
+      <td>Hakeslippøyeblikkene kommer på rekke og rad.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>Crytek Studios</td>
+      <td>22.02.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Crysis 3</td>
+      <td>Et godt actionspill som dessverre blir generis...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>EA</td>
+      <td>08.02.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dead Space 3</td>
+      <td>Effektiv spillgrøsser.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>Social Titans</td>
+      <td>2012</td>
+      <td>iPad, Mobil</td>
+      <td>Pixel Defenders Puzzle</td>
+      <td>Perfekt på bussen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>None</td>
+      <td>30.12.2013</td>
+      <td>PC</td>
+      <td>Proteus</td>
+      <td>Hva definerer et spill?</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>Ubisoft / Nintendo</td>
+      <td>30.11.2012</td>
+      <td>Nintendo Wii U</td>
+      <td>ZombiU</td>
+      <td>Er du mørkeredd?</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>IO Interactive</td>
+      <td>20.11.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Hitman: Absolution</td>
+      <td>Et velpolert snikespill med en svak historie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>Criterion Games / EA</td>
+      <td>02.11.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, PSVita, Xbo...</td>
+      <td>Need for Speed: Most Wanted</td>
+      <td>Lukten av svidd gummi.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>United Front Games / Media Molecule / Sony</td>
+      <td>09.11.2012</td>
+      <td>Playstation 3</td>
+      <td>LittleBigPlanet Karting</td>
+      <td>For råkjørere med skapertrang.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>Ubisoft</td>
+      <td>02.11.2012</td>
+      <td>PSVita</td>
+      <td>Assassin's Creed III: Liberation</td>
+      <td>En sterk kvinnelig figur i nytt Assassin’s Cre...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>Nintendo</td>
+      <td>12. oktober, 2012</td>
+      <td>Nintendo 3DS, Nintendo DS</td>
+      <td>Pokémon Black &amp; White version 2</td>
+      <td>Monstertråkk i velkjende farvatn</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>Konami</td>
+      <td>20. september 2012</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>Pro Evolution Soccer 2013</td>
+      <td>Peser i skyggen av FIFA.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>ArenaNet / NCsoft</td>
+      <td>28.08.2012</td>
+      <td>PC</td>
+      <td>Guild Wars 2</td>
+      <td>En tøff utfordrer til kongen av onlinespill.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>Activision / High Moon Studios</td>
+      <td>24.08.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Transformers: Fall of Cyvertron</td>
+      <td>Maskinporno for fansen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>Vigil Games / THQ</td>
+      <td>21.08.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Darksiders 2</td>
+      <td>Røft, overdrevet og morsomt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>United Front / Square Enix</td>
+      <td>17. august 2012</td>
+      <td>PC, Playstation 3, Skytjenester, Xbox 360</td>
+      <td>Sleeping Dogs</td>
+      <td>Everybody was Hong Kong fighting.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>Nintendo</td>
+      <td>17.08.2012</td>
+      <td>Nintendo 3DS</td>
+      <td>New Super Mario Bros. 2</td>
+      <td>Etterlengtet løft til 3DS-konsollen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>SEGA</td>
+      <td>29.06.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>London 2012: The Official Video Game of the Ol...</td>
+      <td>Gøy med venner, kjedelig alene.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>Yager Development &amp; 2K Games</td>
+      <td>29.06.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Spec Ops: The Line</td>
+      <td>Det næraste ein kjem Apocalypse Now i spelform.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>Airtight Games</td>
+      <td>21.06.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Quantum Conundrum</td>
+      <td>Trivelig hjernetrim til en billig penge.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>Amanita Design</td>
+      <td>19.04.2012</td>
+      <td>PC</td>
+      <td>Botanicula</td>
+      <td>Slik er insektenes hemmelige liv.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>Ubisoft</td>
+      <td>22.05.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Tom Clancy's Gost Recon: Future Soldier</td>
+      <td>USA under angrep!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>Capcom</td>
+      <td>25.05.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Dragon's Dogma</td>
+      <td>Generell heltereise – med heidundrande kampsys...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>Lightbox Interactive / Sone Computer Entertain...</td>
+      <td>09.05.2012</td>
+      <td>Playstation 3</td>
+      <td>Starhawk</td>
+      <td>Western og science fiction i skjønn forening.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>Capcom</td>
+      <td>03.04.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td></td>
+      <td>Eksperimentet som definerte en sjanger.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>EA</td>
+      <td>16.03.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>FIFA Street</td>
+      <td>Lettbeint underholdning.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>Mistwalker / Nintendo</td>
+      <td>24.02.2012</td>
+      <td>Nintendo Wii</td>
+      <td>The Last Story</td>
+      <td>Wii-konsollen er ikke helt død.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>Nintendo</td>
+      <td>02.03.2012</td>
+      <td>Nintendo Wii</td>
+      <td></td>
+      <td>Flaks, frustrasjon og skitne triks.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>Eat Sleep Play</td>
+      <td>07.03.2012</td>
+      <td>Playstation 3</td>
+      <td>Twisted Metal</td>
+      <td>Helsprøtt bilspill  full av gladvold og kaos.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>Starbreeze Studios</td>
+      <td>23.02.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Syndicate</td>
+      <td>Dette skytespillet er intenst på sitt beste, k...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>38 Studios</td>
+      <td>09.02.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Kingdoms of Amalur: Reckoning</td>
+      <td>Heftige kamper, men eventyret har du opplevd før.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>Atlus</td>
+      <td>10.02.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Catherine</td>
+      <td>Bryllup eller evig ungkar? Det er spørsmålet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>Capcom</td>
+      <td>27.01.2012</td>
+      <td>Nintendo 3DS</td>
+      <td>Resident Evil: Revelations</td>
+      <td>Malplassert spillgrøss.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>None</td>
+      <td>20.12.2011</td>
+      <td>PC</td>
+      <td>Star Wars: The Old Republic</td>
+      <td>Lykkes der andre feiler, men feiler der andre ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>Trendy Entertainment LLC</td>
+      <td>19.10.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dungeon Defenders</td>
+      <td>Vanskelig forsvarsspill med fokus på samarbeid.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>None</td>
+      <td>22.02.2012</td>
+      <td>Playstation Portable, PSVita</td>
+      <td>Uncharted: Golden Abyss</td>
+      <td>Tynt eventyr, godt spill!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>Hal Labs</td>
+      <td>25.10.2011</td>
+      <td>Nintendo Wii</td>
+      <td></td>
+      <td>Søtt, søtt og søtt!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>EA Black Box</td>
+      <td>18.11.2011</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>Need for Speed: The Run</td>
+      <td>God idé, dårlig historie.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>SF Norge AS</td>
+      <td>23.11.2011</td>
+      <td>None</td>
+      <td>Dag</td>
+      <td>Kanskje Norges mest unike serie?</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>Ubisoft</td>
+      <td>15.11.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td></td>
+      <td>En litt for familiær opplevelse.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>Sony Computer Entertainment</td>
+      <td>21.10.2011</td>
+      <td>Playstation 3</td>
+      <td>DanceStar Party</td>
+      <td>Dans til du blir svett!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Super Massive Games</td>
+      <td>TBA</td>
+      <td>Playstation 3</td>
+      <td>Start the Party: Save the World</td>
+      <td>Helsprø underholdning som trener lattermusklene.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Activision</td>
+      <td>14.10.2011</td>
+      <td>iPad, Nintendo 3DS, Nintendo Wii, PC, Playstat...</td>
+      <td>Skylanders: Spyro's Adventures</td>
+      <td>Minianmeldelse: Moro for barna, dyrt for forel...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Project Aces</td>
+      <td>14.10.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Ace Combat: Assault Horizon</td>
+      <td>Digger du helsprø action i lufta er dette spil...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>Konami</td>
+      <td>11.10.2011</td>
+      <td>iPad, Mobil, Nintendo 3DS, Nintendo Wii, PC, P...</td>
+      <td>PES 2012</td>
+      <td>FIFA 12 vinner årets fotballduell.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>SF Norge AS</td>
+      <td>5.10.2011</td>
+      <td>None</td>
+      <td>Sons of Anarchy</td>
+      <td>En langdryg opprulling mot et knallhardt slag.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>Nadeo</td>
+      <td>14.09.2011</td>
+      <td>PC</td>
+      <td>Trackmania 2: Canyon</td>
+      <td>Mer av det samme, mer av det bra.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>Fat Cow Games</td>
+      <td>22.09.2011</td>
+      <td>iPad, Mobil</td>
+      <td>Idyllic</td>
+      <td>Lovende norsk iPhone-spill.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>Sony Computer Entertainment Europe</td>
+      <td>7.9.2011</td>
+      <td>Playstation 3</td>
+      <td>Resistance 3</td>
+      <td>En stilig og apokalyptisk spillopplevelse jeg ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>Techland / Deep Silver</td>
+      <td>09.09.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dead Island</td>
+      <td>Solid zombieaction i sydenparadis.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>Spicy Horse</td>
+      <td>16.06.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Alice: Madness Returns</td>
+      <td>Et uhyggelig eventyr med flott visuell stil.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>Rockstar Games</td>
+      <td>20.05.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>L.A. Noire</td>
+      <td>Grei krim fra Los Angeles anno 1947.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>Bethesda Softworks</td>
+      <td>13.5.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Brink</td>
+      <td>Visker ut forskjellen mellom énspiller og fler...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>SCEE</td>
+      <td>19.04.2011</td>
+      <td>Playstation 3</td>
+      <td>SOCOM 4: Special Forces</td>
+      <td>Tøft 3D-spill, med åpenbare svakheter.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>Traveller's Tales</td>
+      <td>25.03.2011</td>
+      <td>Nintendo 3DS, Nintendo DS, Nintendo Wii, PC, P...</td>
+      <td>LEGO Star Wars III: The Clone Wars</td>
+      <td>Fremdeles morsomt med digital plastikk!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>Electronic Arts</td>
+      <td>31.03.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Shift 2: Unleashed</td>
+      <td>Blankpolert realisme i arkadedrakt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>MaxNick 2011</td>
+      <td>18.3.2011</td>
+      <td>iPad</td>
+      <td>Curling3D HD</td>
+      <td>På med klovnebukse og tålmodighet!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>Nintendo</td>
+      <td>25.03.2011</td>
+      <td>Nintendo 3DS</td>
+      <td>Nintendogs + Cats</td>
+      <td>Dette spillet kommer til å smelte hjertet ditt!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>Amuzenet Inc.</td>
+      <td>3.3.2011</td>
+      <td>iPad, Mobil</td>
+      <td>BirdBot</td>
+      <td>Et rart og hyggelig bekjentskap</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>C&amp;K Productions</td>
+      <td>9.3.2011</td>
+      <td>iPad, Mobil</td>
+      <td>Asteriods Classic</td>
+      <td>Moro med nostalgi.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>Double Fine Productions</td>
+      <td>09.02.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Stacking</td>
+      <td>Et dukke(spill)hjem.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>Techland</td>
+      <td>04.02.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Nail'd</td>
+      <td>– Arkademoro av ypperste klasse.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>Capcom</td>
+      <td>14.01.2011</td>
+      <td>iPad, Mobil, Nintendo DS</td>
+      <td>Ghost Trick: Phantom Detective</td>
+      <td>DS er ikke død.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>Halfbrick</td>
+      <td>29.12.2010</td>
+      <td>Xbox 360</td>
+      <td>Raskulls</td>
+      <td>Som Mario Kart til fots!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>Japan Studio</td>
+      <td>22.12.2009</td>
+      <td>Playstation 3</td>
+      <td>Echochrome ii</td>
+      <td>Fersk anbefaling på Playstation Network!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>Propaganda Games</td>
+      <td>26.11.2010</td>
+      <td>Nintendo DS, PC, Playstation 3, Playstation Po...</td>
+      <td>TRON: Evolution</td>
+      <td>Stilig og futuristisk, men også repetitivt og ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>Nintendo / Retro Studios</td>
+      <td>03.12.2010</td>
+      <td>Nintendo Wii</td>
+      <td>Donkey Kong Country Returns</td>
+      <td>De gamle heltene halter.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>Junction Point Studios</td>
+      <td>25.11.2010</td>
+      <td>Nintendo Wii</td>
+      <td>Epic Mickey</td>
+      <td>Store problemer bryter magien i Mikkes eventyr.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>Ubisoft</td>
+      <td>18.11.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Assassin's Creed: Brotherhood</td>
+      <td>Sykt spennende historie, middels spill.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>Sony Computer Entertainment</td>
+      <td>05.11.2010</td>
+      <td>Playstation 3</td>
+      <td>SingStar Dance</td>
+      <td>Ikke vær redd for å drite deg ut!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>Sony Computer Entertainment</td>
+      <td>03.11.2010</td>
+      <td>Playstation 3</td>
+      <td>The Fight: Lights Out</td>
+      <td>Du blir grisesvett av slåssespillet til Move!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>Activision</td>
+      <td>29.10.2010</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>DJ Hero 2</td>
+      <td>Dette er en utvidelse, ikke en oppfølger.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>Sony Computer Entertainment</td>
+      <td>27.10.2010</td>
+      <td>Playstation 3</td>
+      <td>TV Superstars</td>
+      <td>Gøy å drite seg ut med Move!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>Sony Computer Entertainment</td>
+      <td>27.10.2010</td>
+      <td>Playstation 3</td>
+      <td>The Shoot</td>
+      <td>Som en oppgradert versjon av Duck Hunt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>EA Sports</td>
+      <td>22.10.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>EA Sports MMA</td>
+      <td>Grundig juling uten regler!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>Ubisoft</td>
+      <td>10.08.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Scott Pilgrim vs. the World</td>
+      <td>Det beste med spillet er flerspillerdelen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>Activision</td>
+      <td>18.06.10</td>
+      <td>Nintendo DS, Nintendo Wii, PC, Playstation 3, ...</td>
+      <td>Shrek Forever After</td>
+      <td>Spillet er bedre enn filmen.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>Activision</td>
+      <td>25.06.10</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>Transformers: War for Cybertron</td>
+      <td>En middelmådig skytefest.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>Bizarre Creations</td>
+      <td>28.05.2010</td>
+      <td></td>
+      <td>Blur</td>
+      <td>Rask moro, intet mer.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>Capcom</td>
+      <td>21.05.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Lost Planet 2</td>
+      <td>Fjerne planeter, og store våpen!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>Nintendo</td>
+      <td>30.04.2010</td>
+      <td>Nintendo DS</td>
+      <td>WarioWare D.I.Y.</td>
+      <td>Dette er en spillfabrikk.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>Namco Bandai</td>
+      <td></td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Dead to Rights: Retribution</td>
+      <td>Gir fingern til alt som er politisk korrekt.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>EA Sports</td>
+      <td>29.04.2010</td>
+      <td>Mobil, Nintendo Wii, PC, Playstation 3, Playst...</td>
+      <td>2010 FIFA World Cup</td>
+      <td>Ball! Ball, sier du? Ja, ball! FOTBALL!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>Ubisoft</td>
+      <td>29.04.2010</td>
+      <td>None</td>
+      <td>Splinter Cell Conviction</td>
+      <td>Innfrir ikke de høye forventningene.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>Eidos</td>
+      <td>26.03.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Just Cause 2</td>
+      <td>Om Arnold Schwarzenegger hadde laget spill, vi...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>Walt Disney Pictures</td>
+      <td>19.02.2010</td>
+      <td>None</td>
+      <td></td>
+      <td>Et solid fortalt eventyr med en akkurat passen...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>Paramount Pictures</td>
+      <td>21.02.2010</td>
+      <td>None</td>
+      <td>Shutter Island</td>
+      <td>Et interessant mysterium, topp miljøskildring ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>Liberty Films UK</td>
+      <td>19.07.2009</td>
+      <td>None</td>
+      <td>Moon</td>
+      <td>Interessant science fiction fra debuterende re...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>Warner Bros. Pictures</td>
+      <td>11.12.2009</td>
+      <td>None</td>
+      <td>Invictus - de uovervinnelige</td>
+      <td>En interessant film, der du føler både det his...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>Lionsgate</td>
+      <td>05.02.2010</td>
+      <td>None</td>
+      <td>Daybreakers</td>
+      <td>En ganske kul vampyrfilm, med mange interessan...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>Nordisk Film Production AS</td>
+      <td>29.01.2010</td>
+      <td>None</td>
+      <td>Olsenbanden Jr. Mestertyvens skatt</td>
+      <td>Filmpolitiet liker at det lages slike naive, u...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>Ilion Animation</td>
+      <td>22.01.2010</td>
+      <td>None</td>
+      <td>Planet 51</td>
+      <td>«Planet 51» er en dataanimert familiefilm som ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>Global Media</td>
+      <td>21.05.2009</td>
+      <td>None</td>
+      <td>CasaNegra</td>
+      <td>En god og sympatisk film om unge menn som drøm...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>Columbia Pictures</td>
+      <td>15.01.2010</td>
+      <td>None</td>
+      <td>Det regner kjøttboller</td>
+      <td>Basert på en morsom og absurd idé, men figuren...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>Paramount Pictures</td>
+      <td>15.01.2010</td>
+      <td>None</td>
+      <td>Up in the Air</td>
+      <td>George Clooneys nye film er lett å like, men o...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>BBC Films</td>
+      <td>22.01.2010</td>
+      <td>None</td>
+      <td>Menn som stirrer på geiter</td>
+      <td>George Clooney stirrer på geiter. Vi stirrer p...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>Tappeluft Pictures</td>
+      <td>08.01.2010</td>
+      <td>None</td>
+      <td>Tomme tønner</td>
+      <td>En kjapp film med tøffe fyrer, lekre damer, po...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>Warner Bros. Pictures</td>
+      <td>26.12.2009</td>
+      <td>None</td>
+      <td>Sherlock Holmes</td>
+      <td>Den intelligente detektiven er tilbake i gamme...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>Vivendi Entertainment</td>
+      <td>26.12.2009</td>
+      <td>None</td>
+      <td>New York, I Love You</td>
+      <td>Ti regissører, ti episoder, én by, én film.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>Blumhouse Productions</td>
+      <td>27.09.2009</td>
+      <td>None</td>
+      <td>Paranormal Activity</td>
+      <td>En effektiv grøsser som vil gi deg en ekkel fø...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>Imprint Entertainment</td>
+      <td>20.11.2009</td>
+      <td>None</td>
+      <td>The Twilight Saga: New Moon</td>
+      <td>Twilight-sagaen fortsetter, men er det mer enn...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>Mantarraya Producciones</td>
+      <td>28.01.2009</td>
+      <td>None</td>
+      <td>Los Bastardos</td>
+      <td>En film du sent vil glemme, men ikke nødvendig...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>Fine &amp; Mellow Productions</td>
+      <td>02.10.2008</td>
+      <td>None</td>
+      <td>Fryktelig lykkelig</td>
+      <td>Dansk film har mange norske fans, og ”Frykteli...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>Ubisoft</td>
+      <td>20.11.2009</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Assassin's Creed 2</td>
+      <td>Oppfølgeren til «Assassin’s Creed» både gleder...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>276</th>
+      <td>Overture Films</td>
+      <td>30.10.2009</td>
+      <td>None</td>
+      <td>Capitalism: a love story</td>
+      <td>Michael Moore 1 – Kapitalismen 0!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>Storm Rosenberg</td>
+      <td>13.1.2009</td>
+      <td>None</td>
+      <td>Julenatt i Blåfjell</td>
+      <td>Etter alt å dømme årets store julefilm!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>Columbia Pictures</td>
+      <td>13.11.2009</td>
+      <td>None</td>
+      <td>2012</td>
+      <td>To og en halv time med total fucking destruction!</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>Scion Films</td>
+      <td>6.11.2009</td>
+      <td>None</td>
+      <td>Sin Nombre</td>
+      <td>Sterk film fra Mexico om flukten mot et bedre ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>Walt Disney Pictures</td>
+      <td>6.11.2009</td>
+      <td>None</td>
+      <td>A Christmas Carol</td>
+      <td>Moraliserende og fin julestemning fra Charles ...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>Warner Bros. Pictures</td>
+      <td>30.10.2009</td>
+      <td>None</td>
+      <td>The Informant!</td>
+      <td>En fantastisk historie basert på sanne hendelser.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>Speranza Films A/S</td>
+      <td>2.10.2009</td>
+      <td>None</td>
+      <td>Engelen</td>
+      <td>Alle heroin-klisjeene er på plass, men «Engele...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>Big Beach Films</td>
+      <td>2.10.2009</td>
+      <td>None</td>
+      <td>Away we go</td>
+      <td>En morsom roadmovie fra Sam Mendes som til tro...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>Bungie / Microsoft</td>
+      <td>22.09.2009</td>
+      <td>Xbox 360</td>
+      <td>Halo 3: ODST</td>
+      <td>Ikke det beste Halo-spillet.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>Moonshot Pictures</td>
+      <td>18.09.2009</td>
+      <td>None</td>
+      <td>Siste stopp 174</td>
+      <td>Troverdig skildring av unge, sårbare barnesinn...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>Barbarian Films</td>
+      <td>7.08.2009</td>
+      <td>None</td>
+      <td>L.A. Gigolo</td>
+      <td>Jeg innrømmer gjerne at lysten til å se Ashton...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>La Petite Reine</td>
+      <td>8.05.2009</td>
+      <td>None</td>
+      <td>Jacques Mesrine: Samfunnsfiende</td>
+      <td>Film to om Frankrikes verste gangster heter ”J...</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>Nintendo</td>
+      <td>21.07.2017</td>
+      <td>Nintendo Switch</td>
+      <td>Splatoon 2</td>
+      <td>Herlig flerspilleraction på Nintendo Switch.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>Bandai Namco Entertainment</td>
+      <td>23.06.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Get Even</td>
+      <td>Stemningsfull og ekkel spill-thriller.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>Codemasters</td>
+      <td>09.06.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Dirt 4</td>
+      <td>Voldsomt tilfredsstillende.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>Bethesda Softworks / ZeniMax Online Studios</td>
+      <td>06.06.2017</td>
+      <td>Mac, PC, Playstation 4, Xbox One</td>
+      <td>The Elder Scrolls Online: Morrowind</td>
+      <td>Elder Scrolls-magien er tilbake.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>Bandai Namco Entertainment</td>
+      <td>02.06.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Tekken 7</td>
+      <td>En voldelig fryd!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>16.05.2017</td>
+      <td>Playstation 4, Xbox One</td>
+      <td>Injustice 2</td>
+      <td>Juling på høyt nivå.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>Rain Games</td>
+      <td>05.05.2017</td>
+      <td>Nintendo Wii U, PC, Playstation 4, Xbox One</td>
+      <td>World to the West</td>
+      <td>Eventyrbalsam for sjelen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>Bandai Namco Entertainment</td>
+      <td>28.04.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Little Nightmares</td>
+      <td>Et flott lite mareritt.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>Atlus, Deep Silver</td>
+      <td>04.04.2017</td>
+      <td>Playstation 3, Playstation 4</td>
+      <td></td>
+      <td>Overrasker deg fra start til slutt.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>Square Enix</td>
+      <td>10.03.2017</td>
+      <td>PC, Playstation 4</td>
+      <td>Nier: Automata</td>
+      <td>En spillopplevelse helt utenom det vanlige.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>Techland Publishing</td>
+      <td>28.02.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td></td>
+      <td>Nerdenarkotika uten kjipe bieffekter.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>Square Enix</td>
+      <td>31.01.2017</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Hitman: The Complete First Season</td>
+      <td>Så mange internasjonale terrorister, så liten ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>Koei Tecmo, Sony Interactive Entertainment</td>
+      <td>07.02.2017</td>
+      <td>Playstation 4</td>
+      <td>Nioh</td>
+      <td>Mestringsfølelsen venter på deg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>Bandai Namco Entertainment</td>
+      <td>27.01.2017</td>
+      <td>PC, Playstation 3, Playstation 4</td>
+      <td>Tales of Berseria</td>
+      <td>Fornying av japansk suksessoppskrift.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>Capcom</td>
+      <td>24.01.2016</td>
+      <td>PC, Playstation 4, Playstation VR, Xbox One</td>
+      <td>Resident Evil: Biohazard</td>
+      <td>En helt jævlig spillopplevelse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>Sony Computer Entertainment</td>
+      <td>20.01.2017</td>
+      <td>Playstation 4</td>
+      <td>Gravity Rush 2</td>
+      <td>Underholdende gravitasjonslek i høyt tempo.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>Sony Interactive Entertainment</td>
+      <td>06.12.2016</td>
+      <td>Playstation 4</td>
+      <td>The Last Guardian</td>
+      <td>En vakker og unik spillopplevelse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>Ubisoft</td>
+      <td>15.11.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Watch Dog 2</td>
+      <td>Ubisoft knekker endelig koden.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>Respawn Entertainment, EA</td>
+      <td>28.10.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Titanfall 2</td>
+      <td>Robotkampens oppfølgjar strekker seg i fleire ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>D-Pad Studio</td>
+      <td>01.11.2016</td>
+      <td>PC</td>
+      <td>Owlboy</td>
+      <td>Vakkert, sjarmerende og morsomt!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>Ubisoft</td>
+      <td>16.08.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Grow Up</td>
+      <td>Et artig og sjarmerende lite spill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>Hello Games / Sony Playstation</td>
+      <td>10.08.16 (PS4) – 12.08.16 (PC)</td>
+      <td>PC, Playstation 4</td>
+      <td>No Man's Sky</td>
+      <td>Uendelig stort, veldig fascinerende, litt repe...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>Square Enix</td>
+      <td>19.07.2016</td>
+      <td>PC, Playstation 4, PSVita</td>
+      <td>I am Setsuna</td>
+      <td>En vakker hyllest til 90-tallets RPG-klassikere.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>Naughty Dog</td>
+      <td>10.05.16</td>
+      <td>Playstation 4</td>
+      <td>Uncharted 4: A Thief's End</td>
+      <td>Buldrekongen Nathan Drake er attende!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>Bandai Namco Entertainment</td>
+      <td>12.03.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Dark Souls III</td>
+      <td>Et spill man elsker å hate.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>Ubisoft Massive</td>
+      <td>08.03.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Tom Clancy's The Division</td>
+      <td>Imponerende, men repeterende, om hva som skjer...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>Nintendo</td>
+      <td>04.03.2016</td>
+      <td>Nintendo Wii U</td>
+      <td>The Legend of Zelda: Twilight Princess</td>
+      <td>En gammel klassiker det er verdt å løfte frem.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>2K Games / Firaxis Studios</td>
+      <td>05.02.2016</td>
+      <td>PC</td>
+      <td>XCOM 2</td>
+      <td>Med taktfaste skritt mot undergangen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>Thekla, Inc.</td>
+      <td>26.01.2016</td>
+      <td>PC, Playstation 4</td>
+      <td>The Witness</td>
+      <td>Et fascinerende, vakkert og vanskelig puslespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>11 Bit Studios, Deep Silver</td>
+      <td>29.01.2016</td>
+      <td>Playstation 4, Xbox One</td>
+      <td>This War of Mine: The Little Ones</td>
+      <td>En vond, men viktig spillopplevelse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>Nintendo</td>
+      <td>04.12.2015</td>
+      <td>Nintendo Wii U</td>
+      <td>Xenoblade Chronicles X</td>
+      <td>Et gigantisk og gjennomført rollespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>Microsoft / 343 Industries</td>
+      <td>27.10.2015</td>
+      <td>Xbox One</td>
+      <td>Halo 5: Guardians</td>
+      <td>Teknisk imponerende – men fortellingen når ald...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>FOX, AMC</td>
+      <td>12.10.2015</td>
+      <td>None</td>
+      <td>The Walking Dead</td>
+      <td>Nok en spennende sesongstart for AMCs zombiedr...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>EA Sports</td>
+      <td>24.09.2015</td>
+      <td>Xbox One</td>
+      <td>FIFA 16</td>
+      <td>Fortsatt helt konge.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>EA Sports / EA Canada</td>
+      <td>17.09.2015</td>
+      <td>Playstation 4, Xbox One</td>
+      <td>NHL 16</td>
+      <td>Tilbake på toppen som klodens beste ishockey-s...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>Nintendo</td>
+      <td>11.09.2015</td>
+      <td>Nintendo Wii U</td>
+      <td>Super Mario Maker</td>
+      <td>Hyller spillhistorien ved å la spillerne remik...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>Microsoft</td>
+      <td>18.09.2015</td>
+      <td>Xbox One</td>
+      <td>Forza Motorsport 6</td>
+      <td>Best når regnet øser ned.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>04.09.2015</td>
+      <td>Playstation 4, Xbox One</td>
+      <td>Mad Max</td>
+      <td>Mad Max-spillet er post-apokalyptisk action fo...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>Frozenbyte</td>
+      <td>20.08.2015</td>
+      <td>PC</td>
+      <td>Trine 3: The Artifacts of Power</td>
+      <td>Underholdende hjernetrim i et vakkert spilluni...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>Wizards of the  Coast</td>
+      <td>09.07.2015 (iOS) / Høsten 2015 (Konsoll og PC)</td>
+      <td>iPad, Mobil, PC, Playstation 4, Xbox One</td>
+      <td>Magic: Duels</td>
+      <td>En glimrende mobilversjon av verdens mest popu...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>Nintendo</td>
+      <td>26.06.2015</td>
+      <td>Nintendo Wii U</td>
+      <td>Yoshi's Woolly World</td>
+      <td>En trivelig spillperle for barn i alle aldre!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>Nintendo</td>
+      <td>29.05.2015</td>
+      <td>Nintendo Wii U</td>
+      <td>Splatoon</td>
+      <td>Et helsprøtt, fargesplattende skytespill for s...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>Blizzard</td>
+      <td>02.06.2015</td>
+      <td>Mac, PC</td>
+      <td></td>
+      <td>En strømlinjeformet og sterk utfordrer i verde...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>CD Projekt Red</td>
+      <td>19.05.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>The Witcher 3: Wild Hunt</td>
+      <td>Et polsk mesterstykke.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>Obisian Entertainment / Paradox Interactive</td>
+      <td>26.03.2015</td>
+      <td>Linux, Mac, PC</td>
+      <td>Pillars of Eternity</td>
+      <td>Et storslagent rollespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>None</td>
+      <td>25.03.2015</td>
+      <td>Playstation 4</td>
+      <td>Bloodborne</td>
+      <td>Vanskelig og lite tilgjengelig, men ett av de ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>Colossal Order</td>
+      <td>10.03.2015</td>
+      <td>PC</td>
+      <td>Cities: Skylines</td>
+      <td>Det beste byspillet på over ti år!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>Nintendo / Grezzo</td>
+      <td>13.02.2015</td>
+      <td>Nintendo 3DS</td>
+      <td>The Legend of Zelda: Majora's Mask</td>
+      <td>Storartet nyutgivelse av «Zelda»-seriens outsi...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>The Creative Assembly / SEGA</td>
+      <td>17.02.2015</td>
+      <td>PC</td>
+      <td>Total War: Attila</td>
+      <td>15 år etter starten står strategispillserien l...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>None</td>
+      <td>02.01.2015</td>
+      <td>Nintendo Wii U</td>
+      <td>Captain Toad: Treasure Tracker</td>
+      <td>Søte, enkle og geniale puslespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>Nintendo</td>
+      <td>28.11.2014</td>
+      <td>Nintendo Wii U</td>
+      <td>Super Smash Bros. for Wii U</td>
+      <td>Galskap satt i system.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>Blizzard</td>
+      <td>13.11.2014</td>
+      <td>Mac, PC</td>
+      <td>World of Warcraft: Warlords of Draenor</td>
+      <td>Entusiasme, spillglede og utforskning er stikk...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>EA / Bioware</td>
+      <td>20.11.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Dragon Age: Inquisition</td>
+      <td>Et enormt eventyr.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>341</th>
+      <td>Microsoft / 343 Industries</td>
+      <td>11.11.2014</td>
+      <td>Xbox One</td>
+      <td>Halo: The Master Chief Collection</td>
+      <td>En storslått reise i spillhistorien.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>Ubisoft Montreal</td>
+      <td>13.11.2014</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Assassin's Creed Unity</td>
+      <td>Frihet, likhet, brorskap eller døden!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>343</th>
+      <td>Activision / Sledgehammer Games</td>
+      <td>04.11.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Call of Duty: Advanced Warfare</td>
+      <td>Futuristisk krigsmaskineri.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>Insomniac Games / Microsoft</td>
+      <td>31.10.2014</td>
+      <td>Xbox One</td>
+      <td>Sunset Overdrive</td>
+      <td>Pur spillglede for gamle og nye skatere – og d...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>345</th>
+      <td>Nintendo / Platinum Games</td>
+      <td>24.10.2014</td>
+      <td>Nintendo Wii U</td>
+      <td>Bayonetta 2</td>
+      <td>Helsprø actionbonanza.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>Sony Computer Entertainment Europe</td>
+      <td>09.10.2014</td>
+      <td>Playstation 4</td>
+      <td>Driveclub</td>
+      <td>Realistisk bilspill med fokus på det sosiale.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>347</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>PC: 30.09.2014 X1 og PS4: 03.10.2014 og PS3 og...</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Middle-earth: Shadow of Mordor</td>
+      <td>«Ringenes herre» møter «Assassin’s Creed» og «...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>Turn 10 / Microsoft Studios</td>
+      <td>03.10.2014</td>
+      <td>Xbox 360, Xbox One</td>
+      <td>Forza Horizon 2</td>
+      <td>Lekker bilfestival på Xbox One.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>Electronic Arts</td>
+      <td>26.09.2014</td>
+      <td>iPad, Mobil, Nintendo 3DS, Nintendo Wii, PC, P...</td>
+      <td>FIFA 15</td>
+      <td>La fotballfesten begynne!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>350</th>
+      <td>Bungie / Activision</td>
+      <td>09.09.2014</td>
+      <td>Playstation 3, Playstation 4, Xbox 360, Xbox One</td>
+      <td>Destiny</td>
+      <td>En visuell science fiction-perle.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>351</th>
+      <td>Blizzard Entertainmment</td>
+      <td>PC/Mac: 25. mars 2014. PS4/X1: 19. august 2014.</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Diablo 3: Reaper of Souls</td>
+      <td>Utvidelsespakke som styrker spillets sterkeste...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>Krillbite</td>
+      <td>29.05.2014</td>
+      <td>Mac, PC</td>
+      <td>Among the Sleep</td>
+      <td>Innovativt, engasjerende og veldig skremmende.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>353</th>
+      <td>Ubisoft Montreal</td>
+      <td>27.05.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Watch Dogs</td>
+      <td>Innfrir ikke alle forventninger, men ventetide...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>354</th>
+      <td>Die Gute Fabrik</td>
+      <td>06.05.2014</td>
+      <td>Linux, Mac, PC, Playstation 3, Playstation 4</td>
+      <td>Sportsfriends</td>
+      <td>Et must for Playstation-eiere.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>355</th>
+      <td>Supergiant Games</td>
+      <td>20.05.2013</td>
+      <td>PC, Playstation 4</td>
+      <td></td>
+      <td>Et vakkert rollespill fra et dystopisk helvete...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>Ubisoft Montreal</td>
+      <td>30.04.2014</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Playstation...</td>
+      <td>Child of Light</td>
+      <td>Et eventyrlig spillmaleri.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>357</th>
+      <td>Electronic Arts</td>
+      <td>17.04.2014</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>2014 FIFA World Cup Brazil</td>
+      <td>Heia fotball!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>358</th>
+      <td>Blizzard Entertainmment</td>
+      <td>PC og OS X: 11.03.2014 iOS og Android: Kommer</td>
+      <td>iPad, Linux, Mac, PC</td>
+      <td>Hearthstone</td>
+      <td>Et genitrekk av et spill fra Blizzard.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>Matt Makes Games</td>
+      <td>PC: 11.03.2014. PS4: 19.03.2014</td>
+      <td>PC, Playstation 4</td>
+      <td>Towerfall: Ascension</td>
+      <td>Pur retroglede!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>360</th>
+      <td>From Software</td>
+      <td>14.03.2014</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dark Souls II</td>
+      <td>Forbered deg på å dø – mange ganger – i dette ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>Respawn Entertainment / Microsoft</td>
+      <td>13.03.2014</td>
+      <td>PC, Xbox 360, Xbox One</td>
+      <td>Titanfall</td>
+      <td>Et velsmurt maskineri.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>Shining Rock Software</td>
+      <td>18.02.2014</td>
+      <td>PC</td>
+      <td>Banished</td>
+      <td>Et nådeløst og brutalt strategispill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>Naughty Dog, Sony Entertainment</td>
+      <td>14.02.2014</td>
+      <td>Playstation 3</td>
+      <td>Last of Us: Left Behind (DLC)</td>
+      <td>Denne utvidelsespakken er et lite stykke strål...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>Sirvo LLC</td>
+      <td>06.02.2014</td>
+      <td>iPad, Mobil</td>
+      <td>Threes</td>
+      <td>Knallgod utfordrer til Sudoku.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>Double Fine</td>
+      <td>28.01.2014</td>
+      <td>PC</td>
+      <td>Broken Age – første akt</td>
+      <td>Et nydelig comeback for pek-og-klikk-spillenes...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>Rain</td>
+      <td>13.12.2013</td>
+      <td>Linux, Mac, PC</td>
+      <td>Teslagrad</td>
+      <td>En utfordrende og frustrerende spillopplevelse...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>Housemaque</td>
+      <td>29.11.2013</td>
+      <td>Playstation 4</td>
+      <td>Rersogun</td>
+      <td>Best på Playstation 4 akkurat nå.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>15.11.2013</td>
+      <td>Nintendo 3DS, Nintendo Wii U, PC, Playstation ...</td>
+      <td>LEGO Marvel Super Heroes</td>
+      <td>En uimotståelig superheltpakke!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>SEGA / Sports Interactive</td>
+      <td>30.10.2013</td>
+      <td>iPad, Linux, Mac, Mobil, PC, PSVita</td>
+      <td>Football Manager 2014</td>
+      <td>Bare én kamp til.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>EA / DICE</td>
+      <td>31.10.2013</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Battlefield 4</td>
+      <td>Best i sin klasse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>Nintendo</td>
+      <td>04.10.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>Legend of Zelda: Wind Waker HD</td>
+      <td>Det er ingenting som tilsier at dette spillet ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>EA</td>
+      <td>27.09.2013</td>
+      <td>iPad, Mobil, Nintendo 3DS, Nintendo Wii, PC, P...</td>
+      <td>FIFA 14</td>
+      <td>Et obligatorisk kjøp for «FIFA»-fans.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>373</th>
+      <td>EA</td>
+      <td>13.09.2013</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>NHL 14</td>
+      <td>– Same procedure as every year.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>SCE Japan Studios</td>
+      <td>11.09.2013, Playstation Network og butikk</td>
+      <td>Playstation 3</td>
+      <td>Puppeteer</td>
+      <td>Det var ein gong eit spel.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>Popcap Games</td>
+      <td>15.08.2013, foreløpig bare til iPhone og iPad</td>
+      <td>iPad</td>
+      <td>Plants vs. Zombies 2: It's about time</td>
+      <td>Viser oss hvordan en oppfølger bør være.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>Ubisoft</td>
+      <td>23.08.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Splinter Cell: Blacklist</td>
+      <td>Spionen som elsket dingser.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>377</th>
+      <td>Nintendo</td>
+      <td>26.07.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>Pikmin 3</td>
+      <td>Storartet fra Nintendo-legende.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>378</th>
+      <td>Nintendo</td>
+      <td>14.06.2013</td>
+      <td>Nintendo 3DS</td>
+      <td>Animal Crossing: New Leaf</td>
+      <td>Et uvanlig og unikt spill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>None</td>
+      <td>03.06.2013</td>
+      <td>PC</td>
+      <td>Gunpoint</td>
+      <td>Mørk noir og puslespill i skjønn forening.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>Naughty Dog</td>
+      <td>14.06.2013</td>
+      <td>Playstation 3</td>
+      <td>The Last of Us</td>
+      <td>En kraftfull spillfortelling som nesten bryter...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>Warner Bros. Interactive</td>
+      <td>26.04.2013</td>
+      <td>Nintendo Wii U, Playstation 3, Xbox 360</td>
+      <td>Injustice: Gods Among Us</td>
+      <td>Supermann vs. Batman? Ja takk!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>Intelligent Systems</td>
+      <td>19.04.2013</td>
+      <td>Nintendo 3DS</td>
+      <td>Fire Emblem Awakening</td>
+      <td>Gir deg vener for livet, og drep dei etterpå n...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>Nintendo</td>
+      <td>28.03.2013</td>
+      <td>Nintendo 3DS</td>
+      <td>Luigi's Mansion 2</td>
+      <td>I skyggen til storebror.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>Teotl Development</td>
+      <td>27.03.2013</td>
+      <td>iPad, Mobil, PC</td>
+      <td>Unmechanical</td>
+      <td>Eit spel som gjer seg betre på berøringsskjerm...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>NibleBit</td>
+      <td>28.03.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Nimble Quest</td>
+      <td>Husker du Nokia-spillet «Snake»?</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>None</td>
+      <td>12.03.2013</td>
+      <td>Mac, PC</td>
+      <td>StarCraft 2: Heart of the Swarm</td>
+      <td>Det beste strategispillet akkurat nå.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>387</th>
+      <td>Square Enix</td>
+      <td>05.03.2013</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Tomb Raider</td>
+      <td>Nye Lara Croft ligner ikke sitt gamle jeg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>Ubisoft</td>
+      <td></td>
+      <td>iPad, Mobil, Nintendo DS, PC, Playstation 3, X...</td>
+      <td>Might &amp; Magic: Clash of Heroes</td>
+      <td>Et fullverdig rollespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td>Behold Studios</td>
+      <td>Januar 2013</td>
+      <td>iPad, Mobil</td>
+      <td>Knights of Pen &amp; Paper</td>
+      <td>Hyller de gamle rollespillene.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>Cardboard Computers</td>
+      <td>07.01.2013</td>
+      <td>Mac, PC</td>
+      <td>Kentucky Route Zero</td>
+      <td>En mørk og magisk fortelling.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>LEVEL-5, Studio Ghibli</td>
+      <td>01.02.2013</td>
+      <td>Playstation 3</td>
+      <td>Ni No Kuni: Wrath of the White Witch</td>
+      <td>Vakkert, koselig og sjarmerende er stikkord fo...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>None</td>
+      <td></td>
+      <td>iPad, Mobil</td>
+      <td></td>
+      <td>Grisekøyring med gjenspelingsglede</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td>None</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Angry Birds når sitt fulle potensial – ver så ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td>Rockstar Games (Wardrum Studios)</td>
+      <td>6. desember 2012</td>
+      <td>iPad, Mobil</td>
+      <td>GTA: Vice City Tenth Anniversary</td>
+      <td>Velfungerande oppdatering for berøringsskjermar.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>395</th>
+      <td>None</td>
+      <td></td>
+      <td>iPad, Mobil</td>
+      <td></td>
+      <td>Krønsj en zombie.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>396</th>
+      <td>None</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Unikt for berøringsskjermen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>397</th>
+      <td>Nintendo</td>
+      <td>30.11.2012</td>
+      <td>Nintendo Wii U</td>
+      <td>New Super Mario Bros. Wii U</td>
+      <td>Etter 30 år er en rørlegger fortsatt Nintendos...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td>Ubisoft</td>
+      <td>30.11.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Far Cry 3</td>
+      <td>Trøbbel i paradis.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>23.11.2012</td>
+      <td>Nintendo 3DS, Nintendo DS, Nintendo Wii, PC, P...</td>
+      <td>LEGO The Lord Of The Rings</td>
+      <td>Alt kan LEGOfiseres, også Midgard!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>Activision</td>
+      <td>19.10.2012</td>
+      <td>Nintendo 3DS, Nintendo Wii, Nintendo Wii U, Pl...</td>
+      <td>Skylanders Giants</td>
+      <td>Dette spillet er like genialt som det er utspe...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>Harmonix Music Systems</td>
+      <td>19.10.2012</td>
+      <td>Xbox 360</td>
+      <td>Dance Central 3</td>
+      <td>Rydd møblene unna og slå deg løs på stuegulvet!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>Treyarch</td>
+      <td>13.11.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Call of Duty: Black Ops II</td>
+      <td>Viser sin styrke i historiefortellingen!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>THQ / Yuke</td>
+      <td>02.11.2012</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>WWE '13</td>
+      <td>Tøff tidsreise i wrestlinghistorien.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td>343 Industries / Microsoft</td>
+      <td>06.11.2012</td>
+      <td>Xbox 360</td>
+      <td>Halo 4</td>
+      <td>Master Chief – jeg har savnet deg.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>405</th>
+      <td>2K Games</td>
+      <td>12. oktober 2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>XCOM: Enemy Unknown</td>
+      <td>Utsøkt balansegang på alle nivå</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td>Blizzrad</td>
+      <td>25.09.2012</td>
+      <td>Mac, PC</td>
+      <td>World of Warcraft: Mists of Pandaria</td>
+      <td>Den fjerde utvidelsen bringer gløden tilbake!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>Gearbox/2K Games</td>
+      <td>21. september 2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Borderlands 2</td>
+      <td>Jakta på det perfekte våpen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>408</th>
+      <td>Electronic Arts</td>
+      <td>28.09.2012</td>
+      <td>Mac, Nintendo 3DS, Nintendo Wii, Nintendo Wii ...</td>
+      <td>FIFA 13</td>
+      <td>Sitter i krysset. Igjen!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>409</th>
+      <td>EA Canada</td>
+      <td>13.09.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>NHL 13</td>
+      <td>Best på isen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>410</th>
+      <td>Klei Entertainment / Microsoft Studios</td>
+      <td>07.09.2012</td>
+      <td>Xbox 360</td>
+      <td>Mark of the Ninja</td>
+      <td>Et rent røverkjøp.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>XDev Studios Europe</td>
+      <td>19.09.2012</td>
+      <td>PSVita</td>
+      <td>LittleBigPlanet</td>
+      <td>Et strålende håndholdt eventyr.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>412</th>
+      <td>Funcom</td>
+      <td>03.06.2012</td>
+      <td>PC</td>
+      <td>The Secret World</td>
+      <td>Funcoms massive nettrollespill er utfordrende ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>413</th>
+      <td>Insomniac Games / SCEE</td>
+      <td>29.06.2012</td>
+      <td>Playstation 3</td>
+      <td>The Ratchet &amp; Clank Trilogy</td>
+      <td>Morsomt gjensyn med oppdaterte spillhelter.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>414</th>
+      <td>Traveller’s Tales</td>
+      <td>22.06.2012</td>
+      <td>Nintendo 3DS, Nintendo DS, Nintendo Wii, PC, P...</td>
+      <td>LEGO Batman 2: DC Super Heroes</td>
+      <td>Flott LEGO-fest med superhelter!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>415</th>
+      <td>Rockstar Games</td>
+      <td>18.05.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Max Payne 3</td>
+      <td>Et strålende actionspill for voksne.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>416</th>
+      <td>Red Lynx / Microsoft</td>
+      <td>18.04.2012</td>
+      <td>Xbox 360</td>
+      <td>Trials: Evolution</td>
+      <td>En øvelse i perfeksjon.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>417</th>
+      <td>Polytron Corporation</td>
+      <td>13.04.2012</td>
+      <td>Xbox 360</td>
+      <td>Fez</td>
+      <td>Nostalgisk spill med en moderne vri.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>418</th>
+      <td>Showtime</td>
+      <td>11.3.2012</td>
+      <td>None</td>
+      <td>The Borgias</td>
+      <td>Grums og faenskap i Vatikanet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>Bioware</td>
+      <td>09.03.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Mass Effect 3</td>
+      <td>En epoke er over.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>420</th>
+      <td>None</td>
+      <td>01.03.12</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td></td>
+      <td>Tidløs arkadegalskap.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>421</th>
+      <td>Euforia Film</td>
+      <td>4.4.2012</td>
+      <td>None</td>
+      <td>Iron Sky</td>
+      <td>En dritglad fest av en film for sci-fi-fansen!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>422</th>
+      <td>Square Enix</td>
+      <td>03.02.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Final Fantasy XIII-2</td>
+      <td>Japansk eventyr i toppklasse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>Project Soul</td>
+      <td>03.02.2012</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Soulcalibur V</td>
+      <td>På nett blir dette slåssespillet en actionperle.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>424</th>
+      <td>Namco Bandai</td>
+      <td>22.02.2012</td>
+      <td>PSVita</td>
+      <td>Touch My Katamari</td>
+      <td>Gale japanere vet best.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>425</th>
+      <td>None</td>
+      <td>22.02.2012</td>
+      <td>PSVita</td>
+      <td></td>
+      <td>En god konsoll som tar opp kampen mot mobile p...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>426</th>
+      <td>Warner Bros. Interactive Entertainment</td>
+      <td>18.11.2011</td>
+      <td>Nintendo 3DS, Nintendo DS, Nintendo Wii, PC, P...</td>
+      <td>LEGO Harry Potter: Years 5-7</td>
+      <td>Morsomt for smarte barn og late voksne!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>427</th>
+      <td>Mojang</td>
+      <td>18.11.2011</td>
+      <td></td>
+      <td>Minecraft</td>
+      <td>Ditt personlige eventyr.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>428</th>
+      <td>Frozenbyte</td>
+      <td>07.12.2011</td>
+      <td>Mac, PC, Playstation 3, Xbox 360</td>
+      <td>Trine 2</td>
+      <td>Ett av årets vakreste eventyrspill er best i l...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>429</th>
+      <td>THQ</td>
+      <td>25.11.2011</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>WWE '12</td>
+      <td>Leeeet’s get reeeady to ruuuuumble!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>430</th>
+      <td>Nintendo</td>
+      <td>02.12.2011</td>
+      <td>Nintendo 3DS</td>
+      <td>Mario Kart 7</td>
+      <td>Trygt og godt bilspill for alle aldre.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>431</th>
+      <td>Nintendo</td>
+      <td>18.11.2011</td>
+      <td>Nintendo 3DS</td>
+      <td>Super Mario 3D Land</td>
+      <td>Kongen av plattformspill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>432</th>
+      <td>Ubisoft Blue Byte</td>
+      <td>17.11.2011</td>
+      <td>Mac, PC</td>
+      <td>Anno 2070</td>
+      <td>En spennende måte å oppleve global oppvarming på.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>Ubisoft</td>
+      <td>24.11.2011</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>Rayman: Origins</td>
+      <td>Et fargesprakende plattformeventyr.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>434</th>
+      <td>Activison / Infinity Ward</td>
+      <td>08.11.2011</td>
+      <td>Nintendo DS, Nintendo Wii, PC, Playstation 3, ...</td>
+      <td>Call of Duty: Modern Warfare 3</td>
+      <td>Husmorporno for actionjunkier.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>435</th>
+      <td>Harmonix</td>
+      <td>21.10.2011</td>
+      <td>Xbox 360</td>
+      <td>Dance Central 2</td>
+      <td>Underholdende og utfordrende på samme tid.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>436</th>
+      <td>SF Norge AS</td>
+      <td>28.10.2011</td>
+      <td>None</td>
+      <td>Contagion</td>
+      <td>En ultra-realistisk epidemi-film – proppfull a...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>437</th>
+      <td>Naughty Dog / Sony</td>
+      <td>02.11.2011</td>
+      <td>Playstation 3</td>
+      <td>Uncharted 3: Drake's Deception</td>
+      <td>Nathan Drake er vår tids Indiana Jones.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>438</th>
+      <td>SEGA</td>
+      <td>21.10.2011</td>
+      <td>Mac, PC, Playstation Portable</td>
+      <td>Football Manager 2012</td>
+      <td>Et blankpolert managermonster.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>439</th>
+      <td>From Software</td>
+      <td>07.10.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Dark Souls</td>
+      <td>Jeg hater dette spillet. Terningkast 5.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>id Software / Bethesda Softworks</td>
+      <td>07.10.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Rage</td>
+      <td>Postapokalyptisk helvete.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>441</th>
+      <td>Turn 10/Microsoft Game Studios</td>
+      <td>14.10.2011</td>
+      <td>Xbox 360</td>
+      <td>Forza Motorsport 4</td>
+      <td>Bilspill for både Petter Solberg og bestemor.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>442</th>
+      <td>Avalanche Studios</td>
+      <td>14.09.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td></td>
+      <td>Nedlastbar actionperle.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>443</th>
+      <td>Epic Games/Microsoft Game Studios</td>
+      <td>20.09.2011</td>
+      <td>Xbox 360</td>
+      <td>Gears of War 3</td>
+      <td>Klodens største machomann er klar for å redde ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>444</th>
+      <td>EA</td>
+      <td>09.09.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td></td>
+      <td>Kvalitetsspill fra sportsgiganten EA.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>445</th>
+      <td>Ubisoft</td>
+      <td>02.09.2011</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>Driver: San Francisco</td>
+      <td>Den tøffeste sjåføren er deg!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>446</th>
+      <td>Eidos Interactive</td>
+      <td>26.08.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Deus Ex: Human Revolution</td>
+      <td>Et heftig actionrollespill som er vanskelig å ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>447</th>
+      <td>Supergiant Games</td>
+      <td>20.07.2011</td>
+      <td>Xbox 360</td>
+      <td>Bastion</td>
+      <td>Et sant indiespill.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>448</th>
+      <td>Telltale Games</td>
+      <td>30.06.2011</td>
+      <td>iPad, Mobil, PC</td>
+      <td></td>
+      <td>Ny runde med hjernetrim-krim.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>449</th>
+      <td>Warner Bros. Interactive</td>
+      <td>24.06.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>F.E.A.R 3</td>
+      <td>Herlig gatekrig, middels skrekk</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>450</th>
+      <td>None</td>
+      <td>17.06.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Child of Eden</td>
+      <td>Abstrakt spillkunst.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>451</th>
+      <td>Telltale Inc.</td>
+      <td>12.5.2011</td>
+      <td>iPad, Mobil, PC</td>
+      <td>Hector: Ep.1 HD</td>
+      <td>Årets mest vulgære og infame spillhelt?</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>452</th>
+      <td>Codemasters</td>
+      <td>24.05.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>DiRT3</td>
+      <td>Imponerende spillbarhet, variasjon og morofaktor!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>453</th>
+      <td>SCEE</td>
+      <td>20.04.2011</td>
+      <td>Playstation Portable</td>
+      <td>Patapon 3</td>
+      <td>Unikt, innmari sært og kreativt fra Japan.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>454</th>
+      <td>Electronic Arta</td>
+      <td>25.03.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Crysis 2</td>
+      <td>Spillteknisk knockout!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>455</th>
+      <td>Capcom</td>
+      <td>25.03.2011</td>
+      <td>Nintendo 3DS</td>
+      <td>Super Street Fighter IV 3D Edition</td>
+      <td>Dette heftige slåssespillet klarer seg godt på...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>456</th>
+      <td>Nintendo</td>
+      <td>25.03.2011</td>
+      <td></td>
+      <td>Nintendo 3DS</td>
+      <td>Dette er en konsoll man kan bli hekta på!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>457</th>
+      <td>Nitako</td>
+      <td>26.2.2011</td>
+      <td>iPad, Mobil</td>
+      <td>Eco Punk</td>
+      <td>Kampen om miljøet utkjempes med brutale midler!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>458</th>
+      <td>Philipp Lenssen</td>
+      <td>9.3.2011</td>
+      <td>iPad</td>
+      <td>Siege Towers for two</td>
+      <td>Et vanedannende byggespill for to</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>459</th>
+      <td>Sony Computer Entertainment Europe</td>
+      <td>16.03.2011</td>
+      <td>Playstation 3</td>
+      <td>MotorStorm: Apocalypse</td>
+      <td>Et særdeles sprekt bilspill!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>460</th>
+      <td>Bioware</td>
+      <td>10.03.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dragon Age !!</td>
+      <td>Du blir garantert hekta på dette spillet!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>461</th>
+      <td>EA Sports</td>
+      <td>04.03.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Fight Night Champion</td>
+      <td>Finn frem tigerøyet!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>462</th>
+      <td>Nintendo</td>
+      <td>25.02.11</td>
+      <td>Nintendo Wii</td>
+      <td>Kirby's Epic Yarn</td>
+      <td>Helt fabelaktig!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>463</th>
+      <td>People Can Fly, Epic Games</td>
+      <td>24.02.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Bulletstorm</td>
+      <td>Det er kun din egen kreativitet som setter gre...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>464</th>
+      <td>Capcom</td>
+      <td>18.02.2011</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Marvel vs. Capcom 3: Fate of Two Worlds</td>
+      <td>Som Street Fighter på speed!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>465</th>
+      <td>Guerrilla</td>
+      <td>23.02.1011</td>
+      <td>Playstation 3</td>
+      <td>Killzone 3</td>
+      <td>En variert skytefest!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>466</th>
+      <td>Abraham Stolk</td>
+      <td>27.01.2011</td>
+      <td>iPad</td>
+      <td>the little crane that could</td>
+      <td>Løs kompliserte kranføreroppdrag på iPad!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>467</th>
+      <td>Visceral Games</td>
+      <td>27.01.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dead Space 2</td>
+      <td>Anbefales ikke til NOEN under 18 år.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>468</th>
+      <td>SouthEnd Interactive, Microsoft Game Studios</td>
+      <td>05.01.2011</td>
+      <td>Mobil, Xbox 360</td>
+      <td>ilomilo</td>
+      <td>Søtt og eksentrisk på Xbox Live Arcade.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>469</th>
+      <td>Infinite Lives, LLC</td>
+      <td>11.01.2011</td>
+      <td>iPad, Mobil</td>
+      <td>Moral Decay</td>
+      <td>Jesus er tilbake i retro 8-bits plattformskyter!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>470</th>
+      <td>Rovio</td>
+      <td>04.01.2010</td>
+      <td>iPad, Mobil, Playstation 3</td>
+      <td>Angry Birds</td>
+      <td>Fuglene gjør seg godt på Playstation 3.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>471</th>
+      <td>Media Molecule</td>
+      <td>19.01.2010</td>
+      <td>Playstation 3</td>
+      <td>LittleBigPlanet 2</td>
+      <td>Kreativ spillgalskap.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>472</th>
+      <td>2D Boy</td>
+      <td>16.12.2010</td>
+      <td>iPad, Mobil</td>
+      <td>World of Goo</td>
+      <td>Fascinerende konstruksjonsspill!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>473</th>
+      <td>Electronic Arts Inc.</td>
+      <td>14.12.2010</td>
+      <td>iPad</td>
+      <td>Sim City Deluxe Edition HD</td>
+      <td>Et herlig gjensyn på en ny plattform!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>474</th>
+      <td>SF Norge AS</td>
+      <td>22.12.2010</td>
+      <td>None</td>
+      <td>Laugh It Up, Fuzzball: The Family Guy Trilogy</td>
+      <td>Dette kan være i din gate.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>475</th>
+      <td>Electronic Arts BV</td>
+      <td>9.12.2010</td>
+      <td>Mobil</td>
+      <td>Monopoly</td>
+      <td>En kapitalistisk klassiker i HD!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>476</th>
+      <td>Chair Entertainment Group</td>
+      <td>09.12.10</td>
+      <td></td>
+      <td>Infinity Blade</td>
+      <td>Knivskarp action til iPhone og iPad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>477</th>
+      <td>Sony Computer Entertainment</td>
+      <td>24.11.2010</td>
+      <td>Playstation 3</td>
+      <td>Gran Turismo 5</td>
+      <td>Førsteinntrykk: pent!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>478</th>
+      <td>Namco Bandai Games</td>
+      <td>26.11.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Majin and The Forsaken Kingdom</td>
+      <td>Det var en fryd å utforske dette eventyret!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>479</th>
+      <td>Microsoft Game Studios</td>
+      <td>10.11.2010</td>
+      <td>Xbox 360</td>
+      <td>Dance Central</td>
+      <td>Jeg er mann, jeg danser!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>480</th>
+      <td>Treyarch Studios</td>
+      <td>09.11.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Call of Duty: Black Ops</td>
+      <td>Full anmeldelse av både en- og flerspillerdelen.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>481</th>
+      <td>Lucasarts</td>
+      <td>29.10.2010</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>Star Wars: The Force Unleashed 2</td>
+      <td>Blir du på den mørke siden, eller velger du ly...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>482</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Game Dev Story</td>
+      <td>Best på iPhone akkurat nå!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>483</th>
+      <td>SF Norge AS</td>
+      <td>13.10.2010</td>
+      <td>None</td>
+      <td>The Unit</td>
+      <td>Actionserie om spesialsoldater og familiefedre!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>484</th>
+      <td>Namco Bandai</td>
+      <td>08.10.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Enslaved: Odyssey to the West</td>
+      <td>Årets spilloverraskelse!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>485</th>
+      <td>EA</td>
+      <td>01.10.2010</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>FIFA11</td>
+      <td>EA drar fra motstanderne med et strålende fotb...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>486</th>
+      <td>Firaxis</td>
+      <td>24.09.2010</td>
+      <td>PC</td>
+      <td>Civilization 5</td>
+      <td>Til: Stormannsgale spillere. Fra: Firaxis.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>487</th>
+      <td>Bungie</td>
+      <td>14.09.2010</td>
+      <td>Xbox 360</td>
+      <td>Halo: Reach</td>
+      <td>Et verdig punktum.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>488</th>
+      <td>Nintendo</td>
+      <td>03.09.2010</td>
+      <td>Nintendo Wii</td>
+      <td>Metroid: Other M</td>
+      <td>Samus er tilbake! Oh yeah, baby!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>489</th>
+      <td>Sony Computer Entertainment</td>
+      <td>15.09.2010</td>
+      <td>Playstation 3</td>
+      <td>PS Move: Start the Party</td>
+      <td>Herregud, så utrolig morsomt!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>490</th>
+      <td>Sony Computer Entertainment</td>
+      <td>15.09.2010</td>
+      <td>Playstation 3</td>
+      <td>Sports Champions</td>
+      <td>Wii kan gå og legge seg!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>491</th>
+      <td>Square Enix</td>
+      <td>20.08.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Kane &amp; Lynch 2: Dog Days</td>
+      <td>En svett og klam asiatisk maraton</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>492</th>
+      <td>Blizzard</td>
+      <td>27.07.2010</td>
+      <td>PC</td>
+      <td>Starcraft II</td>
+      <td>Helt rått … nesten.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>493</th>
+      <td>HotHead Studios</td>
+      <td>14.07.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>DeathSpank</td>
+      <td>Dette er en sann historie … NOT!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>494</th>
+      <td>Activision</td>
+      <td>25.06.2010</td>
+      <td>Xbox 360</td>
+      <td>Singularity</td>
+      <td>Kald krig og atomfrykt møter tidsreiser!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>495</th>
+      <td>Hello Games</td>
+      <td>09.06.2010</td>
+      <td>Playstation 3</td>
+      <td>Joe Danger</td>
+      <td>Motorsykkelfest på plattform!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>496</th>
+      <td>Nintendo</td>
+      <td>11.06.2010</td>
+      <td>Nintendo Wii</td>
+      <td>Super Mario Galaxy 2</td>
+      <td>Nintendo lykkes med det nye Mario-spillet.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>497</th>
+      <td>Electronic Arts</td>
+      <td>13.05.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Skate 3</td>
+      <td>Sport blir gøy med rullebrett.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>498</th>
+      <td>Remedy Entertainment</td>
+      <td>14.05.2010</td>
+      <td>Xbox 360</td>
+      <td>Alan Wake</td>
+      <td>Ikke for lettskremte sjeler.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>499</th>
+      <td>Sony Entertainment Europe</td>
+      <td>19.05.2010</td>
+      <td>Playstation 3, Playstation Portable</td>
+      <td>ModNation Racers</td>
+      <td>Mario Kart på speed!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>500</th>
+      <td>Telltale Games</td>
+      <td>15.04.2010</td>
+      <td>Mobil, Nintendo Wii, PC, Playstation 3</td>
+      <td>Sam &amp; Max: The Penal Zone</td>
+      <td>Episodebaserte spill er fremtiden.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>501</th>
+      <td>Square Enix</td>
+      <td>09.03.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Final Fantasy XIII</td>
+      <td>Japanerne viser igjen hvorfor de er best på en...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>502</th>
+      <td>DICE</td>
+      <td>04.03.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Battlefield: Bad Company 2</td>
+      <td>Svenske DICE imponerer stadig med sin Battlefi...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>503</th>
+      <td>BBC Films</td>
+      <td>19.02.2010</td>
+      <td>None</td>
+      <td>Fish Tank</td>
+      <td>Et imponerende stykke arbeid som fortjener sit...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>504</th>
+      <td>Dimension Films</td>
+      <td>29.11.2009</td>
+      <td>None</td>
+      <td></td>
+      <td>Et skremmende bilde av hva som skjer etter at ...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>505</th>
+      <td>Quantic Dream</td>
+      <td>24.02.2010</td>
+      <td>Playstation 3</td>
+      <td>Heavy Rain</td>
+      <td>Et spill uten sidestykke, men ikke uten feil.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>506</th>
+      <td>2K Games</td>
+      <td>09.02.2010</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Bioshock 2</td>
+      <td>På havets bunn er du helt alene.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>507</th>
+      <td>Artina Films</td>
+      <td>13.12.2009</td>
+      <td>None</td>
+      <td>A Single Man</td>
+      <td>En øm, varm og sår historie om en svært ulykke...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>508</th>
+      <td>Two Lane Pictures</td>
+      <td>13.11.2009</td>
+      <td>None</td>
+      <td>Cold Souls</td>
+      <td>En merksnodig film som det lukter både Charlie...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>509</th>
+      <td>Don Carmody Productions</td>
+      <td>08.02.2009</td>
+      <td>None</td>
+      <td>Polytechnique</td>
+      <td>«Polytechnique» er et dystert dokument over en...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>510</th>
+      <td>None</td>
+      <td>08.01.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Bayonetta</td>
+      <td>Brutal radbrekking av alt som er hellig.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>511</th>
+      <td>X-Filme Creative Pool</td>
+      <td>26.12.2009</td>
+      <td>None</td>
+      <td>Det hvite båndet</td>
+      <td>En foruroligende historie og interessant kunst...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>Europa Corp.</td>
+      <td>4.12.2009</td>
+      <td>None</td>
+      <td>Arthur og Maltazards hevn</td>
+      <td>Akkurat like underholdende som «Arthur og Mini...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>Nintendo</td>
+      <td>20.11.2009</td>
+      <td>Nintendo Wii</td>
+      <td>New Super Mario Bros. Wii</td>
+      <td>Mario og Luigi er tilbake, det var på tide!</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>514</th>
+      <td>Columbia Pictures</td>
+      <td>28.10.2009</td>
+      <td>None</td>
+      <td>Michael Jackson: This Is It</td>
+      <td>Jacko var ikke død.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>515</th>
+      <td>Columbia Pictures</td>
+      <td>2.10.2009</td>
+      <td>None</td>
+      <td>Julie &amp; Julia</td>
+      <td>Frem med matmetaforene, for ”Julie &amp; Julia” er...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>516</th>
+      <td>Voltage Pictures</td>
+      <td>25.09.2009</td>
+      <td>None</td>
+      <td>The Hurt Locker</td>
+      <td>Kathryn Bigelow viser seg nok en gang som en k...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>517</th>
+      <td>TriStar Pictures</td>
+      <td>11.09.2009</td>
+      <td>None</td>
+      <td>District 9</td>
+      <td>En av årets store opplevelser på kino er Distr...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>518</th>
+      <td>Rocksteady Studios</td>
+      <td>27.08.2009</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Batman: Arkham Asylum</td>
+      <td>Arkham Asylum er et mørkt, skummelt og fantast...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>519</th>
+      <td>Lionsgate</td>
+      <td>5.12.2008</td>
+      <td>None</td>
+      <td>Punisher: War Zone</td>
+      <td>Dette er en av de tøffeste actionfilmene jeg h...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>520</th>
+      <td>Lionsgate</td>
+      <td>3.07.2009</td>
+      <td>None</td>
+      <td>My Bloody Valentine 3D</td>
+      <td>Mørkt, morsomt og underholdende! Blodet sprute...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>521</th>
+      <td>La Petite Reine</td>
+      <td>17.04.2009</td>
+      <td>None</td>
+      <td>Jacques Mesrine Del 1: Instinkt for mord</td>
+      <td>Hva hadde filmer vært uten skurker? Ganske kje...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>522</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Jakten på hukommelsen</td>
+      <td>Tenk deg at du plutselig sitter på et tog i Ki...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>523</th>
+      <td>Nintendo</td>
+      <td>03.03.2017</td>
+      <td>Nintendo Switch, Nintendo Wii U</td>
+      <td>The Legend of Zelda: Breath of the Wild</td>
+      <td>En fryd å spille!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>524</th>
+      <td>Sony Interactive Entertainment</td>
+      <td>01.03.2017</td>
+      <td>Playstation 4</td>
+      <td>Horizon Zero Dawn</td>
+      <td>Et gjennomført actionrollespill du blir oppslu...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>525</th>
+      <td>Arkane Studios / Bethesda Softworks</td>
+      <td>11.11.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Dishonored 2</td>
+      <td>En seier for spillegleden.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>526</th>
+      <td>Blizzard</td>
+      <td>23.05.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Overwatch</td>
+      <td>Blankpolert kaos.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>527</th>
+      <td>Coldwood Interactive</td>
+      <td>09.02.2016</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Unravel</td>
+      <td>En spillopplevelse av de sjeldne.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>528</th>
+      <td>Bethesda Game Studios</td>
+      <td>10.11.2015</td>
+      <td>PC, Playstation 4, Xbox One</td>
+      <td>Fallout 4</td>
+      <td>Et spill du ikke klarer å legge fra deg før du...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>529</th>
+      <td>Konami</td>
+      <td>01.09.2015</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Metal Gear Solid V: The Phantom Pain</td>
+      <td>Føles ikke som slutten, men begynnelsen på noe...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>530</th>
+      <td>Ubisoft</td>
+      <td>18.11.2014</td>
+      <td>PC, Playstation 3, Playstation 4, Xbox 360, Xb...</td>
+      <td>Far Cry 4</td>
+      <td>Galskap og frie tøyler i Himalaya.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>531</th>
+      <td>Nintendo</td>
+      <td>30.05.2014</td>
+      <td>Nintendo Wii U</td>
+      <td>Mario Kart 8</td>
+      <td>Intenst og morsomt.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>532</th>
+      <td>Subset Games</td>
+      <td>03.04.2014</td>
+      <td>iPad, Mac, PC</td>
+      <td>Faster Than Light: Advanced Edition</td>
+      <td>Mesterlig romstrategi.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>533</th>
+      <td>Nintendo</td>
+      <td>29.11.2013</td>
+      <td>Nintendo Wii U</td>
+      <td>Super Mario 3D World</td>
+      <td>Et av de beste Mario-spillene noensinne.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>534</th>
+      <td>Telltale Games</td>
+      <td>11.10.2013</td>
+      <td>Mac, PC, Playstation 3, Xbox 360</td>
+      <td>The Wolf Among Us</td>
+      <td>Mørkt, så jævlig mørkt.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>535</th>
+      <td>Rockstar Games</td>
+      <td>17.09.2013</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Grand Theft Auto V</td>
+      <td>Antiheltenes triumf.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>536</th>
+      <td>Ubisoft</td>
+      <td>29.08.2013</td>
+      <td>Nintendo Wii U, PC, Playstation 3, PSVita, Xbo...</td>
+      <td>Rayman: Legends</td>
+      <td>Det er en fryd å spille seg gjennom dette farg...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>537</th>
+      <td>Grapefrukt</td>
+      <td>01.08.2013</td>
+      <td>iPad, Mobil, Playstation Portable, PSVita</td>
+      <td>Rymdkapsel</td>
+      <td>Bærbar svensk «Tetris»-hyllest.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>538</th>
+      <td>Pocketwatch Games</td>
+      <td>24.04.2013</td>
+      <td>Mac, PC, Xbox 360</td>
+      <td>Monaco: What's Yours Is Mine</td>
+      <td>En for alle, alle for en.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>539</th>
+      <td>Vlambeer</td>
+      <td>14.03.2013</td>
+      <td>iPad, Mobil</td>
+      <td>Ridiculous Fishing - A Tale of Redemption</td>
+      <td>Utrolig morsomt om noe så kjedelig som å fiske.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>540</th>
+      <td>2K/Irrational Games</td>
+      <td>26.03.2013</td>
+      <td>Mac, PC, Playstation 3, Xbox 360</td>
+      <td>BioShock Infinite</td>
+      <td>Et fantastisk spill man kan fortape seg totalt i!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>541</th>
+      <td>Ubisoft</td>
+      <td>31.10.2012</td>
+      <td>Nintendo Wii U, PC, Playstation 3, Xbox 360</td>
+      <td>Assassin's Creed 3</td>
+      <td>Tidenes historietime.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>542</th>
+      <td>Arkane Studios</td>
+      <td>12.10.2012</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dishonored</td>
+      <td>Brutalt, mørkt og ubehagelig – atmosfæren i Di...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>543</th>
+      <td>Blizzard</td>
+      <td>15.05.2012</td>
+      <td>Mac, PC</td>
+      <td>Diablo 3</td>
+      <td>Himmelsk avslutning på en helvetes spillserie.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>544</th>
+      <td>thatgamecompany</td>
+      <td>14.03.2012</td>
+      <td>Playstation 3</td>
+      <td>Journey</td>
+      <td>Mystisk og tankevekkende mesterverk.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>545</th>
+      <td>None</td>
+      <td>18.11.2011</td>
+      <td>Nintendo Wii</td>
+      <td>Legend of Zelda: Skyward Sword</td>
+      <td>Det gode Wii-spillet vi har ventet på!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>546</th>
+      <td>Bethesda Softworks</td>
+      <td>11.11.2011</td>
+      <td></td>
+      <td>The Elder Scrolls V: Skyrim</td>
+      <td>Den virkelige verdenen er oppskrytt.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>547</th>
+      <td>Rocksteady / Warner Bros. Interactive</td>
+      <td>21.10.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Batman: Arkham City</td>
+      <td>Mørkt, farlig og ekstremt bra spill.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>548</th>
+      <td>EA</td>
+      <td>29.09.2011</td>
+      <td>Nintendo 3DS, Nintendo Wii, PC, Playstation 3,...</td>
+      <td>FIFA 12</td>
+      <td>Dette er resultatet når et fotballspill imiter...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>549</th>
+      <td>SCEE</td>
+      <td>28.09.2011</td>
+      <td>Playstation 3</td>
+      <td>Shadow of the Colossus</td>
+      <td>Tidløst spilleventyr kommer i HD.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>550</th>
+      <td>Nintendo</td>
+      <td>19.08.2011</td>
+      <td>Nintendo Wii</td>
+      <td>Xenoblade Chronicles</td>
+      <td>Det beste japanske rollespillet på lenge.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>551</th>
+      <td>CD Projekt / RED Studios</td>
+      <td>17.05.2011</td>
+      <td>PC</td>
+      <td>The Witcher 2</td>
+      <td>Et eksepsjonelt rollespill.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>552</th>
+      <td>Valve Software</td>
+      <td>19.04.2011</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Portal 2</td>
+      <td>Et spill til etterfølgelse.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>553</th>
+      <td>Capybara Games Inc, Superbrothers Inc 2011</td>
+      <td>24.03.2011</td>
+      <td>iPad, Mobil</td>
+      <td>Superbrothers: Swords &amp; Sworcery EP</td>
+      <td>En hyllest til oss som har spilt mange spill</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>554</th>
+      <td>Miniclip SA</td>
+      <td>19.3.2011</td>
+      <td>iPad</td>
+      <td>iStunt 2 HD</td>
+      <td>Påsken er reddet!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>555</th>
+      <td>None</td>
+      <td>2.9.2010</td>
+      <td>iPad, Mobil, Nintendo Wii, PC</td>
+      <td>Puzzle Agent HD</td>
+      <td>En perle av et spill!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>556</th>
+      <td>Electronic Arts</td>
+      <td>18.11.2010</td>
+      <td>Nintendo Wii, PC, Playstation 3, Xbox 360</td>
+      <td>Need For Speed: Hot Pursuit</td>
+      <td>Høy fart, flotte biler, stor moro!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>557</th>
+      <td>EA</td>
+      <td>16.09.2010</td>
+      <td>Nintendo Wii, Playstation 3, Xbox 360</td>
+      <td>NHL 11</td>
+      <td>Imponerende ishockey!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>558</th>
+      <td>Rockstar Games</td>
+      <td>21.05.2010</td>
+      <td>Playstation 3, Xbox 360</td>
+      <td>Red Dead Redemption</td>
+      <td>Fyttirakkern for et spill!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>559</th>
+      <td>SCEI</td>
+      <td>17.03.2010</td>
+      <td>Playstation 3</td>
+      <td>God of War III</td>
+      <td>Fortsetter der det forrige slapp: Det er et he...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>560</th>
+      <td>Bioware</td>
+      <td>28.01.2010</td>
+      <td>Xbox 360</td>
+      <td>Mass Effect 2</td>
+      <td>Star Wars, ta deg en bolle!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>561</th>
+      <td>Infinity Features Entertainment</td>
+      <td>26.12.2009</td>
+      <td>None</td>
+      <td>The Imaginarium of Doctor Parnassus</td>
+      <td>Velkommen til Terry Gilliams fantasiunivers.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>562</th>
+      <td>BBC Films</td>
+      <td>17.04.2009</td>
+      <td>None</td>
+      <td>In The Loop</td>
+      <td>Hvem sa at politikk er kjedelig? «In The Loop»...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>563</th>
+      <td>Bioware</td>
+      <td>05.11.2009</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>Dragon Age: Origins</td>
+      <td>Endelig et skikkelig eventyr!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>564</th>
+      <td>Naughty Dog</td>
+      <td>16.10.2009</td>
+      <td>Playstation 3</td>
+      <td>Uncharted 2: Among Thieves</td>
+      <td>– En klar kandidat til årets spill 2009!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>565</th>
+      <td>Ubisoft</td>
+      <td>24.06.2009</td>
+      <td>Nintendo DS, Nintendo Wii, PC</td>
+      <td>Anno 1404</td>
+      <td>En «must-have» i byggespill-samlingen!</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>566</th>
+      <td>Rockstar Games</td>
+      <td>29.04.2008</td>
+      <td>PC, Playstation 3, Xbox 360</td>
+      <td>GTA IV</td>
+      <td>Brutalt og genialt.</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+  </body>
+  
+  <script type="text/javascript">
+  $(document).ready(function() 
+    { 
+        $("#myTable").tablesorter(); 
+    } 
+); 
+    
+    </script>
+</html>
